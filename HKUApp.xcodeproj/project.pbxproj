@@ -15,6 +15,8 @@
 		A5F7ACAA219170AE006DC855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACA8219170AE006DC855 /* LaunchScreen.storyboard */; };
 		A5F7ACB5219170AE006DC855 /* HKUAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACB4219170AE006DC855 /* HKUAppTests.swift */; };
 		A5F7ACC0219170AE006DC855 /* HKUAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACBF219170AE006DC855 /* HKUAppUITests.swift */; };
+		A5F7ACCE21917181006DC855 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACCD21917181006DC855 /* ThirdViewController.swift */; };
+		A5F7ACD02191718E006DC855 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACCF2191718E006DC855 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A5F7ACBB219170AE006DC855 /* HKUAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKUAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F7ACBF219170AE006DC855 /* HKUAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKUAppUITests.swift; sourceTree = "<group>"; };
 		A5F7ACC1219170AE006DC855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F7ACCD21917181006DC855 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A5F7ACCF2191718E006DC855 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A5F7AC9F219170AC006DC855 /* FirstViewController.swift */,
 				A5F7ACA1219170AC006DC855 /* SecondViewController.swift */,
 				A5F7ACA3219170AC006DC855 /* Main.storyboard */,
+				A5F7ACCD21917181006DC855 /* ThirdViewController.swift */,
+				A5F7ACCF2191718E006DC855 /* FourthViewController.swift */,
 				A5F7ACA6219170AE006DC855 /* Assets.xcassets */,
 				A5F7ACA8219170AE006DC855 /* LaunchScreen.storyboard */,
 				A5F7ACAB219170AE006DC855 /* Info.plist */,
@@ -261,7 +267,9 @@
 			files = (
 				A5F7ACA2219170AC006DC855 /* SecondViewController.swift in Sources */,
 				A5F7AC9E219170AC006DC855 /* AppDelegate.swift in Sources */,
+				A5F7ACCE21917181006DC855 /* ThirdViewController.swift in Sources */,
 				A5F7ACA0219170AC006DC855 /* FirstViewController.swift in Sources */,
+				A5F7ACD02191718E006DC855 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
