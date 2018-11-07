@@ -49,9 +49,11 @@
                                             <action selector="btnAboutTapped:" destination="N60-Nm-nO5" eventType="touchUpInside" id="gHg-2c-0D8"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryD-KE-V6b">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryD-KE-V6b">
                                         <rect key="frame" x="8" y="113" width="268" height="45"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="MN0-m5-dL8"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="Contact">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -66,8 +68,11 @@
                                     <constraint firstItem="0fd-Ga-fSb" firstAttribute="leading" secondItem="cfG-FL-23w" secondAttribute="leadingMargin" id="9fk-3X-09D"/>
                                     <constraint firstItem="0fd-Ga-fSb" firstAttribute="top" secondItem="cfG-FL-23w" secondAttribute="top" constant="61" id="BKX-eg-OfC"/>
                                     <constraint firstItem="0fd-Ga-fSb" firstAttribute="trailing" secondItem="cfG-FL-23w" secondAttribute="trailingMargin" id="Bo4-3P-NfV"/>
+                                    <constraint firstItem="ryD-KE-V6b" firstAttribute="top" secondItem="0fd-Ga-fSb" secondAttribute="bottom" constant="8" symbolic="YES" id="K0A-cL-GTU"/>
                                     <constraint firstItem="0fd-Ga-fSb" firstAttribute="trailing" secondItem="31E-8B-XhI" secondAttribute="trailing" id="b3o-4T-Ey8"/>
+                                    <constraint firstItem="ryD-KE-V6b" firstAttribute="trailing" secondItem="0fd-Ga-fSb" secondAttribute="trailing" id="djv-HA-7zX"/>
                                     <constraint firstItem="0fd-Ga-fSb" firstAttribute="leading" secondItem="31E-8B-XhI" secondAttribute="leading" id="gaw-Hk-2Ik"/>
+                                    <constraint firstItem="ryD-KE-V6b" firstAttribute="leading" secondItem="0fd-Ga-fSb" secondAttribute="leading" id="k95-le-D13"/>
                                     <constraint firstItem="0fd-Ga-fSb" firstAttribute="top" secondItem="31E-8B-XhI" secondAttribute="bottom" constant="8" symbolic="YES" id="kxq-WI-YSv"/>
                                 </constraints>
                             </view>
@@ -164,6 +169,9 @@
                                                         <real key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="DLU-sM-cfs" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="PQD-vo-1xj"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.23502439260482788" green="0.27853447198867798" blue="0.64709144830703735" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -208,6 +216,9 @@ HKU has ten faculties, a graduate school and a number of independent centres of 
                     </view>
                     <navigationItem key="navigationItem" id="bgQ-XF-k4t"/>
                     <size key="freeformSize" width="375" height="1200"/>
+                    <connections>
+                        <segue destination="DLU-sM-cfs" kind="show" id="saN-MY-mNv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3h-Je-CBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -276,10 +287,6 @@ If you like the holistic approach of our teaching methods and curriculum, please
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChowKP-Square.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="efA-Fh-gmV">
-                                                <rect key="frame" x="205" y="460" width="162" height="133"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-Es-5qd">
                                                 <rect key="frame" x="8" y="480" width="189" height="93"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -289,6 +296,22 @@ Programme Director</string>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b9c-qk-MyK" customClass="DesignableView" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="181" y="462" width="168" height="157"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChowKP-Square.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DcI-WK-lwf">
+                                                        <rect key="frame" x="-7" y="8" width="183" height="165"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="70"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -319,6 +342,51 @@ Programme Director</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uk1-xQ-GZi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1277.5999999999999" y="-1092.0539730134933"/>
+        </scene>
+        <!--Prof InfoVC-->
+        <scene sceneID="5SY-gK-3aC">
+            <objects>
+                <viewController storyboardIdentifier="ProfInfoVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DLU-sM-cfs" customClass="ProfInfoVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <visualEffectView key="view" opaque="NO" contentMode="scaleToFill" id="V5q-hw-Sq4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="yf9-kL-A5k">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJd-Zi-zuP">
+                                    <rect key="frame" x="0.0" y="8" width="375" height="659"/>
+                                    <connections>
+                                        <action selector="dismissPopup:" destination="DLU-sM-cfs" eventType="touchUpInside" id="DdF-Pw-LZW"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGd-GB-Zzv" userLabel="PopUp" customClass="DesignableView" customModule="HKUApp" customModuleProvider="target">
+                                    <rect key="frame" x="67" y="208" width="240" height="191"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="20"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="tGd-GB-Zzv" secondAttribute="bottom" constant="268" id="40h-ph-P9f"/>
+                                <constraint firstItem="tGd-GB-Zzv" firstAttribute="leading" secondItem="yf9-kL-A5k" secondAttribute="leading" constant="67" id="MpD-Zz-7l7"/>
+                                <constraint firstAttribute="trailing" secondItem="tGd-GB-Zzv" secondAttribute="trailing" constant="68" id="PgF-d5-6rm"/>
+                                <constraint firstAttribute="trailing" secondItem="eJd-Zi-zuP" secondAttribute="trailing" id="RjK-2G-MI8"/>
+                                <constraint firstItem="tGd-GB-Zzv" firstAttribute="top" secondItem="yf9-kL-A5k" secondAttribute="top" constant="208" id="iNU-EL-kYt"/>
+                                <constraint firstItem="eJd-Zi-zuP" firstAttribute="leading" secondItem="yf9-kL-A5k" secondAttribute="leading" id="lCb-ZJ-hbW"/>
+                                <constraint firstAttribute="bottom" secondItem="eJd-Zi-zuP" secondAttribute="bottom" id="vBV-dK-VTd"/>
+                                <constraint firstItem="eJd-Zi-zuP" firstAttribute="top" secondItem="yf9-kL-A5k" secondAttribute="top" constant="8" id="xSu-xz-hp4"/>
+                            </constraints>
+                        </view>
+                        <blurEffect style="light"/>
+                    </visualEffectView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uyZ-XL-8S7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991.2" y="-1241.8290854572715"/>
         </scene>
         <!--Home-->
         <scene sceneID="COb-ts-vg2">
@@ -612,7 +680,7 @@ Programme Director</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXf-vQ-zXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2580" y="-1092"/>
+            <point key="canvasLocation" x="2650" y="-1092"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qAm-Fr-vsQ">
@@ -655,7 +723,50 @@ Programme Director</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbD-Qd-qui" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3233" y="-1092"/>
+            <point key="canvasLocation" x="3281" y="-1092"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Brm-0X-0nq">
+            <objects>
+                <viewController id="qGW-aY-r5N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0qd-dS-2Sn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P9T-3y-mBj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="980"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24G-fY-Fu4">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="92A-DL-82Q"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="24G-fY-Fu4" firstAttribute="leading" secondItem="P9T-3y-mBj" secondAttribute="leading" id="92j-dT-mdT"/>
+                                    <constraint firstAttribute="trailing" secondItem="24G-fY-Fu4" secondAttribute="trailing" id="B5c-XK-7qf"/>
+                                    <constraint firstAttribute="bottom" secondItem="24G-fY-Fu4" secondAttribute="bottom" id="msS-aG-Qva"/>
+                                    <constraint firstItem="24G-fY-Fu4" firstAttribute="top" secondItem="P9T-3y-mBj" secondAttribute="top" id="vWs-1P-05N"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="P9T-3y-mBj" firstAttribute="trailing" secondItem="ct2-Hj-tQ7" secondAttribute="trailing" id="16e-6h-iUh"/>
+                            <constraint firstItem="P9T-3y-mBj" firstAttribute="bottom" secondItem="ct2-Hj-tQ7" secondAttribute="bottom" id="LIC-Nw-J7c"/>
+                            <constraint firstItem="24G-fY-Fu4" firstAttribute="width" secondItem="0qd-dS-2Sn" secondAttribute="width" id="Uvw-ZE-Yne"/>
+                            <constraint firstItem="P9T-3y-mBj" firstAttribute="leading" secondItem="ct2-Hj-tQ7" secondAttribute="leading" id="cvA-7e-Q7U"/>
+                            <constraint firstItem="P9T-3y-mBj" firstAttribute="top" secondItem="ct2-Hj-tQ7" secondAttribute="top" id="ozK-ep-HNf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ct2-Hj-tQ7"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yET-IG-31V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3918" y="-1092"/>
         </scene>
     </scenes>
     <resources>
@@ -668,7 +779,8 @@ Programme Director</string>
         <image name="mfpd.JPG" width="1600" height="800"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="PQD-vo-1xj"/>
         <segue reference="8Ux-ZS-l5L"/>
-        <segue reference="0sH-B8-uNF"/>
+        <segue reference="mXr-AT-bCy"/>
     </inferredMetricsTieBreakers>
 </document>
