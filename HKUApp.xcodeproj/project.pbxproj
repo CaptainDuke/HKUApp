@@ -30,6 +30,7 @@
 		A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AD0021928200006DC855 /* HomeViewController.swift */; };
 		A5F7AD032192946B006DC855 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AD022192946B006DC855 /* DetailViewController.swift */; };
 		A5F7AD07219299DE006DC855 /* aboutTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AD06219299DE006DC855 /* aboutTabController.swift */; };
+		A5F7AD092192B4DB006DC855 /* Slider1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7AD082192B4DA006DC855 /* Slider1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		A5F7AD0021928200006DC855 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A5F7AD022192946B006DC855 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A5F7AD06219299DE006DC855 /* aboutTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutTabController.swift; sourceTree = "<group>"; };
+		A5F7AD082192B4DA006DC855 /* Slider1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Slider1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		A5F7ACEB21919766006DC855 /* pictures */ = {
 			isa = PBXGroup;
 			children = (
+				A5F7AD082192B4DA006DC855 /* Slider1.jpg */,
 				A5F7ACEC21919766006DC855 /* WangCL.jpg */,
 				A5F7ACED21919766006DC855 /* Yiu S.M..jpg */,
 				A5F7ACEE21919766006DC855 /* home_about.jpg */,
@@ -287,6 +290,7 @@
 			files = (
 				A5F7ACAA219170AE006DC855 /* LaunchScreen.storyboard in Resources */,
 				A5F7ACF221919767006DC855 /* WangCL.jpg in Resources */,
+				A5F7AD092192B4DB006DC855 /* Slider1.jpg in Resources */,
 				A5F7ACA7219170AE006DC855 /* Assets.xcassets in Resources */,
 				A5F7ACF321919767006DC855 /* Yiu S.M..jpg in Resources */,
 				A5F7ACF421919767006DC855 /* home_about.jpg in Resources */,
