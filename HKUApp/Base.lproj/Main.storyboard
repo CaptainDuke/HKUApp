@@ -144,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Etq-oR-hHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1430" y="-1010.0000000000001"/>
+            <point key="canvasLocation" x="1225" y="-1101"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="ofA-lI-f5I">
@@ -208,40 +208,77 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gS5-JB-ueI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-485.60000000000002" y="-637.33133433283365"/>
+            <point key="canvasLocation" x="-732" y="-641"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="MIy-kA-8xz">
             <objects>
                 <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DGS-m7-hKT" customClass="DetailViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SxK-BA-LbF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="clL-pw-YRp">
-                                <rect key="frame" x="16" y="72" width="343" height="595"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJ9-ip-x9t">
+                                <rect key="frame" x="0.0" y="64" width="375" height="1136"/>
                                 <subviews>
-                                    <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEb-kL-ham">
-                                        <rect key="frame" x="0.0" y="546" width="343" height="49"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <items>
-                                            <tabBarItem systemItem="favorites" id="RoD-JM-vQA"/>
-                                            <tabBarItem systemItem="more" id="yKT-5l-uOf"/>
-                                        </items>
-                                    </tabBar>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gp-pM-uPb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_about.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Mf-7N-1RC">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sEm-hm-mnE">
+                                                <rect key="frame" x="8" y="149" width="359" height="729"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.23502439260482788" green="0.27853447198867798" blue="0.64709144830703735" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <string key="text">The University of Hong Kong
+
+The University of Hong Kong (HKU), founded in 1911, is the oldest of Hong Kong’s institutions of higher learning.  It was also the alma mater of Dr. Sun Yat-sen, the founder of modern China.
+
+HKU, as a pre-eminent international university, seeks to sustain and enhance its excellence as an institution of higher learning through outstanding teaching and world-class research so as to produce well-rounded graduates with lifelong abilities to provide leadership within the societies they serve.
+
+HKU has ten faculties, a graduate school and a number of independent centres of studies and learning. In 2016-17, it had a student population of over 27,800, including over 16,100 undergraduates and 11,700 postgraduates, and an academic staff population of around 3,400. Coupled with an active alumni network and generous endowments for programme research and development, HKU is a dynamic and exciting institution. Stepping into Asia’s next century of phenomenal growth.</string>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhyHKU.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q2c-Ir-FIq">
+                                                <rect key="frame" x="0.0" y="886" width="375" height="182"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.23502439260482788" green="0.27853447198867798" blue="0.64709144830703735" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="ZtT-zH-WWk"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="2gp-pM-uPb" secondAttribute="bottom" id="GH0-lL-TV0"/>
+                                    <constraint firstItem="2gp-pM-uPb" firstAttribute="centerX" secondItem="bJ9-ip-x9t" secondAttribute="centerX" id="Nsf-ba-Nwy"/>
+                                    <constraint firstItem="2gp-pM-uPb" firstAttribute="top" secondItem="bJ9-ip-x9t" secondAttribute="top" id="aD0-pi-kq9"/>
+                                    <constraint firstAttribute="trailing" secondItem="2gp-pM-uPb" secondAttribute="trailing" id="ve4-36-Keg"/>
+                                    <constraint firstItem="2gp-pM-uPb" firstAttribute="leading" secondItem="bJ9-ip-x9t" secondAttribute="leading" id="z1a-3h-yuh"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bJ9-ip-x9t" firstAttribute="trailing" secondItem="lXP-gs-f7u" secondAttribute="trailing" id="0bD-lo-gKc"/>
+                            <constraint firstItem="bJ9-ip-x9t" firstAttribute="top" secondItem="lXP-gs-f7u" secondAttribute="top" id="1Nz-m7-faD"/>
+                            <constraint firstItem="bJ9-ip-x9t" firstAttribute="bottom" secondItem="lXP-gs-f7u" secondAttribute="bottom" id="FBa-b1-Ekh"/>
+                            <constraint firstItem="bJ9-ip-x9t" firstAttribute="leading" secondItem="lXP-gs-f7u" secondAttribute="leading" id="W6f-hV-2rn"/>
+                            <constraint firstItem="2gp-pM-uPb" firstAttribute="width" secondItem="SxK-BA-LbF" secondAttribute="width" id="dHp-PG-3ij"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lXP-gs-f7u"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bgQ-XF-k4t"/>
+                    <size key="freeformSize" width="375" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3h-Je-CBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="540" y="-752.47376311844084"/>
+            <point key="canvasLocation" x="509.60000000000002" y="-861.76911544227892"/>
         </scene>
         <!--Home-->
         <scene sceneID="COb-ts-vg2">
@@ -345,14 +382,14 @@
                                                 </state>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission 2019" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f4L-YV-xhv">
-                                                <rect key="frame" x="111" y="726" width="153" height="34"/>
+                                                <rect key="frame" x="111" y="730" width="153" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="23"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMY-pZ-1SZ">
-                                                <rect key="frame" x="128" y="768" width="119" height="42"/>
+                                                <rect key="frame" x="128" y="781" width="119" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="MORE DETAIL">
@@ -365,7 +402,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ye2-ZU-EAD">
-                                                <rect key="frame" x="8" y="818" width="359" height="111"/>
+                                                <rect key="frame" x="8" y="831" width="359" height="76"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">To help you make a decision, here is a summary of the facts and details you will need - programme schedule, composition fees and application deadlines.</string>
@@ -401,6 +438,7 @@
                     <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="kpChouCircle" destination="9Iq-FX-JjF" id="cxt-4F-E05"/>
+                        <segue destination="DGS-m7-hKT" kind="push" id="0sH-B8-uNF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5de-PR-Z6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -571,12 +609,13 @@
         <image name="ChowKP-Square.jpg" width="200" height="200"/>
         <image name="MScDarkLogo.png" width="1440" height="1440"/>
         <image name="Slider1.jpg" width="1980" height="800"/>
+        <image name="WhyHKU.jpg" width="1920" height="1080"/>
         <image name="first" width="30" height="30"/>
         <image name="home_about.jpg" width="1118" height="454"/>
         <image name="mfpd.JPG" width="1600" height="800"/>
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2Nf-WQ-3bh"/>
+        <segue reference="Lid-kg-UX8"/>
     </inferredMetricsTieBreakers>
 </document>

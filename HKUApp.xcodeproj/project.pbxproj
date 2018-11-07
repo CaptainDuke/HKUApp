@@ -34,6 +34,7 @@
 		A5F7AD0D2192C032006DC855 /* MScDarkLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F7AD0C2192C032006DC855 /* MScDarkLogo.png */; };
 		A5F7AD0F2192C533006DC855 /* mfpd.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5F7AD0E2192C533006DC855 /* mfpd.JPG */; };
 		A5F7AD112192CB09006DC855 /* ChowKP-Square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7AD102192CB09006DC855 /* ChowKP-Square.jpg */; };
+		A5F7AD132192E0AA006DC855 /* WhyHKU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7AD122192E0A9006DC855 /* WhyHKU.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		A5F7AD0C2192C032006DC855 /* MScDarkLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MScDarkLogo.png; sourceTree = "<group>"; };
 		A5F7AD0E2192C533006DC855 /* mfpd.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mfpd.JPG; sourceTree = "<group>"; };
 		A5F7AD102192CB09006DC855 /* ChowKP-Square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ChowKP-Square.jpg"; sourceTree = "<group>"; };
+		A5F7AD122192E0A9006DC855 /* WhyHKU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhyHKU.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				A5F7AD082192B4DA006DC855 /* Slider1.jpg */,
 				A5F7ACEC21919766006DC855 /* WangCL.jpg */,
 				A5F7AD102192CB09006DC855 /* ChowKP-Square.jpg */,
+				A5F7AD122192E0A9006DC855 /* WhyHKU.jpg */,
 				A5F7AD0E2192C533006DC855 /* mfpd.JPG */,
 				A5F7AD0C2192C032006DC855 /* MScDarkLogo.png */,
 				A5F7ACED21919766006DC855 /* Yiu S.M..jpg */,
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F7AD0D2192C032006DC855 /* MScDarkLogo.png in Resources */,
+				A5F7AD132192E0AA006DC855 /* WhyHKU.jpg in Resources */,
 				A5F7ACAA219170AE006DC855 /* LaunchScreen.storyboard in Resources */,
 				A5F7ACF221919767006DC855 /* WangCL.jpg in Resources */,
 				A5F7AD092192B4DB006DC855 /* Slider1.jpg in Resources */,
