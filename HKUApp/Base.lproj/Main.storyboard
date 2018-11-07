@@ -145,7 +145,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYM-UX-YhW">
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYM-UX-YhW" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
                                                 <rect key="frame" x="124" y="920" width="127" height="43"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -634,7 +634,7 @@ Programme Director</string>
         <image name="mfpd.JPG" width="1600" height="800"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8Ux-ZS-l5L"/>
+        <segue reference="Rqb-ga-duR"/>
         <segue reference="0sH-B8-uNF"/>
     </inferredMetricsTieBreakers>
 </document>
