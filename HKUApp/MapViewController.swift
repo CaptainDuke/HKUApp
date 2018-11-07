@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  MapViewController.swift
 //  HKUApp
 //
 //  Created by Captwang on 7/11/2018.
@@ -8,26 +8,15 @@
 
 import UIKit
 
-
-
-class HomeViewController: BaseViewController {
+class MapViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         addSlideMenuButton()
-        
-        
-        
         // Do any additional setup after loading the view.
     }
     
 
-    @IBOutlet weak var kpChouCircle: UIImageView!
-    
-    
-    
     /*
     // MARK: - Navigation
 

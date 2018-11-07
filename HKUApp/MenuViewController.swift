@@ -58,15 +58,27 @@ class MenuViewController: UIViewController {
     @IBAction func btnHomeTapped(_ sender: Any) {
         
         let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "aboutTabController")as! aboutTabController
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "HomeViewController")as! HomeViewController
         self.navigationController?.pushViewController(DVC, animated: true)
         
         
         
     }
     
+    @IBAction func btnMapTapped(_ sender: Any) {
+        let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "MapViewController")as! MapViewController
+        self.navigationController?.pushViewController(DVC, animated: true)
+        
+    }
     
-
+    @IBAction func btnAboutTapped(_ sender: Any) {
+        let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "DetailViewController")as! DetailViewController
+        self.navigationController?.pushViewController(DVC, animated: true)
+        
+    }
+    
     /*
     // MARK: - Navigation
 
