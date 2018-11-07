@@ -25,6 +25,11 @@
 		A5F7ACF521919767006DC855 /* faculty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACEF21919766006DC855 /* faculty.jpg */; };
 		A5F7ACF621919767006DC855 /* director.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACF021919766006DC855 /* director.jpg */; };
 		A5F7ACF721919767006DC855 /* Schnieders D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACF121919766006DC855 /* Schnieders D.jpg */; };
+		A5F7ACFD21927ECB006DC855 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACFC21927ECB006DC855 /* BaseViewController.swift */; };
+		A5F7ACFF21927F9B006DC855 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */; };
+		A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AD0021928200006DC855 /* HomeViewController.swift */; };
+		A5F7AD032192946B006DC855 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AD022192946B006DC855 /* DetailViewController.swift */; };
+		A5F7AD07219299DE006DC855 /* aboutTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AD06219299DE006DC855 /* aboutTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		A5F7ACEF21919766006DC855 /* faculty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faculty.jpg; sourceTree = "<group>"; };
 		A5F7ACF021919766006DC855 /* director.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = director.jpg; sourceTree = "<group>"; };
 		A5F7ACF121919766006DC855 /* Schnieders D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Schnieders D.jpg"; sourceTree = "<group>"; };
+		A5F7ACFC21927ECB006DC855 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = "AKSwiftSlideMenu-master/AKSwiftSlideMenu/BaseViewController.swift"; sourceTree = SOURCE_ROOT; };
+		A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A5F7AD0021928200006DC855 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5F7AD022192946B006DC855 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A5F7AD06219299DE006DC855 /* aboutTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +129,13 @@
 		A5F7AC9C219170AC006DC855 /* HKUApp */ = {
 			isa = PBXGroup;
 			children = (
+				A5F7ACFC21927ECB006DC855 /* BaseViewController.swift */,
+				A5F7AD06219299DE006DC855 /* aboutTabController.swift */,
+				A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */,
 				A5F7AC9D219170AC006DC855 /* AppDelegate.swift */,
 				A5F7ACA3219170AC006DC855 /* Main.storyboard */,
+				A5F7AD022192946B006DC855 /* DetailViewController.swift */,
+				A5F7AD0021928200006DC855 /* HomeViewController.swift */,
 				4CF42DFA2191B74400F8F25A /* _CollectionViewController.swift */,
 				A5F7ACD321917E0F006DC855 /* FirstViewController.swift */,
 				A5F7ACD1219176FB006DC855 /* FirstTableViewController.swift */,
@@ -303,11 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F7AD032192946B006DC855 /* DetailViewController.swift in Sources */,
 				A5F7ACA2219170AC006DC855 /* SecondViewController.swift in Sources */,
 				A5F7AC9E219170AC006DC855 /* AppDelegate.swift in Sources */,
 				A5F7ACCE21917181006DC855 /* ThirdViewController.swift in Sources */,
 				A5F7ACD421917E0F006DC855 /* FirstViewController.swift in Sources */,
+				A5F7AD07219299DE006DC855 /* aboutTabController.swift in Sources */,
+				A5F7ACFF21927F9B006DC855 /* MenuViewController.swift in Sources */,
+				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,
 				4CF42DFB2191B74400F8F25A /* _CollectionViewController.swift in Sources */,
+				A5F7ACFD21927ECB006DC855 /* BaseViewController.swift in Sources */,
 				A5F7ACD02191718E006DC855 /* FourthViewController.swift in Sources */,
 				A5F7ACD2219176FB006DC855 /* FirstTableViewController.swift in Sources */,
 			);
