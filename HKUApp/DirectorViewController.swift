@@ -18,6 +18,9 @@ class DirectorViewController: BaseViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var checkCollection: UICollectionView!
+    
+    
     @IBAction func clWang(_ sender: UIButton) {
         numDirector = 1
         self.performSegue(withIdentifier: "DirectorDetilSegue", sender: self)
@@ -33,4 +36,18 @@ class DirectorViewController: BaseViewController {
     }
     */
 
+}
+
+extension DirectorViewController:UICollectionViewDelegate,UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = checkCollection.dequeueReusableCell(withReuseIdentifier: "check", for: indexPath) as? checkCollectionViewCell
+        cell?.number.text = String(indexPath.row)
+        return cell!
+    }
+    
+    
 }
