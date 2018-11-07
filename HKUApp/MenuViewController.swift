@@ -65,6 +65,12 @@ class MenuViewController: UIViewController {
         
     }
     
+    @IBAction func btnMapTapped(_ sender: Any) {
+        let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "MapViewController")as! MapViewController
+        self.navigationController?.pushViewController(DVC, animated: true)
+        
+    }
     
     @IBAction func btnAboutTapped(_ sender: Any) {
         let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)

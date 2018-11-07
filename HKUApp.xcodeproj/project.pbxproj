@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4CF42DFB2191B74400F8F25A /* _CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42DFA2191B74400F8F25A /* _CollectionViewController.swift */; };
 		A5F227F82192E7F800C5189F /* DirectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F72192E7F800C5189F /* DirectorViewController.swift */; };
+		A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F92192EFA600C5189F /* MapViewController.swift */; };
 		A5F7AC9E219170AC006DC855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AC9D219170AC006DC855 /* AppDelegate.swift */; };
 		A5F7ACA2219170AC006DC855 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACA1219170AC006DC855 /* SecondViewController.swift */; };
 		A5F7ACA5219170AC006DC855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACA3219170AC006DC855 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		4CF42DFA2191B74400F8F25A /* _CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _CollectionViewController.swift; sourceTree = "<group>"; };
 		A5F227F72192E7F800C5189F /* DirectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorViewController.swift; sourceTree = "<group>"; };
+		A5F227F92192EFA600C5189F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A5F7AC9A219170AC006DC855 /* HKUApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKUApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F7AC9D219170AC006DC855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5F7ACA1219170AC006DC855 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */,
 				A5F7AC9D219170AC006DC855 /* AppDelegate.swift */,
 				A5F7ACA3219170AC006DC855 /* Main.storyboard */,
+				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A5F227F72192E7F800C5189F /* DirectorViewController.swift */,
 				A5F7AD022192946B006DC855 /* DetailViewController.swift */,
 				A5F7AD0021928200006DC855 /* HomeViewController.swift */,
@@ -354,6 +357,7 @@
 				A5F7ACFD21927ECB006DC855 /* BaseViewController.swift in Sources */,
 				A5F7ACD02191718E006DC855 /* FourthViewController.swift in Sources */,
 				A5F7ACD2219176FB006DC855 /* FirstTableViewController.swift in Sources */,
+				A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
