@@ -29,12 +29,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="CollectionView"/>
                                 <connections>
-                                    <segue destination="p9b-s5-GjO" kind="show" id="ajQ-7w-gf4"/>
+                                    <segue destination="p9b-s5-GjO" kind="presentation" id="ajQ-7w-gf4"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="ZbZ-Db-WDX"/>
+                        <viewLayoutGuide key="safeArea" id="TT2-8f-oCW"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="a1F-jv-2eA"/>
                 </viewController>
@@ -109,16 +109,16 @@
                         <constraints>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
+                            <constraint firstItem="hMi-26-ciu" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                        <viewLayoutGuide key="safeArea" id="hMi-26-ciu"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="359.37031484257875"/>
+            <point key="canvasLocation" x="1688.8000000000002" y="359.37031484257875"/>
         </scene>
         <!--Item-->
         <scene sceneID="waF-em-vjA">
@@ -137,14 +137,14 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="yZN-rN-xBK"/>
+                        <viewLayoutGuide key="safeArea" id="fh8-66-tEw"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="R73-Io-3SV"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Etq-oR-hHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1430" y="-1010"/>
+            <point key="canvasLocation" x="1430" y="-1010.0000000000001"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="ofA-lI-f5I">
@@ -191,16 +191,16 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="cfG-FL-23w" firstAttribute="leading" secondItem="nul-y7-GGP" secondAttribute="leading" id="3hq-ef-iIm"/>
-                            <constraint firstItem="Syk-Ww-w6G" firstAttribute="bottom" secondItem="nul-y7-GGP" secondAttribute="bottom" id="7Tv-bF-L5P"/>
-                            <constraint firstItem="cfG-FL-23w" firstAttribute="top" secondItem="nul-y7-GGP" secondAttribute="top" id="CiK-Xd-xMP"/>
-                            <constraint firstItem="Syk-Ww-w6G" firstAttribute="trailing" secondItem="nul-y7-GGP" secondAttribute="trailing" id="D3d-pW-2X2"/>
-                            <constraint firstItem="cfG-FL-23w" firstAttribute="bottom" secondItem="nul-y7-GGP" secondAttribute="bottom" id="K23-Nu-obz"/>
-                            <constraint firstItem="Syk-Ww-w6G" firstAttribute="leading" secondItem="nul-y7-GGP" secondAttribute="leading" id="Waf-tL-8i2"/>
-                            <constraint firstItem="nul-y7-GGP" firstAttribute="trailing" secondItem="cfG-FL-23w" secondAttribute="trailing" constant="91" id="lWd-qD-5Lg"/>
+                            <constraint firstItem="cfG-FL-23w" firstAttribute="leading" secondItem="jVb-H0-fbq" secondAttribute="leading" id="3hq-ef-iIm"/>
+                            <constraint firstItem="Syk-Ww-w6G" firstAttribute="bottom" secondItem="jVb-H0-fbq" secondAttribute="bottom" id="7Tv-bF-L5P"/>
+                            <constraint firstItem="cfG-FL-23w" firstAttribute="top" secondItem="jVb-H0-fbq" secondAttribute="top" id="CiK-Xd-xMP"/>
+                            <constraint firstItem="Syk-Ww-w6G" firstAttribute="trailing" secondItem="jVb-H0-fbq" secondAttribute="trailing" id="D3d-pW-2X2"/>
+                            <constraint firstItem="cfG-FL-23w" firstAttribute="bottom" secondItem="jVb-H0-fbq" secondAttribute="bottom" id="K23-Nu-obz"/>
+                            <constraint firstItem="Syk-Ww-w6G" firstAttribute="leading" secondItem="jVb-H0-fbq" secondAttribute="leading" id="Waf-tL-8i2"/>
+                            <constraint firstItem="jVb-H0-fbq" firstAttribute="trailing" secondItem="cfG-FL-23w" secondAttribute="trailing" constant="91" id="lWd-qD-5Lg"/>
                             <constraint firstItem="Syk-Ww-w6G" firstAttribute="top" secondItem="XN7-D4-AMq" secondAttribute="top" id="sW7-Kv-RPU"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="nul-y7-GGP"/>
+                        <viewLayoutGuide key="safeArea" id="jVb-H0-fbq"/>
                     </view>
                     <connections>
                         <outlet property="btnCloseMenuOverlay" destination="Syk-Ww-w6G" id="3c8-Zz-jRA"/>
@@ -236,7 +236,7 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="4p4-Pd-lh2"/>
+                        <viewLayoutGuide key="safeArea" id="lXP-gs-f7u"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3h-Je-CBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -248,22 +248,164 @@
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vKF-wq-xpO" customClass="HomeViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1a3-ZA-bT4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jna-CX-Dr4">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RMZ-jE-3Ak">
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DIn-qL-4Ks">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Slider1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7Md-xB-Zhd">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0bX-6f-mc7">
+                                                <rect key="frame" x="76" y="13" width="255" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.5" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <string key="text">DEPARTMENT OF COMPUTER SCIENCE
+香港大學計算機系
+</string>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WAf-bp-AzE">
+                                                <rect key="frame" x="0.0" y="18" width="76" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.5" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MScDarkLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="uIf-pW-JD3">
+                                                <rect key="frame" x="0.0" y="18" width="68" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MASTER THE TECHNOLOGY AND STAY AHEAD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wGX-XS-6uo">
+                                                <rect key="frame" x="81" y="52" width="329" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Master of Computer Science, HKU" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vkI-kF-KqS">
+                                                <rect key="frame" x="49" y="152" width="276" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Programme Overview" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6VK-ax-yEd">
+                                                <rect key="frame" x="96" y="190" width="182" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckr-Vn-fbo">
+                                                <rect key="frame" x="128" y="228" width="119" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="MORE DETAIL">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2O5-Sm-UjP">
+                                                <rect key="frame" x="8" y="278" width="359" height="333"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">The MSc(CompSc) programme is a comprehensive postgraduate study programme provides advanced and in-depth learning in Computer Science. The programme is credit unit based, with courses of both applied and fundamental nature. Students can choose from a comprehensive and diversified study in Computer Science courses or focussed streams of study. Focussed streams of study represent a cohesive collection of related courses that provides both fundamental and in-depth exposure to students in a given ICT domain.</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mfpd.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="9wc-UH-QeD">
+                                                <rect key="frame" x="0.0" y="619" width="375" height="88"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChowKP-Square.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9Iq-FX-JjF">
+                                                <rect key="frame" x="34" y="628" width="80" height="71"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="o6d-zh-Wt8">
+                                                <rect key="frame" x="143" y="648" width="188" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.37657855308219179" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Message From Programme Director">
+                                                    <color key="titleColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission 2019" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f4L-YV-xhv">
+                                                <rect key="frame" x="111" y="726" width="153" height="34"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="23"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMY-pZ-1SZ">
+                                                <rect key="frame" x="128" y="768" width="119" height="42"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="MORE DETAIL">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ye2-ZU-EAD">
+                                                <rect key="frame" x="8" y="818" width="359" height="111"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">To help you make a decision, here is a summary of the facts and details you will need - programme schedule, composition fees and application deadlines.</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="5BQ-l9-wgk"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="DIn-qL-4Ks" secondAttribute="trailing" id="BJ7-mN-9Rd"/>
+                                    <constraint firstItem="DIn-qL-4Ks" firstAttribute="leading" secondItem="RMZ-jE-3Ak" secondAttribute="leading" id="DqD-lx-c2u"/>
+                                    <constraint firstItem="DIn-qL-4Ks" firstAttribute="top" secondItem="RMZ-jE-3Ak" secondAttribute="top" id="UGO-lE-njI"/>
+                                    <constraint firstAttribute="bottom" secondItem="DIn-qL-4Ks" secondAttribute="bottom" id="Vx5-94-neS"/>
+                                    <constraint firstItem="DIn-qL-4Ks" firstAttribute="centerX" secondItem="RMZ-jE-3Ak" secondAttribute="centerX" id="ylh-VP-Gct"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.53315032308652666" green="0.80907165844679996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="s4O-dE-Kc4"/>
+                        <constraints>
+                            <constraint firstItem="RMZ-jE-3Ak" firstAttribute="top" secondItem="XLa-8T-8LF" secondAttribute="top" id="DNg-11-S7z"/>
+                            <constraint firstItem="RMZ-jE-3Ak" firstAttribute="trailing" secondItem="XLa-8T-8LF" secondAttribute="trailing" id="iOC-jy-PO1"/>
+                            <constraint firstItem="RMZ-jE-3Ak" firstAttribute="leading" secondItem="XLa-8T-8LF" secondAttribute="leading" id="oql-RZ-xkV"/>
+                            <constraint firstItem="RMZ-jE-3Ak" firstAttribute="bottom" secondItem="XLa-8T-8LF" secondAttribute="bottom" id="vyz-8W-ing"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XLa-8T-8LF"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="fkz-qP-YIh"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="kpChouCircle" destination="9Iq-FX-JjF" id="cxt-4F-E05"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5de-PR-Z6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-485.60000000000002" y="26.53673163418291"/>
+            <point key="canvasLocation" x="-732" y="187.1064467766117"/>
         </scene>
         <!--About Tab Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -309,12 +451,12 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Home" image="first" id="Pwz-dh-rsJ"/>
                     <connections>
-                        <segue destination="kA2-qS-Izc" kind="show" identifier="sague" id="2Nf-WQ-3bh"/>
+                        <segue destination="kA2-qS-Izc" kind="presentation" identifier="sague" id="2Nf-WQ-3bh"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38A-kV-VbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="-322.48875562218893"/>
+            <point key="canvasLocation" x="1688.8000000000002" y="-322.48875562218893"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="Snu-gM-FFz">
@@ -329,7 +471,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="49e-Tb-3d3" kind="show" id="Lid-kg-UX8"/>
+                                    <segue destination="49e-Tb-3d3" kind="presentation" id="Lid-kg-UX8"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4cW-Ln-bww">
@@ -356,12 +498,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="xKb-cp-eKF" kind="show" id="FYj-dF-ZTP"/>
+                                    <segue destination="xKb-cp-eKF" kind="presentation" id="FYj-dF-ZTP"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="PyZ-a7-E25"/>
+                        <viewLayoutGuide key="safeArea" id="42K-aE-GwV"/>
                     </view>
                     <connections>
                         <outlet property="parag" destination="4cW-Ln-bww" id="iff-C3-3cP"/>
@@ -426,8 +568,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ChowKP-Square.jpg" width="200" height="200"/>
+        <image name="MScDarkLogo.png" width="1440" height="1440"/>
+        <image name="Slider1.jpg" width="1980" height="800"/>
         <image name="first" width="30" height="30"/>
         <image name="home_about.jpg" width="1118" height="454"/>
+        <image name="mfpd.JPG" width="1600" height="800"/>
         <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>

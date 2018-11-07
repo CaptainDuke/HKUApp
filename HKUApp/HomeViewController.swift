@@ -17,10 +17,17 @@ class HomeViewController: BaseViewController {
         
         
         addSlideMenuButton()
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
 
+    @IBOutlet weak var kpChouCircle: UIImageView!
+    
+    
+    
     /*
     // MARK: - Navigation
 
