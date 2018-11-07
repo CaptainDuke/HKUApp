@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+var numDirector = 0
+var mainProf = ["KPChow","CLWang","ShD","SMYiu"]
 class DirectorViewController: BaseViewController {
 
     override func viewDidLoad() {
@@ -17,7 +18,11 @@ class DirectorViewController: BaseViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func clWang(_ sender: UIButton) {
+        numDirector = 1
+        self.performSegue(withIdentifier: "DirectorDetilSegue", sender: self)
+    }
+    
     /*
     // MARK: - Navigation
 
