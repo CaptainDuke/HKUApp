@@ -120,9 +120,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5F227FB2192F1E400C5189F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		A5F7AC91219170AC006DC855 = {
 			isa = PBXGroup;
 			children = (
+				A5F227FB2192F1E400C5189F /* New Group */,
 				A5F7AC9C219170AC006DC855 /* HKUApp */,
 				A5F7ACB3219170AE006DC855 /* HKUAppTests */,
 				A5F7ACBE219170AE006DC855 /* HKUAppUITests */,
