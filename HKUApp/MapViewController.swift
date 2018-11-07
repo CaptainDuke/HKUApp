@@ -13,7 +13,7 @@ import CoreLocation
 var location = CLLocationCoordinate2DMake(22.283687,114.1327153)
 
 
-class MapViewController: UIViewController {
+class MapViewController: BaseViewController {
     
     @IBOutlet weak var Map: MKMapView!
     @IBAction func btnLocate(_ sender: Any){
@@ -27,7 +27,7 @@ class MapViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        addSlideMenuButton()
         var annotation = MKPointAnnotation()
         annotation.coordinate = location
         annotation.title = "HKU CS Department"
