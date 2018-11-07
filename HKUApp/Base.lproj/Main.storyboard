@@ -12,7 +12,6 @@
         <!--Item-->
         <scene sceneID="fSZ-dm-E97">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YHM-gr-ylz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="zge-0o-1rw" customClass="ThirdViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xfw-nY-P5L" customClass="thi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -36,13 +35,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="a1F-jv-2eA"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YHM-gr-ylz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="1131"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
                 <viewController restorationIdentifier="SecondViewController" storyboardIdentifier="SecondViewController" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -73,13 +72,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1688.8000000000002" y="359.37031484257875"/>
         </scene>
         <!--Item-->
         <scene sceneID="waF-em-vjA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Etq-oR-hHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="NlA-eq-S7e" customClass="FourthViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YSQ-0B-Nnd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -99,6 +98,7 @@
                     <tabBarItem key="tabBarItem" title="Item" id="R73-Io-3SV"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Etq-oR-hHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2580" y="464"/>
         </scene>
@@ -344,26 +344,26 @@ HKU has ten faculties, a graduate school and a number of independent centres of 
                                                 </state>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PyK-BJ-LLw">
-                                                <rect key="frame" x="8" y="149" width="359" height="359"/>
+                                                <rect key="frame" x="8" y="149" width="359" height="303"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">We are living in the era where technology is widely accepted and becomes so commonplace that we doubt how we ever live without it. Mobile is a good prominent example. From businesses to individual consumers, everyone is connected to everyone, everywhere, all the time. Every day we hear of new technological breakthroughs, e.g. self-driving cars, organ-on-a-chip, smart glasses, drones; they are awe-inspiring. To remain in the game, the best IT professionals strive to maintain current knowledge and skills to take on these continual developments.
+                                                <string key="text">We are living in the era where technology is widely accepted and becomes so commonplace that we doubt how we ever live without it. Mobile is a good prominent example. From businesses to individual consumers, everyone is connected to everyone, everywhere, all the time. Every day we hear of new technological breakthroughs, e.g. self-driving cars, organ-on-a-chip, smart glasses, drones; they are awe-inspiring. To remain in the game, the best IT professionals strive to maintain current knowledge and skills to take on these continual developments.
 
 The Master of Science in Computer Science Programme is a comprehensive and challenging graduate programme with three specialisations and one general stream, namely Financial Computing Stream, Cyber Security Stream, Multimedia Computing Stream and General Computer Science Stream, to meet the needs of both industry and business in Asia, and to make the programme more unique among comparable programmes in the region.
 
 As you can see from our curriculum, on one hand we have retained the nuts and bolts subjects to lay a strong foundation. But on the other hand, we updated and revised the curriculum continuously as we assess the career trends and needs of our students, and monitor rapid changes in technology developments. For example, hot topics like “fintech”, “blockchain” are included in some of our courses.
 
 If you like the holistic approach of our teaching methods and curriculum, please consider enrolling in this established programme in a world-class university.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChowKP-Square.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="efA-Fh-gmV">
-                                                <rect key="frame" x="205" y="516" width="162" height="133"/>
+                                                <rect key="frame" x="205" y="460" width="162" height="133"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-Es-5qd">
-                                                <rect key="frame" x="8" y="536" width="189" height="93"/>
+                                                <rect key="frame" x="8" y="480" width="189" height="93"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">Dr. K.P. Chow
@@ -572,7 +572,6 @@ Programme Director</string>
         <!--About Tab Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
                 <tabBarController restorationIdentifier="aboutTabController" storyboardIdentifier="aboutTabController" id="49e-Tb-3d3" customClass="aboutTabController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
@@ -585,13 +584,13 @@ Programme Director</string>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="510" y="134"/>
         </scene>
         <!--Home-->
         <scene sceneID="hCM-8M-Arc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="38A-kV-VbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="nwb-cm-bDL" customClass="FirstTableViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fsz-xE-eed">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -617,13 +616,13 @@ Programme Director</string>
                         <segue destination="kA2-qS-Izc" kind="presentation" identifier="sague" id="2Nf-WQ-3bh"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="38A-kV-VbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1688.8000000000002" y="-322.48875562218893"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="Snu-gM-FFz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YOP-13-ESG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="kA2-qS-Izc" customClass="FirstViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2AS-9T-hPU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -673,13 +672,13 @@ Programme Director</string>
                         <outlet property="topImg" destination="SrD-vD-cgw" id="ZVR-i4-qoW"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YOP-13-ESG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2580" y="-322.48875562218893"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="iSr-yj-mB9">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uLi-rd-Go7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <collectionViewController id="xKb-cp-eKF" customClass="CollectionViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="aYn-jt-20G">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -707,6 +706,7 @@ Programme Director</string>
                         </connections>
                     </collectionView>
                 </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uLi-rd-Go7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3348" y="-322.48875562218893"/>
         </scene>
