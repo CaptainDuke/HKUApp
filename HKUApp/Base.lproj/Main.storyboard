@@ -103,36 +103,52 @@
             <objects>
                 <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DGS-m7-hKT" customClass="DetailViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SxK-BA-LbF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJ9-ip-x9t">
-                                <rect key="frame" x="0.0" y="20" width="375" height="1180"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gp-pM-uPb">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_about.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Mf-7N-1RC">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_about.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Mf-7N-1RC">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhyHKU.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q2c-Ir-FIq">
-                                                <rect key="frame" x="0.0" y="942" width="375" height="182"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sEm-hm-mnE">
+                                                <rect key="frame" x="0.0" y="149" width="375" height="719"/>
+                                                <color key="backgroundColor" red="0.23502439260482788" green="0.27853447198867798" blue="0.64709144830703735" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <string key="text">The University of Hong Kong
+
+The University of Hong Kong (HKU), founded in 1911, is the oldest of Hong Kong’s institutions of higher learning.  It was also the alma mater of Dr. Sun Yat-sen, the founder of modern China.
+
+HKU, as a pre-eminent international university, seeks to sustain and enhance its excellence as an institution of higher learning through outstanding teaching and world-class research so as to produce well-rounded graduates with lifelong abilities to provide leadership within the societies they serve.
+
+HKU has ten faculties, a graduate school and a number of independent centres of studies and learning. In 2016-17, it had a student population of over 27,800, including over 16,100 undergraduates and 11,700 postgraduates, and an academic staff population of around 3,400. Coupled with an active alumni network and generous endowments for programme research and development, HKU is a dynamic and exciting institution. Stepping into Asia’s next century of phenomenal growth.</string>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhyHKU.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="q2c-Ir-FIq">
+                                                <rect key="frame" x="0.0" y="930" width="375" height="210"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgY-Ux-b1i" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="105" width="87" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgY-Ux-b1i" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="105" width="87" height="36"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="D73-QL-Y7z"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <state key="normal" title="About">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGe-rH-A6x">
-                                                <rect key="frame" x="88" y="105" width="199" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGe-rH-A6x">
+                                                <rect key="frame" x="85" y="105" width="195" height="36"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="195" id="bhP-m2-V8j"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <state key="normal" title="Message From Director">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -141,19 +157,20 @@
                                                     <segue destination="6ay-nh-IJP" kind="show" id="Rqb-ga-duR"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUv-j1-O9e">
-                                                <rect key="frame" x="280" y="105" width="87" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUv-j1-O9e">
+                                                <rect key="frame" x="280" y="105" width="95" height="36"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <state key="normal" title="Faculty">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYM-UX-YhW" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
-                                                <rect key="frame" x="124" y="920" width="127" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYM-UX-YhW" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="127" y="882" width="121" height="37"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="121" id="tW2-r7-czk"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <state key="normal" title="Contact Us !">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -173,24 +190,35 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.23502439260482788" green="0.27853447198867798" blue="0.64709144830703735" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
+                                            <constraint firstItem="q2c-Ir-FIq" firstAttribute="top" secondItem="sEm-hm-mnE" secondAttribute="bottom" constant="62" id="FhT-DC-Ziq"/>
+                                            <constraint firstItem="mgY-Ux-b1i" firstAttribute="baseline" secondItem="MUv-j1-O9e" secondAttribute="baseline" id="Nvs-p5-PyR"/>
+                                            <constraint firstItem="q2c-Ir-FIq" firstAttribute="leading" secondItem="2gp-pM-uPb" secondAttribute="leading" id="Pp5-gd-1SV"/>
+                                            <constraint firstAttribute="bottom" secondItem="PYM-UX-YhW" secondAttribute="bottom" constant="281" id="Ret-kE-X27"/>
+                                            <constraint firstAttribute="bottom" secondItem="q2c-Ir-FIq" secondAttribute="bottom" constant="60" id="Sea-DF-SzC"/>
+                                            <constraint firstItem="PYM-UX-YhW" firstAttribute="centerX" secondItem="q2c-Ir-FIq" secondAttribute="centerX" id="TXK-8U-O3N"/>
+                                            <constraint firstItem="MUv-j1-O9e" firstAttribute="leading" secondItem="GGe-rH-A6x" secondAttribute="trailing" id="X29-i6-chI"/>
+                                            <constraint firstAttribute="bottom" secondItem="3Mf-7N-1RC" secondAttribute="bottom" constant="1059" id="YDH-ji-Une"/>
+                                            <constraint firstAttribute="bottom" secondItem="MUv-j1-O9e" secondAttribute="bottom" constant="1059" id="ZPH-CK-qP2"/>
                                             <constraint firstAttribute="height" constant="1200" id="ZtT-zH-WWk"/>
+                                            <constraint firstItem="mgY-Ux-b1i" firstAttribute="top" secondItem="MUv-j1-O9e" secondAttribute="top" id="bak-z7-dby"/>
+                                            <constraint firstItem="3Mf-7N-1RC" firstAttribute="top" secondItem="2gp-pM-uPb" secondAttribute="top" id="deQ-4V-d2p"/>
+                                            <constraint firstItem="mgY-Ux-b1i" firstAttribute="firstBaseline" secondItem="GGe-rH-A6x" secondAttribute="baseline" id="diw-dL-BeD"/>
+                                            <constraint firstItem="mgY-Ux-b1i" firstAttribute="baseline" secondItem="GGe-rH-A6x" secondAttribute="firstBaseline" id="eMY-hR-H2I"/>
+                                            <constraint firstItem="sEm-hm-mnE" firstAttribute="top" secondItem="3Mf-7N-1RC" secondAttribute="bottom" constant="8" id="jzd-YI-avN"/>
+                                            <constraint firstAttribute="trailing" secondItem="q2c-Ir-FIq" secondAttribute="trailing" id="k5S-eg-6if"/>
+                                            <constraint firstAttribute="trailing" secondItem="MUv-j1-O9e" secondAttribute="trailing" id="ntJ-94-KzJ"/>
+                                            <constraint firstItem="mgY-Ux-b1i" firstAttribute="top" secondItem="GGe-rH-A6x" secondAttribute="top" id="nvv-aQ-Y6N"/>
+                                            <constraint firstItem="GGe-rH-A6x" firstAttribute="leading" secondItem="2gp-pM-uPb" secondAttribute="leading" constant="85" id="pP4-6s-6EP"/>
+                                            <constraint firstItem="MUv-j1-O9e" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mgY-Ux-b1i" secondAttribute="trailing" constant="8" symbolic="YES" id="vS2-Ja-Ecx"/>
+                                            <constraint firstItem="mgY-Ux-b1i" firstAttribute="leading" secondItem="3Mf-7N-1RC" secondAttribute="leading" id="vpL-sc-a1N"/>
+                                            <constraint firstAttribute="bottom" secondItem="sEm-hm-mnE" secondAttribute="bottom" constant="332" id="vwq-uX-Fae"/>
+                                            <constraint firstAttribute="trailing" secondItem="sEm-hm-mnE" secondAttribute="trailing" id="wt0-dG-3GP"/>
+                                            <constraint firstItem="MUv-j1-O9e" firstAttribute="top" secondItem="2gp-pM-uPb" secondAttribute="top" constant="105" id="yEG-7m-oCz"/>
+                                            <constraint firstItem="sEm-hm-mnE" firstAttribute="leading" secondItem="2gp-pM-uPb" secondAttribute="leading" id="yep-Zy-6qD"/>
+                                            <constraint firstItem="3Mf-7N-1RC" firstAttribute="leading" secondItem="2gp-pM-uPb" secondAttribute="leading" id="z2Z-RM-Z2j"/>
+                                            <constraint firstAttribute="trailing" secondItem="3Mf-7N-1RC" secondAttribute="trailing" id="z6v-Og-Ov7"/>
                                         </constraints>
                                     </view>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sEm-hm-mnE">
-                                        <rect key="frame" x="8" y="169" width="359" height="729"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.23502439260482788" green="0.27853447198867798" blue="0.64709144830703735" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <string key="text">The University of Hong Kong
-
-The University of Hong Kong (HKU), founded in 1911, is the oldest of Hong Kong’s institutions of higher learning.  It was also the alma mater of Dr. Sun Yat-sen, the founder of modern China.
-
-HKU, as a pre-eminent international university, seeks to sustain and enhance its excellence as an institution of higher learning through outstanding teaching and world-class research so as to produce well-rounded graduates with lifelong abilities to provide leadership within the societies they serve.
-
-HKU has ten faculties, a graduate school and a number of independent centres of studies and learning. In 2016-17, it had a student population of over 27,800, including over 16,100 undergraduates and 11,700 postgraduates, and an academic staff population of around 3,400. Coupled with an active alumni network and generous endowments for programme research and development, HKU is a dynamic and exciting institution. Stepping into Asia’s next century of phenomenal growth.</string>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="2gp-pM-uPb" secondAttribute="bottom" id="GH0-lL-TV0"/>
@@ -212,7 +240,6 @@ HKU has ten faculties, a graduate school and a number of independent centres of 
                         <viewLayoutGuide key="safeArea" id="lXP-gs-f7u"/>
                     </view>
                     <navigationItem key="navigationItem" id="bgQ-XF-k4t"/>
-                    <size key="freeformSize" width="375" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3h-Je-CBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -223,23 +250,24 @@ HKU has ten faculties, a graduate school and a number of independent centres of 
             <objects>
                 <viewController storyboardIdentifier="DirectorViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6ay-nh-IJP" customClass="DirectorViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P5c-uY-rki">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAt-B6-qjf">
-                                <rect key="frame" x="0.0" y="20" width="375" height="980"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8lk-gJ-JGQ">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="director.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xEE-v1-fXr">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="director.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xEE-v1-fXr">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEg-9Y-S6R">
-                                                <rect key="frame" x="8" y="105" width="87" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEg-9Y-S6R">
+                                                <rect key="frame" x="0.0" y="105" width="87" height="36"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="LEg-9Y-S6R" secondAttribute="height" multiplier="29:12" id="Ox0-pT-Y9F"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <state key="normal" title="About">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -248,27 +276,30 @@ HKU has ten faculties, a graduate school and a number of independent centres of 
                                                     <segue destination="DGS-m7-hKT" kind="show" id="mXr-AT-bCy"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nah-on-daB">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nah-on-daB">
                                                 <rect key="frame" x="88" y="105" width="199" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="nah-on-daB" secondAttribute="height" multiplier="199:36" id="DLq-ZA-GVv"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <state key="normal" title="Message From Director">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WK2-jx-8xr">
-                                                <rect key="frame" x="280" y="105" width="87" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WK2-jx-8xr">
+                                                <rect key="frame" x="288" y="105" width="87" height="36"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="WK2-jx-8xr" secondAttribute="height" multiplier="29:12" id="Uzg-DY-Fvd"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <state key="normal" title="Faculty">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PyK-BJ-LLw">
-                                                <rect key="frame" x="8" y="149" width="359" height="303"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PyK-BJ-LLw">
+                                                <rect key="frame" x="8" y="149" width="359" height="297"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">We are living in the era where technology is widely accepted and becomes so commonplace that we doubt how we ever live without it. Mobile is a good prominent example. From businesses to individual consumers, everyone is connected to everyone, everywhere, all the time. Every day we hear of new technological breakthroughs, e.g. self-driving cars, organ-on-a-chip, smart glasses, drones; they are awe-inspiring. To remain in the game, the best IT professionals strive to maintain current knowledge and skills to take on these continual developments.
 
@@ -281,31 +312,14 @@ If you like the holistic approach of our teaching methods and curriculum, please
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-Es-5qd">
-                                                <rect key="frame" x="8" y="480" width="189" height="93"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gh2-Es-5qd">
+                                                <rect key="frame" x="8" y="480" width="183" height="93"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">Dr. K.P. Chow
 Programme Director</string>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b9c-qk-MyK" customClass="DesignableView" customModule="HKUApp" customModuleProvider="target">
-                                                <rect key="frame" x="181" y="462" width="168" height="157"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChowKP-Square.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DcI-WK-lwf">
-                                                        <rect key="frame" x="-7" y="8" width="183" height="165"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="70"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q51-pg-UoG">
                                                 <rect key="frame" x="151" y="695" width="70" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -352,10 +366,58 @@ Programme Director</string>
                                                     <outlet property="delegate" destination="6ay-nh-IJP" id="gYP-gP-ZLI"/>
                                                 </connections>
                                             </collectionView>
+                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9c-qk-MyK" customClass="DesignableView" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="199" y="448" width="168" height="157"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChowKP-Square.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DcI-WK-lwf">
+                                                        <rect key="frame" x="-10" y="0.0" width="178" height="165"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="DcI-WK-lwf" secondAttribute="trailing" id="7An-YR-vsM"/>
+                                                    <constraint firstItem="DcI-WK-lwf" firstAttribute="leading" secondItem="b9c-qk-MyK" secondAttribute="leading" constant="-10" id="985-xb-elU"/>
+                                                    <constraint firstAttribute="bottom" secondItem="DcI-WK-lwf" secondAttribute="bottom" constant="-8" id="DWz-dP-cos"/>
+                                                    <constraint firstItem="DcI-WK-lwf" firstAttribute="top" secondItem="b9c-qk-MyK" secondAttribute="top" id="EVC-jy-D1v"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="70"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1000" id="1Tc-sk-U3Q"/>
+                                            <constraint firstItem="gh2-Es-5qd" firstAttribute="top" secondItem="PyK-BJ-LLw" secondAttribute="bottom" constant="34" id="27x-VO-mKj"/>
+                                            <constraint firstItem="WK2-jx-8xr" firstAttribute="leading" secondItem="nah-on-daB" secondAttribute="trailing" constant="1" id="2eu-Pw-WW6"/>
+                                            <constraint firstAttribute="trailing" secondItem="gh2-Es-5qd" secondAttribute="trailing" constant="184" id="4Ok-D9-B0d"/>
+                                            <constraint firstItem="xEE-v1-fXr" firstAttribute="top" secondItem="8lk-gJ-JGQ" secondAttribute="top" id="5IZ-I8-gvO"/>
+                                            <constraint firstItem="nah-on-daB" firstAttribute="top" secondItem="8lk-gJ-JGQ" secondAttribute="top" constant="105" id="8Oc-DS-mVc"/>
+                                            <constraint firstItem="nah-on-daB" firstAttribute="leading" secondItem="LEg-9Y-S6R" secondAttribute="trailing" constant="1" id="8R9-75-RvQ"/>
+                                            <constraint firstAttribute="bottom" secondItem="gh2-Es-5qd" secondAttribute="bottom" constant="427" id="BLg-Lk-jAe"/>
+                                            <constraint firstItem="b9c-qk-MyK" firstAttribute="leading" secondItem="8lk-gJ-JGQ" secondAttribute="leading" constant="199" id="CjM-QC-kwg"/>
+                                            <constraint firstItem="xEE-v1-fXr" firstAttribute="leading" secondItem="8lk-gJ-JGQ" secondAttribute="leading" id="IE0-1W-FsA"/>
+                                            <constraint firstItem="nah-on-daB" firstAttribute="leading" secondItem="LEg-9Y-S6R" secondAttribute="trailing" constant="1" id="Jnx-Is-zEt"/>
+                                            <constraint firstAttribute="trailing" secondItem="xEE-v1-fXr" secondAttribute="trailing" id="LwP-KB-Tr0"/>
+                                            <constraint firstAttribute="bottom" secondItem="xEE-v1-fXr" secondAttribute="bottom" constant="859" id="MkY-Y9-cNF"/>
+                                            <constraint firstItem="b9c-qk-MyK" firstAttribute="top" secondItem="PyK-BJ-LLw" secondAttribute="bottom" constant="2" id="SI1-5w-FnW"/>
+                                            <constraint firstAttribute="bottom" secondItem="WK2-jx-8xr" secondAttribute="bottom" constant="859" id="SfC-l2-NNC"/>
+                                            <constraint firstAttribute="trailing" secondItem="WK2-jx-8xr" secondAttribute="trailing" id="TAM-XM-Qba"/>
+                                            <constraint firstItem="gh2-Es-5qd" firstAttribute="leading" secondItem="8lk-gJ-JGQ" secondAttribute="leading" constant="8" id="VgM-9c-mza"/>
+                                            <constraint firstAttribute="bottom" secondItem="LEg-9Y-S6R" secondAttribute="bottom" constant="859" id="ap4-1d-u3x"/>
+                                            <constraint firstItem="WK2-jx-8xr" firstAttribute="top" secondItem="8lk-gJ-JGQ" secondAttribute="top" constant="105" id="gSD-9e-FBY"/>
+                                            <constraint firstAttribute="bottom" secondItem="nah-on-daB" secondAttribute="bottom" constant="859" id="gkd-tG-Vrm"/>
+                                            <constraint firstAttribute="bottom" secondItem="PyK-BJ-LLw" secondAttribute="bottom" constant="554" id="hVE-hn-9mS"/>
+                                            <constraint firstAttribute="trailing" secondItem="b9c-qk-MyK" secondAttribute="trailing" constant="8" id="he8-8H-kEX"/>
+                                            <constraint firstItem="LEg-9Y-S6R" firstAttribute="top" secondItem="8lk-gJ-JGQ" secondAttribute="top" constant="105" id="jdw-Hj-wtZ"/>
+                                            <constraint firstItem="WK2-jx-8xr" firstAttribute="leading" secondItem="nah-on-daB" secondAttribute="trailing" constant="1" id="pOX-k2-lB6"/>
+                                            <constraint firstAttribute="trailing" secondItem="PyK-BJ-LLw" secondAttribute="trailing" constant="8" id="qtn-PS-sZm"/>
+                                            <constraint firstItem="PyK-BJ-LLw" firstAttribute="top" secondItem="xEE-v1-fXr" secondAttribute="bottom" constant="8" id="rTH-0a-KSx"/>
+                                            <constraint firstAttribute="bottom" secondItem="b9c-qk-MyK" secondAttribute="bottom" constant="395" id="uMO-sj-HeS"/>
+                                            <constraint firstItem="LEg-9Y-S6R" firstAttribute="leading" secondItem="8lk-gJ-JGQ" secondAttribute="leading" id="wqT-rO-7Cj"/>
+                                            <constraint firstItem="PyK-BJ-LLw" firstAttribute="leading" secondItem="8lk-gJ-JGQ" secondAttribute="leading" constant="8" id="zWk-CE-paH"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -377,14 +439,13 @@ Programme Director</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jKE-mw-RHu"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="checkCollection" destination="KVV-4e-0WB" id="uGn-ON-eaR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uk1-xQ-GZi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1277.5999999999999" y="-1092.0539730134933"/>
+            <point key="canvasLocation" x="1277.5999999999999" y="-1092.5037481259371"/>
         </scene>
         <!--Prof InfoVC-->
         <scene sceneID="5SY-gK-3aC">
@@ -448,165 +509,207 @@ Programme Director</string>
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vKF-wq-xpO" customClass="HomeViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1a3-ZA-bT4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RMZ-jE-3Ak">
-                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ji-f3-5fQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DIn-qL-4Ks">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rg8-fD-T9F">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Slider1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7Md-xB-Zhd">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Slider1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QnV-c3-hEj">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0bX-6f-mc7">
-                                                <rect key="frame" x="76" y="13" width="255" height="69"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.5" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yM-iP-fNr">
+                                                <rect key="frame" x="72" y="25" width="288" height="60"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34658604452054792" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">DEPARTMENT OF COMPUTER SCIENCE
-香港大學計算機系
-</string>
+香港大學計算機系</string>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="11"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WAf-bp-AzE">
-                                                <rect key="frame" x="0.0" y="18" width="76" height="64"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.5" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvJ-Ch-KVy">
+                                                <rect key="frame" x="0.0" y="25" width="72" height="60"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.34658604450000002" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="11"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MScDarkLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="uIf-pW-JD3">
-                                                <rect key="frame" x="0.0" y="18" width="68" height="64"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MScDarkLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="leo-ZQ-dub">
+                                                <rect key="frame" x="0.0" y="25" width="64" height="60"/>
                                             </imageView>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MASTER THE TECHNOLOGY AND STAY AHEAD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wGX-XS-6uo">
-                                                <rect key="frame" x="81" y="52" width="329" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="textColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MASTER THE TECHNOLOGY AND STAY AHEAD" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CDh-Vg-hdB">
+                                                <rect key="frame" x="72" y="55" width="303" height="30"/>
+                                                <color key="textColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Master of Computer Science, HKU" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vkI-kF-KqS">
-                                                <rect key="frame" x="49" y="152" width="276" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Master of Science in Computer Science, HKU" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GSj-rF-xRE">
+                                                <rect key="frame" x="37" y="170" width="301" height="30"/>
                                                 <color key="textColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Programme Overview" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6VK-ax-yEd">
-                                                <rect key="frame" x="96" y="190" width="182" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="18"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckr-Vn-fbo" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="228" width="119" height="42"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpI-PB-HpY" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="130" y="252" width="114" height="36"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                                 <state key="normal" title="MORE DETAIL">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
-                                                    </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="10"/>
+                                                        <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2O5-Sm-UjP">
-                                                <rect key="frame" x="8" y="278" width="359" height="333"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrC-42-NC7">
+                                                <rect key="frame" x="0.0" y="296" width="375" height="336"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">The MSc(CompSc) programme is a comprehensive postgraduate study programme provides advanced and in-depth learning in Computer Science. The programme is credit unit based, with courses of both applied and fundamental nature. Students can choose from a comprehensive and diversified study in Computer Science courses or focussed streams of study. Focussed streams of study represent a cohesive collection of related courses that provides both fundamental and in-depth exposure to students in a given ICT domain.</string>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mfpd.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="9wc-UH-QeD">
-                                                <rect key="frame" x="0.0" y="619" width="375" height="88"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mfpd.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="6jb-gW-3p4">
+                                                <rect key="frame" x="0.0" y="656" width="375" height="116"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChowKP-Square.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9Iq-FX-JjF">
-                                                <rect key="frame" x="34" y="628" width="80" height="71"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChowKP-Square.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dLb-ut-X0K">
+                                                <rect key="frame" x="8" y="667" width="102" height="94"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="o6d-zh-Wt8">
-                                                <rect key="frame" x="143" y="648" width="188" height="51"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.37657855308219179" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Message From Programme Director">
-                                                    <color key="titleColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxv-EA-RVw">
+                                                <rect key="frame" x="126" y="680" width="241" height="68"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.43902504280821919" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <state key="normal" title="Message from Programme Director">
+                                                    <color key="titleColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission 2019" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f4L-YV-xhv">
-                                                <rect key="frame" x="111" y="730" width="153" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="23"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMY-pZ-1SZ" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="781" width="119" height="42"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="MORE DETAIL">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="10"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ye2-ZU-EAD">
-                                                <rect key="frame" x="8" y="831" width="359" height="76"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJx-aL-TtL">
+                                                <rect key="frame" x="0.0" y="875" width="375" height="125"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <string key="text">To help you make a decision, here is a summary of the facts and details you will need - programme schedule, composition fees and application deadlines.</string>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKE-Wc-2FZ" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="135" y="827" width="104" height="33"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="WKE-Wc-2FZ" secondAttribute="height" multiplier="104:33" id="I1a-RT-q9y"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="14"/>
+                                                <state key="normal" title="MORE DETAIL">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="6"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission 2019" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WMu-5Y-Egx">
+                                                <rect key="frame" x="121" y="789" width="133" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Programme Overview" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7ZB-Dx-sTa">
+                                                <rect key="frame" x="100" y="208" width="175" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1000" id="5BQ-l9-wgk"/>
+                                            <constraint firstItem="DJx-aL-TtL" firstAttribute="top" secondItem="WMu-5Y-Egx" secondAttribute="bottom" constant="56" id="2LY-7V-8id"/>
+                                            <constraint firstAttribute="bottom" secondItem="wxv-EA-RVw" secondAttribute="bottom" constant="452" id="2NP-L0-fOE"/>
+                                            <constraint firstItem="2yM-iP-fNr" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" constant="72" id="4Ap-R6-f18"/>
+                                            <constraint firstItem="qrC-42-NC7" firstAttribute="top" secondItem="ZpI-PB-HpY" secondAttribute="bottom" constant="8" id="5BC-i1-l2F"/>
+                                            <constraint firstAttribute="trailing" secondItem="WMu-5Y-Egx" secondAttribute="trailing" constant="121" id="5en-fW-7m2"/>
+                                            <constraint firstItem="dLb-ut-X0K" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" constant="8" id="Cfe-sy-t9I"/>
+                                            <constraint firstAttribute="bottom" secondItem="ZpI-PB-HpY" secondAttribute="bottom" constant="912" id="ELl-wu-v9i"/>
+                                            <constraint firstItem="QnV-c3-hEj" firstAttribute="top" secondItem="Rg8-fD-T9F" secondAttribute="top" id="Ffo-Ag-cOO"/>
+                                            <constraint firstItem="2yM-iP-fNr" firstAttribute="top" secondItem="Rg8-fD-T9F" secondAttribute="top" constant="25" id="GDD-b7-V9d"/>
+                                            <constraint firstItem="WKE-Wc-2FZ" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" constant="135" id="GVD-Eq-Rfq"/>
+                                            <constraint firstAttribute="bottom" secondItem="7ZB-Dx-sTa" secondAttribute="bottom" constant="962" id="HAu-bD-W9F"/>
+                                            <constraint firstItem="jvJ-Ch-KVy" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leadingMargin" constant="-8" id="J2N-Iq-R7p"/>
+                                            <constraint firstItem="dLb-ut-X0K" firstAttribute="top" secondItem="qrC-42-NC7" secondAttribute="bottom" constant="35" id="KcB-ce-48p"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZpI-PB-HpY" secondAttribute="trailing" constant="131" id="LII-Pi-oD6"/>
+                                            <constraint firstItem="QnV-c3-hEj" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" id="LL0-LG-gDr"/>
+                                            <constraint firstAttribute="trailing" secondItem="DJx-aL-TtL" secondAttribute="trailing" id="LmL-JK-Tw5"/>
+                                            <constraint firstAttribute="bottom" secondItem="CDh-Vg-hdB" secondAttribute="bottom" constant="1115" id="Mf1-mL-V2u"/>
+                                            <constraint firstAttribute="trailing" secondItem="CDh-Vg-hdB" secondAttribute="trailing" id="MqO-8c-8Lu"/>
+                                            <constraint firstItem="WKE-Wc-2FZ" firstAttribute="top" secondItem="WMu-5Y-Egx" secondAttribute="bottom" constant="8" id="PS1-Sh-gWs"/>
+                                            <constraint firstAttribute="trailing" secondItem="2yM-iP-fNr" secondAttribute="trailing" constant="15" id="PpZ-QK-3yM"/>
+                                            <constraint firstAttribute="trailing" secondItem="QnV-c3-hEj" secondAttribute="trailing" id="Qke-kC-Xnp"/>
+                                            <constraint firstAttribute="bottom" secondItem="6jb-gW-3p4" secondAttribute="bottom" constant="428" id="Rx9-bW-gcj"/>
+                                            <constraint firstAttribute="trailing" secondItem="7ZB-Dx-sTa" secondAttribute="trailing" constant="100" id="S1o-Yl-L6f"/>
+                                            <constraint firstItem="CDh-Vg-hdB" firstAttribute="leading" secondItem="jvJ-Ch-KVy" secondAttribute="trailing" id="S6G-1D-Pwx"/>
+                                            <constraint firstAttribute="trailing" secondItem="dLb-ut-X0K" secondAttribute="trailing" constant="265" id="SRT-wf-6zz"/>
+                                            <constraint firstItem="CDh-Vg-hdB" firstAttribute="top" secondItem="Rg8-fD-T9F" secondAttribute="top" constant="55" id="Ua4-lQ-9Za"/>
+                                            <constraint firstAttribute="bottom" secondItem="GSj-rF-xRE" secondAttribute="bottom" constant="1000" id="Uwr-fh-553"/>
+                                            <constraint firstItem="7ZB-Dx-sTa" firstAttribute="centerX" secondItem="Rg8-fD-T9F" secondAttribute="centerX" id="VGr-dW-SpP"/>
+                                            <constraint firstItem="qrC-42-NC7" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" id="Vfi-pC-UN3"/>
+                                            <constraint firstItem="DJx-aL-TtL" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" id="VsP-4i-bu6"/>
+                                            <constraint firstItem="WMu-5Y-Egx" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" constant="121" id="W2u-rU-T8s"/>
+                                            <constraint firstItem="ZpI-PB-HpY" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" constant="130" id="WYt-DN-7vg"/>
+                                            <constraint firstAttribute="bottom" secondItem="QnV-c3-hEj" secondAttribute="bottom" constant="1049" id="XTH-a0-Wl8"/>
+                                            <constraint firstItem="jvJ-Ch-KVy" firstAttribute="top" secondItem="Rg8-fD-T9F" secondAttribute="topMargin" constant="17" id="YHL-Xi-b48"/>
+                                            <constraint firstItem="6jb-gW-3p4" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" id="YMj-qn-v8y"/>
+                                            <constraint firstItem="leo-ZQ-dub" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" id="Yfv-pi-iXy"/>
+                                            <constraint firstItem="7ZB-Dx-sTa" firstAttribute="top" secondItem="GSj-rF-xRE" secondAttribute="bottom" constant="8" id="Z9f-39-eBd"/>
+                                            <constraint firstItem="wxv-EA-RVw" firstAttribute="leading" secondItem="dLb-ut-X0K" secondAttribute="trailing" constant="16" id="ZTz-CD-yCl"/>
+                                            <constraint firstItem="leo-ZQ-dub" firstAttribute="top" secondItem="Rg8-fD-T9F" secondAttribute="top" constant="25" id="aXb-Tj-KkU"/>
+                                            <constraint firstItem="2yM-iP-fNr" firstAttribute="leading" secondItem="leo-ZQ-dub" secondAttribute="trailing" constant="8" id="biR-y5-mfT"/>
+                                            <constraint firstAttribute="bottom" secondItem="leo-ZQ-dub" secondAttribute="bottom" constant="1115" id="bxt-6q-ToA"/>
+                                            <constraint firstItem="wxv-EA-RVw" firstAttribute="top" secondItem="qrC-42-NC7" secondAttribute="bottom" constant="48" id="c1C-ep-OFr"/>
+                                            <constraint firstItem="GSj-rF-xRE" firstAttribute="centerX" secondItem="Rg8-fD-T9F" secondAttribute="centerX" id="clF-lk-JWj"/>
+                                            <constraint firstAttribute="trailing" secondItem="qrC-42-NC7" secondAttribute="trailing" id="ekA-cJ-SPQ"/>
+                                            <constraint firstItem="WMu-5Y-Egx" firstAttribute="top" secondItem="6jb-gW-3p4" secondAttribute="bottom" constant="17" id="fGT-ro-eP0"/>
+                                            <constraint firstAttribute="bottom" secondItem="qrC-42-NC7" secondAttribute="bottom" constant="568" id="fHZ-ws-gOl"/>
+                                            <constraint firstAttribute="height" constant="1200" id="fSH-bw-m8b"/>
+                                            <constraint firstItem="DJx-aL-TtL" firstAttribute="centerX" secondItem="Rg8-fD-T9F" secondAttribute="centerX" id="fYD-Ti-kUK"/>
+                                            <constraint firstAttribute="bottom" secondItem="WKE-Wc-2FZ" secondAttribute="bottom" constant="340" id="fb0-y4-6Pc"/>
+                                            <constraint firstAttribute="bottom" secondItem="dLb-ut-X0K" secondAttribute="bottom" constant="439" id="g0V-Nr-1H3"/>
+                                            <constraint firstAttribute="bottom" secondItem="WMu-5Y-Egx" secondAttribute="bottom" constant="381" id="hsm-rg-d0V"/>
+                                            <constraint firstItem="GSj-rF-xRE" firstAttribute="top" secondItem="QnV-c3-hEj" secondAttribute="bottom" constant="19" id="i5H-Cl-oqH"/>
+                                            <constraint firstAttribute="bottom" secondItem="2yM-iP-fNr" secondAttribute="bottom" constant="1115" id="n2W-ny-0rP"/>
+                                            <constraint firstItem="6jb-gW-3p4" firstAttribute="top" secondItem="qrC-42-NC7" secondAttribute="bottom" constant="24" id="nqB-z6-Yas"/>
+                                            <constraint firstAttribute="trailing" secondItem="6jb-gW-3p4" secondAttribute="trailing" id="oiZ-ID-jWH"/>
+                                            <constraint firstAttribute="trailing" secondItem="WKE-Wc-2FZ" secondAttribute="trailing" constant="136" id="ot4-ZM-VIP"/>
+                                            <constraint firstItem="ZpI-PB-HpY" firstAttribute="top" secondItem="7ZB-Dx-sTa" secondAttribute="bottom" constant="14" id="qD6-yp-dBR"/>
+                                            <constraint firstItem="7ZB-Dx-sTa" firstAttribute="leading" secondItem="Rg8-fD-T9F" secondAttribute="leading" constant="100" id="qa3-Od-vEs"/>
+                                            <constraint firstAttribute="bottom" secondItem="DJx-aL-TtL" secondAttribute="bottom" constant="200" id="r0M-nK-x4H"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="jvJ-Ch-KVy" secondAttribute="bottom" constant="1107" id="sSW-St-pMN"/>
+                                            <constraint firstAttribute="trailing" secondItem="wxv-EA-RVw" secondAttribute="trailing" constant="8" id="spf-Kj-APt"/>
+                                            <constraint firstItem="WMu-5Y-Egx" firstAttribute="centerX" secondItem="Rg8-fD-T9F" secondAttribute="centerX" id="uWR-OE-Fqv"/>
+                                            <constraint firstItem="2yM-iP-fNr" firstAttribute="leading" secondItem="jvJ-Ch-KVy" secondAttribute="trailing" id="vlo-Jm-oZS"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="DIn-qL-4Ks" secondAttribute="trailing" id="BJ7-mN-9Rd"/>
-                                    <constraint firstItem="DIn-qL-4Ks" firstAttribute="leading" secondItem="RMZ-jE-3Ak" secondAttribute="leading" id="DqD-lx-c2u"/>
-                                    <constraint firstItem="DIn-qL-4Ks" firstAttribute="top" secondItem="RMZ-jE-3Ak" secondAttribute="top" id="UGO-lE-njI"/>
-                                    <constraint firstAttribute="bottom" secondItem="DIn-qL-4Ks" secondAttribute="bottom" id="Vx5-94-neS"/>
-                                    <constraint firstItem="DIn-qL-4Ks" firstAttribute="centerX" secondItem="RMZ-jE-3Ak" secondAttribute="centerX" id="ylh-VP-Gct"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rg8-fD-T9F" secondAttribute="bottom" id="REf-Cm-iu1"/>
+                                    <constraint firstItem="Rg8-fD-T9F" firstAttribute="leading" secondItem="1Ji-f3-5fQ" secondAttribute="leading" id="RMR-ny-UNh"/>
+                                    <constraint firstItem="Rg8-fD-T9F" firstAttribute="top" secondItem="1Ji-f3-5fQ" secondAttribute="top" id="gKl-Ml-eFv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rg8-fD-T9F" secondAttribute="trailing" id="jPm-iH-u9a"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.53315032308652666" green="0.80907165844679996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="RMZ-jE-3Ak" firstAttribute="top" secondItem="XLa-8T-8LF" secondAttribute="top" id="DNg-11-S7z"/>
-                            <constraint firstItem="RMZ-jE-3Ak" firstAttribute="trailing" secondItem="XLa-8T-8LF" secondAttribute="trailing" id="iOC-jy-PO1"/>
-                            <constraint firstItem="RMZ-jE-3Ak" firstAttribute="leading" secondItem="XLa-8T-8LF" secondAttribute="leading" id="oql-RZ-xkV"/>
-                            <constraint firstItem="RMZ-jE-3Ak" firstAttribute="bottom" secondItem="XLa-8T-8LF" secondAttribute="bottom" id="vyz-8W-ing"/>
+                            <constraint firstItem="1Ji-f3-5fQ" firstAttribute="leading" secondItem="XLa-8T-8LF" secondAttribute="leading" id="0Pl-5t-S5E"/>
+                            <constraint firstItem="1Ji-f3-5fQ" firstAttribute="trailing" secondItem="XLa-8T-8LF" secondAttribute="trailing" id="L1W-bq-HZA"/>
+                            <constraint firstItem="1Ji-f3-5fQ" firstAttribute="bottom" secondItem="XLa-8T-8LF" secondAttribute="bottom" id="X3B-eu-5ep"/>
+                            <constraint firstItem="1Ji-f3-5fQ" firstAttribute="top" secondItem="XLa-8T-8LF" secondAttribute="top" id="tgc-AX-7P7"/>
+                            <constraint firstItem="Rg8-fD-T9F" firstAttribute="width" secondItem="1a3-ZA-bT4" secondAttribute="width" id="yPI-L5-LPk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XLa-8T-8LF"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="fkz-qP-YIh"/>
-                    <size key="freeformSize" width="375" height="1000"/>
                     <connections>
-                        <outlet property="kpChouCircle" destination="9Iq-FX-JjF" id="cxt-4F-E05"/>
                         <segue destination="DGS-m7-hKT" kind="push" id="0sH-B8-uNF"/>
                         <segue destination="6ay-nh-IJP" kind="show" id="8Ux-ZS-l5L"/>
                         <segue destination="cyq-gV-AvQ" kind="show" id="VUa-8E-tF1"/>
@@ -614,7 +717,7 @@ Programme Director</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5de-PR-Z6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-732" y="187.1064467766117"/>
+            <point key="canvasLocation" x="-733.60000000000002" y="460.56971514242883"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f2b-ab-OYJ">
@@ -708,7 +811,7 @@ Programme Director</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Om3-u6-vos" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-732" y="1307.9460269865069"/>
+            <point key="canvasLocation" x="406" y="635"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="M2J-cQ-Gdu">
@@ -751,7 +854,7 @@ Programme Director</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXf-vQ-zXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2650" y="-1092"/>
+            <point key="canvasLocation" x="2618" y="-1092"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qAm-Fr-vsQ">
