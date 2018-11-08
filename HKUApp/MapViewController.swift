@@ -14,11 +14,32 @@ import MessageUI
 var g_location = CLLocationCoordinate2DMake(22.283687,114.1327153)
 
 
-class MapViewController: BaseViewController,CLLocationManagerDelegate {
+class MapViewController: BaseViewController,CLLocationManagerDelegate, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var Map: MKMapView!
     var locationMgr = CLLocationManager()
     
+    @IBAction func SendMail(_ sender: Any) {
+        let mailCompose = MFMailComposeViewController()
+        mailCompose.mailComposeDelegate = self
+        mailCompose.setToRecipients(["msccs@hku.hk"])
+//        mailCompose.setSubject("test")
+//        mailCompose.setMessageBody("Merhaba Nasilsin ?", isHTML: false)
+        
+        if MFMailComposeViewController.canSendMail()
+        {
+            self.present(mailCompose, animated: true, completion: nil)
+        }
+        else{
+            print("nnn")
+        }
+
+        
+    }
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
+    }
     @IBAction func PhoneCall(_ sender: Any) {
         let url: NSURL = URL(string: "TEL://85288888888")! as NSURL
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)

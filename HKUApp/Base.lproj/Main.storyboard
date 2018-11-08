@@ -668,6 +668,14 @@ Programme Director</string>
                                                     <action selector="PhoneCall:" destination="cyq-gV-AvQ" eventType="touchUpInside" id="lGM-Xg-00f"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyU-Y7-UUb">
+                                                <rect key="frame" x="135" y="471" width="104" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="msccs@hku.hk"/>
+                                                <connections>
+                                                    <action selector="SendMail:" destination="cyq-gV-AvQ" eventType="touchUpInside" id="QfN-mZ-Z4v"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
