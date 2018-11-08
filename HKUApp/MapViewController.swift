@@ -9,6 +9,7 @@
 import UIKit
 import MapKit
 import CoreLocation
+import MessageUI
 
 var g_location = CLLocationCoordinate2DMake(22.283687,114.1327153)
 
@@ -18,6 +19,11 @@ class MapViewController: BaseViewController,CLLocationManagerDelegate {
     @IBOutlet weak var Map: MKMapView!
     var locationMgr = CLLocationManager()
     
+    @IBAction func PhoneCall(_ sender: Any) {
+        let url: NSURL = URL(string: "TEL://85288888888")! as NSURL
+        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        print("kkkkkk")
+    }
     //btn function
     @IBAction func btnLocate(_ sender: Any){
         let span = MKCoordinateSpan(latitudeDelta: 0.02,longitudeDelta: 0.02) //MKCoordinateSpanMake has been replace by MKCoordinateSpan
