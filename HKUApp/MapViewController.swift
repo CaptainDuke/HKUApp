@@ -10,26 +10,44 @@ import UIKit
 import MapKit
 import CoreLocation
 
-var location = CLLocationCoordinate2DMake(22.283687,114.1327153)
+var g_location = CLLocationCoordinate2DMake(22.283687,114.1327153)
 
 
-class MapViewController: BaseViewController {
+class MapViewController: BaseViewController,CLLocationManagerDelegate {
     
     @IBOutlet weak var Map: MKMapView!
+    var locationMgr = CLLocationManager()
+    
+    //btn function
     @IBAction func btnLocate(_ sender: Any){
-        var span = MKCoordinateSpan(latitudeDelta: 0.02,longitudeDelta: 0.02) //MKCoordinateSpanMake has been replace by MKCoordinateSpan
-        var region = MKCoordinateRegion(center: location, span: span)
+        let span = MKCoordinateSpan(latitudeDelta: 0.02,longitudeDelta: 0.02) //MKCoordinateSpanMake has been replace by MKCoordinateSpan
+        let region = MKCoordinateRegion(center: g_location, span: span)
         Map.setRegion(region, animated: true)
         
         print("kkk")
     }
-    @IBAction func kk(_ sender: Any) {
-    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         addSlideMenuButton()
+        
+        Map.showsUserLocation = true
+        if CLLocationManager.locationServicesEnabled() == true {
+            if CLLocationManager.authorizationStatus() == .restricted || CLLocationManager.authorizationStatus() == .denied || CLLocationManager.authorizationStatus() == .notDetermined{
+                locationMgr.requestWhenInUseAuthorization()
+            }
+            locationMgr.desiredAccuracy = 1.0
+            locationMgr.delegate = self
+            locationMgr.startUpdatingLocation()
+        }
+        else
+        {
+            print("please turn on location service")
+        }
+
         var annotation = MKPointAnnotation()
-        annotation.coordinate = location
+        annotation.coordinate = g_location
         annotation.title = "HKU CS Department"
         annotation.subtitle = "salkdjfjlksdfa"
         Map.addAnnotation(annotation)
@@ -41,7 +59,12 @@ class MapViewController: BaseViewController {
         
     }
     
-    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let span = MKCoordinateSpan(latitudeDelta: 0.2,longitudeDelta: 0.2)
+        let locationUser = CLLocationCoordinate2D(latitude: locations[0].coordinate.latitude, longitude: locations[0].coordinate.longitude)
+        let region = MKCoordinateRegion(center: locationUser, span: span)
+        self.Map.setRegion(region, animated: true)
+    }
     
     
     /*
