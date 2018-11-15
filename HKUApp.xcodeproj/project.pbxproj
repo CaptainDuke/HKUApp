@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4CF42DFB2191B74400F8F25A /* _CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42DFA2191B74400F8F25A /* _CollectionViewController.swift */; };
+		A54F6C79219D9DBE0028723A /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6C78219D9DBE0028723A /* myCell.swift */; };
 		A5F227F82192E7F800C5189F /* DirectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F72192E7F800C5189F /* DirectorViewController.swift */; };
 		A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F92192EFA600C5189F /* MapViewController.swift */; };
 		A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227FC2192F51600C5189F /* DesignableButton.swift */; };
 		A5F227FF21930DB800C5189F /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227FE21930DB800C5189F /* DesignableView.swift */; };
 		A5F228032193110A00C5189F /* ProfInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F228022193110A00C5189F /* ProfInfoVC.swift */; };
-		A5F2280521932AE400C5189F /* checkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F2280421932AE400C5189F /* checkCollectionViewCell.swift */; };
 		A5F7AC9E219170AC006DC855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AC9D219170AC006DC855 /* AppDelegate.swift */; };
 		A5F7ACA5219170AC006DC855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACA3219170AC006DC855 /* Main.storyboard */; };
 		A5F7ACA7219170AE006DC855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACA6219170AE006DC855 /* Assets.xcassets */; };
@@ -21,11 +21,11 @@
 		A5F7ACB5219170AE006DC855 /* HKUAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACB4219170AE006DC855 /* HKUAppTests.swift */; };
 		A5F7ACC0219170AE006DC855 /* HKUAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACBF219170AE006DC855 /* HKUAppUITests.swift */; };
 		A5F7ACF221919767006DC855 /* WangCL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACEC21919766006DC855 /* WangCL.jpg */; };
-		A5F7ACF321919767006DC855 /* Yiu S.M..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACED21919766006DC855 /* Yiu S.M..jpg */; };
+		A5F7ACF321919767006DC855 /* YiuSM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACED21919766006DC855 /* YiuSM.jpg */; };
 		A5F7ACF421919767006DC855 /* home_about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACEE21919766006DC855 /* home_about.jpg */; };
 		A5F7ACF521919767006DC855 /* faculty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACEF21919766006DC855 /* faculty.jpg */; };
 		A5F7ACF621919767006DC855 /* director.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACF021919766006DC855 /* director.jpg */; };
-		A5F7ACF721919767006DC855 /* Schnieders D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACF121919766006DC855 /* Schnieders D.jpg */; };
+		A5F7ACF721919767006DC855 /* SchD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5F7ACF121919766006DC855 /* SchD.jpg */; };
 		A5F7ACFD21927ECB006DC855 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACFC21927ECB006DC855 /* BaseViewController.swift */; };
 		A5F7ACFF21927F9B006DC855 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */; };
 		A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7AD0021928200006DC855 /* HomeViewController.swift */; };
@@ -57,12 +57,12 @@
 
 /* Begin PBXFileReference section */
 		4CF42DFA2191B74400F8F25A /* _CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _CollectionViewController.swift; sourceTree = "<group>"; };
+		A54F6C78219D9DBE0028723A /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		A5F227F72192E7F800C5189F /* DirectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorViewController.swift; sourceTree = "<group>"; };
 		A5F227F92192EFA600C5189F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A5F227FC2192F51600C5189F /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		A5F227FE21930DB800C5189F /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		A5F228022193110A00C5189F /* ProfInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfInfoVC.swift; sourceTree = "<group>"; };
-		A5F2280421932AE400C5189F /* checkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkCollectionViewCell.swift; sourceTree = "<group>"; };
 		A5F7AC9A219170AC006DC855 /* HKUApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKUApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F7AC9D219170AC006DC855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5F7ACA4219170AC006DC855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,11 +76,11 @@
 		A5F7ACBF219170AE006DC855 /* HKUAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKUAppUITests.swift; sourceTree = "<group>"; };
 		A5F7ACC1219170AE006DC855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5F7ACEC21919766006DC855 /* WangCL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WangCL.jpg; sourceTree = "<group>"; };
-		A5F7ACED21919766006DC855 /* Yiu S.M..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yiu S.M..jpg"; sourceTree = "<group>"; };
+		A5F7ACED21919766006DC855 /* YiuSM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YiuSM.jpg; sourceTree = "<group>"; };
 		A5F7ACEE21919766006DC855 /* home_about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_about.jpg; sourceTree = "<group>"; };
 		A5F7ACEF21919766006DC855 /* faculty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faculty.jpg; sourceTree = "<group>"; };
 		A5F7ACF021919766006DC855 /* director.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = director.jpg; sourceTree = "<group>"; };
-		A5F7ACF121919766006DC855 /* Schnieders D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Schnieders D.jpg"; sourceTree = "<group>"; };
+		A5F7ACF121919766006DC855 /* SchD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SchD.jpg; sourceTree = "<group>"; };
 		A5F7ACFC21927ECB006DC855 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = "AKSwiftSlideMenu-master/AKSwiftSlideMenu/BaseViewController.swift"; sourceTree = SOURCE_ROOT; };
 		A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		A5F7AD0021928200006DC855 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 				A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */,
 				A5F7AC9D219170AC006DC855 /* AppDelegate.swift */,
 				A5F7ACA3219170AC006DC855 /* Main.storyboard */,
-				A5F2280421932AE400C5189F /* checkCollectionViewCell.swift */,
+				A54F6C78219D9DBE0028723A /* myCell.swift */,
 				A5F228022193110A00C5189F /* ProfInfoVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A5F227F72192E7F800C5189F /* DirectorViewController.swift */,
@@ -198,11 +198,11 @@
 				A5F7AD122192E0A9006DC855 /* WhyHKU.jpg */,
 				A5F7AD0E2192C533006DC855 /* mfpd.JPG */,
 				A5F7AD0C2192C032006DC855 /* MScDarkLogo.png */,
-				A5F7ACED21919766006DC855 /* Yiu S.M..jpg */,
+				A5F7ACED21919766006DC855 /* YiuSM.jpg */,
 				A5F7ACEE21919766006DC855 /* home_about.jpg */,
 				A5F7ACEF21919766006DC855 /* faculty.jpg */,
 				A5F7ACF021919766006DC855 /* director.jpg */,
-				A5F7ACF121919766006DC855 /* Schnieders D.jpg */,
+				A5F7ACF121919766006DC855 /* SchD.jpg */,
 			);
 			path = pictures;
 			sourceTree = "<group>";
@@ -317,13 +317,13 @@
 				A5F7ACF221919767006DC855 /* WangCL.jpg in Resources */,
 				A5F7AD092192B4DB006DC855 /* Slider1.jpg in Resources */,
 				A5F7ACA7219170AE006DC855 /* Assets.xcassets in Resources */,
-				A5F7ACF321919767006DC855 /* Yiu S.M..jpg in Resources */,
+				A5F7ACF321919767006DC855 /* YiuSM.jpg in Resources */,
 				A5F7AD0F2192C533006DC855 /* mfpd.JPG in Resources */,
 				A5F7ACF421919767006DC855 /* home_about.jpg in Resources */,
 				A5F7ACA5219170AC006DC855 /* Main.storyboard in Resources */,
 				A5F7AD112192CB09006DC855 /* ChowKP-Square.jpg in Resources */,
 				A5F7ACF521919767006DC855 /* faculty.jpg in Resources */,
-				A5F7ACF721919767006DC855 /* Schnieders D.jpg in Resources */,
+				A5F7ACF721919767006DC855 /* SchD.jpg in Resources */,
 				A5F7ACF621919767006DC855 /* director.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,8 +354,8 @@
 				A5F7AC9E219170AC006DC855 /* AppDelegate.swift in Sources */,
 				A5F7AD07219299DE006DC855 /* aboutTabController.swift in Sources */,
 				A5F7ACFF21927F9B006DC855 /* MenuViewController.swift in Sources */,
+				A54F6C79219D9DBE0028723A /* myCell.swift in Sources */,
 				A5F228032193110A00C5189F /* ProfInfoVC.swift in Sources */,
-				A5F2280521932AE400C5189F /* checkCollectionViewCell.swift in Sources */,
 				A5F227FF21930DB800C5189F /* DesignableView.swift in Sources */,
 				A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */,
 				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,
