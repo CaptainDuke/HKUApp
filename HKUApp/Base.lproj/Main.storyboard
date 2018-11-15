@@ -169,6 +169,9 @@ HKU has ten faculties, a graduate school and a number of independent centres of 
                                                         <real key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="cyq-gV-AvQ" kind="show" id="iFa-Nh-saB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgY-Ux-b1i" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="104" width="79" height="36"/>
@@ -303,6 +306,9 @@ Programme Director</string>
                                                 <state key="normal" title="Faculty">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="KCl-hT-mMB" kind="show" id="vlZ-pu-eK4"/>
+                                                </connections>
                                             </button>
                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9c-qk-MyK" customClass="DesignableView" customModule="HKUApp" customModuleProvider="target">
                                                 <rect key="frame" x="161" y="446" width="151" height="157"/>
@@ -761,7 +767,7 @@ Programme Director</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U7u-aE-4Iv">
-                                <rect key="frame" x="0.0" y="64" width="320" height="736"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="780"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WIf-FO-6yy">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
@@ -784,27 +790,6 @@ Programme Director</string>
                                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="V91-Ru-J7h">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="246"/>
                                             </mapView>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Contact us:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mzw-Rh-6rS">
-                                                <rect key="frame" x="90" y="372" width="101" height="30"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8d-5t-5gq" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
-                                                <rect key="frame" x="99" y="419" width="123" height="30"/>
-                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="852-88888888">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="10"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="PhoneCall:" destination="cyq-gV-AvQ" eventType="touchUpInside" id="lGM-Xg-00f"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyU-Y7-UUb" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
                                                 <rect key="frame" x="96" y="457" width="129" height="30"/>
                                                 <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -818,6 +803,27 @@ Programme Director</string>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="SendMail:" destination="cyq-gV-AvQ" eventType="touchUpInside" id="QfN-mZ-Z4v"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Contact us:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mzw-Rh-6rS">
+                                                <rect key="frame" x="90" y="372" width="101" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8d-5t-5gq" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="90" y="419" width="141" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="(852) 3917 1828">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="PhoneCall:" destination="cyq-gV-AvQ" eventType="touchUpInside" id="lGM-Xg-00f"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -835,14 +841,14 @@ Programme Director</string>
                                             <constraint firstAttribute="bottom" secondItem="V91-Ru-J7h" secondAttribute="bottom" constant="554" id="QoS-D5-A3s"/>
                                             <constraint firstAttribute="bottom" secondItem="ZyU-Y7-UUb" secondAttribute="bottom" constant="313" id="TMZ-N8-dxr"/>
                                             <constraint firstAttribute="trailing" secondItem="ZyU-Y7-UUb" secondAttribute="trailing" constant="95" id="Yjd-SC-gXP"/>
-                                            <constraint firstItem="o8d-5t-5gq" firstAttribute="leading" secondItem="WIf-FO-6yy" secondAttribute="leading" constant="99" id="ahb-wR-MGt"/>
+                                            <constraint firstItem="o8d-5t-5gq" firstAttribute="leading" secondItem="WIf-FO-6yy" secondAttribute="leading" constant="90" id="ahb-wR-MGt"/>
                                             <constraint firstItem="V91-Ru-J7h" firstAttribute="top" secondItem="WIf-FO-6yy" secondAttribute="top" id="fPz-aL-dTB"/>
                                             <constraint firstItem="Mzw-Rh-6rS" firstAttribute="top" secondItem="P7g-ih-i7Q" secondAttribute="bottom" constant="28" id="gCr-nz-eHF"/>
                                             <constraint firstAttribute="bottom" secondItem="o8d-5t-5gq" secondAttribute="bottom" constant="351" id="jSc-ZT-gcz"/>
                                             <constraint firstItem="ZyU-Y7-UUb" firstAttribute="leading" secondItem="WIf-FO-6yy" secondAttribute="leading" constant="96" id="kjZ-Qj-5So"/>
                                             <constraint firstAttribute="bottom" secondItem="P7g-ih-i7Q" secondAttribute="bottom" constant="456" id="pmq-rF-TSd"/>
                                             <constraint firstItem="P7g-ih-i7Q" firstAttribute="leading" secondItem="WIf-FO-6yy" secondAttribute="leading" constant="90" id="sAG-45-y1O"/>
-                                            <constraint firstAttribute="trailing" secondItem="o8d-5t-5gq" secondAttribute="trailing" constant="98" id="uh3-b3-s2n"/>
+                                            <constraint firstAttribute="trailing" secondItem="o8d-5t-5gq" secondAttribute="trailing" constant="89" id="uh3-b3-s2n"/>
                                             <constraint firstAttribute="height" constant="800" id="wn3-Pb-zEw"/>
                                         </constraints>
                                     </view>
@@ -916,10 +922,10 @@ Programme Director</string>
             </objects>
             <point key="canvasLocation" x="1575" y="127"/>
         </scene>
-        <!--View Controller-->
+        <!--FacultyVC-->
         <scene sceneID="qAm-Fr-vsQ">
             <objects>
-                <viewController id="KCl-hT-mMB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FacultyVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KCl-hT-mMB" customClass="FacultyVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qfe-3f-jsI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1012,6 +1018,7 @@ Programme Director</string>
         <image name="mfpd.JPG" width="1600" height="800"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="iFa-Nh-saB"/>
         <segue reference="Rqb-ga-duR"/>
         <segue reference="mXr-AT-bCy"/>
     </inferredMetricsTieBreakers>

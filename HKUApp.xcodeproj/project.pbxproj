@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CF42DFB2191B74400F8F25A /* _CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF42DFA2191B74400F8F25A /* _CollectionViewController.swift */; };
 		A54F6C79219D9DBE0028723A /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6C78219D9DBE0028723A /* myCell.swift */; };
+		A54F6C7D219DB1DC0028723A /* FacultyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6C7C219DB1DC0028723A /* FacultyVC.swift */; };
 		A5F227F82192E7F800C5189F /* DirectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F72192E7F800C5189F /* DirectorViewController.swift */; };
 		A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F92192EFA600C5189F /* MapViewController.swift */; };
 		A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227FC2192F51600C5189F /* DesignableButton.swift */; };
@@ -56,8 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4CF42DFA2191B74400F8F25A /* _CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _CollectionViewController.swift; sourceTree = "<group>"; };
 		A54F6C78219D9DBE0028723A /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		A54F6C7C219DB1DC0028723A /* FacultyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyVC.swift; sourceTree = "<group>"; };
 		A5F227F72192E7F800C5189F /* DirectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorViewController.swift; sourceTree = "<group>"; };
 		A5F227F92192EFA600C5189F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A5F227FC2192F51600C5189F /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
@@ -156,13 +156,13 @@
 				A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */,
 				A5F7AC9D219170AC006DC855 /* AppDelegate.swift */,
 				A5F7ACA3219170AC006DC855 /* Main.storyboard */,
+				A54F6C7C219DB1DC0028723A /* FacultyVC.swift */,
 				A54F6C78219D9DBE0028723A /* myCell.swift */,
 				A5F228022193110A00C5189F /* ProfInfoVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A5F227F72192E7F800C5189F /* DirectorViewController.swift */,
 				A5F7AD022192946B006DC855 /* DetailViewController.swift */,
 				A5F7AD0021928200006DC855 /* HomeViewController.swift */,
-				4CF42DFA2191B74400F8F25A /* _CollectionViewController.swift */,
 				A5F7ACA6219170AE006DC855 /* Assets.xcassets */,
 				A5F7ACA8219170AE006DC855 /* LaunchScreen.storyboard */,
 				A5F7ACEB21919766006DC855 /* pictures */,
@@ -355,11 +355,11 @@
 				A5F7AD07219299DE006DC855 /* aboutTabController.swift in Sources */,
 				A5F7ACFF21927F9B006DC855 /* MenuViewController.swift in Sources */,
 				A54F6C79219D9DBE0028723A /* myCell.swift in Sources */,
+				A54F6C7D219DB1DC0028723A /* FacultyVC.swift in Sources */,
 				A5F228032193110A00C5189F /* ProfInfoVC.swift in Sources */,
 				A5F227FF21930DB800C5189F /* DesignableView.swift in Sources */,
 				A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */,
 				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,
-				4CF42DFB2191B74400F8F25A /* _CollectionViewController.swift in Sources */,
 				A5F7ACFD21927ECB006DC855 /* BaseViewController.swift in Sources */,
 				A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */,
 			);
