@@ -40,6 +40,8 @@
 		A54F6CB8219EA50A0028723A /* adminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CB7219EA50A0028723A /* adminVC.swift */; };
 		A54F6CBA219EAE650028723A /* Nav_lv2-Admission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6CB9219EAE640028723A /* Nav_lv2-Admission.jpg */; };
 		A54F6CBC219EB1930028723A /* tbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CBB219EB1930028723A /* tbCell.swift */; };
+		A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BECBA9219F058800DEC21C /* timeTable.png */; };
+		A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAB219F076100DEC21C /* adApplicationVC.swift */; };
 		A5D2131F219EE92C002000E4 /* Nav_lv2-Curriculum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D2131E219EE92B002000E4 /* Nav_lv2-Curriculum.jpg */; };
 		A5D21327219EEE28002000E4 /* compFee.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D21321219EEE26002000E4 /* compFee.png */; };
 		A5D21328219EEE28002000E4 /* wordsSG.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D21322219EEE26002000E4 /* wordsSG.png */; };
@@ -129,6 +131,8 @@
 		A54F6CB7219EA50A0028723A /* adminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminVC.swift; sourceTree = "<group>"; };
 		A54F6CB9219EAE640028723A /* Nav_lv2-Admission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-Admission.jpg"; sourceTree = "<group>"; };
 		A54F6CBB219EB1930028723A /* tbCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tbCell.swift; sourceTree = "<group>"; };
+		A5BECBA9219F058800DEC21C /* timeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeTable.png; sourceTree = "<group>"; };
+		A5BECBAB219F076100DEC21C /* adApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adApplicationVC.swift; sourceTree = "<group>"; };
 		A5D2131E219EE92B002000E4 /* Nav_lv2-Curriculum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-Curriculum.jpg"; sourceTree = "<group>"; };
 		A5D21321219EEE26002000E4 /* compFee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compFee.png; sourceTree = "<group>"; };
 		A5D21322219EEE26002000E4 /* wordsSG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordsSG.png; sourceTree = "<group>"; };
@@ -289,6 +293,7 @@
 				A54F6C7C219DB1DC0028723A /* FacultyVC.swift */,
 				A54F6CB7219EA50A0028723A /* adminVC.swift */,
 				A5D2132D219EF442002000E4 /* adminPopVC.swift */,
+				A5BECBAB219F076100DEC21C /* adApplicationVC.swift */,
 				A5D2132F219EF565002000E4 /* adRequire.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A54F6CBB219EB1930028723A /* tbCell.swift */,
@@ -326,6 +331,7 @@
 			children = (
 				A5D21320219EEE26002000E4 /* subTitleImage */,
 				A5F7AD082192B4DA006DC855 /* Slider1.jpg */,
+				A5BECBA9219F058800DEC21C /* timeTable.png */,
 				A5F7ACEC21919766006DC855 /* WangCL.jpg */,
 				A5F7AD102192CB09006DC855 /* ChowKP-Square.jpg */,
 				A5D2131E219EE92B002000E4 /* Nav_lv2-Curriculum.jpg */,
@@ -476,6 +482,7 @@
 				A5D2132A219EEE28002000E4 /* infoSess.png in Resources */,
 				A5F7AD0F2192C533006DC855 /* mfpd.JPG in Resources */,
 				A54F6CA8219DB5D90028723A /* Dr. Tam A.T.C..jpg in Resources */,
+				A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */,
 				A54F6CB4219DB5D90028723A /* Dr. Choi L.Y.K..jpg in Resources */,
 				A5F7ACF421919767006DC855 /* home_about.jpg in Resources */,
 				A54F6CAA219DB5D90028723A /* Dr. Ting H.F..jpg in Resources */,
@@ -531,6 +538,7 @@
 				A54F6C7D219DB1DC0028723A /* FacultyVC.swift in Sources */,
 				A5F228032193110A00C5189F /* ProfInfoVC.swift in Sources */,
 				A5F227FF21930DB800C5189F /* DesignableView.swift in Sources */,
+				A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */,
 				A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */,
 				A54F6CB8219EA50A0028723A /* adminVC.swift in Sources */,
 				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,

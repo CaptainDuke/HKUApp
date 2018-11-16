@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+var adminSender = ""
 class adminVC: BaseViewController {
 
     override func viewDidLoad() {

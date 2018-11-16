@@ -9,10 +9,19 @@
 import UIKit
 
 
-var Eligibility = ""
-var Regulations = ""
-var English = ""
-var adminSender = ""
+let Regulation = """
+Regulations:
+
+1. General Regulations of The University
+https://www4.hku.hk/pubunit/drcd/files/pgdr2017-18/genreg.pdf
+
+2. University's Regulations for Taught Postgraduate Curricula:
+https://www4.hku.hk/pubunit/drcd/files/pgdr2017-18/tpg-regulations.pdf
+
+3. Degree Regulations of MSc(CompSc) for students admitted to the curriculum in 2017-2018 and thereafter:
+http://www.msc-cs.hku.hk/Media/Default/RegulationSyllabus/Regulations_MSc_2017-18.pdf
+http://www.msc-cs.hku.hk/Media/Default/RegulationSyllabus/Syllabus_MSc(CompSc)_2018-19.pdf
+"""
 class adRequire: BaseViewController {
 
     override func viewDidLoad() {

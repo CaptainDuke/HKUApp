@@ -479,7 +479,7 @@ Programme Director</string>
                                     <subviews>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vc8-ih-FgK">
                                             <rect key="frame" x="0.0" y="0.0" width="240" height="182"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="0.53627996575342463" colorSpace="custom" customColorSpace="sRGB"/>
                                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1007,10 +1007,10 @@ Graduates</string>
                                     </connections>
                                 </button>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mfx-gF-F8U" customClass="DesignableView" customModule="HKUApp" customModuleProvider="target">
-                                    <rect key="frame" x="33" y="145" width="254" height="279"/>
+                                    <rect key="frame" x="13" y="79" width="299" height="345"/>
                                     <subviews>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHf-25-7Sp">
-                                            <rect key="frame" x="0.0" y="0.0" width="254" height="279"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="299" height="345"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                             <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
@@ -1032,10 +1032,10 @@ Graduates</string>
                                 </view>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="Mfx-gF-F8U" secondAttribute="trailing" constant="33" id="85o-vf-pfr"/>
-                                <constraint firstItem="Mfx-gF-F8U" firstAttribute="top" secondItem="4jh-uh-PKM" secondAttribute="top" constant="145" id="IYZ-pj-zrc"/>
+                                <constraint firstAttribute="trailing" secondItem="Mfx-gF-F8U" secondAttribute="trailing" constant="8" id="85o-vf-pfr"/>
+                                <constraint firstItem="Mfx-gF-F8U" firstAttribute="top" secondItem="4jh-uh-PKM" secondAttribute="top" constant="79" id="IYZ-pj-zrc"/>
                                 <constraint firstAttribute="bottom" secondItem="Mfx-gF-F8U" secondAttribute="bottom" constant="144" id="Q72-pK-EGY"/>
-                                <constraint firstItem="Mfx-gF-F8U" firstAttribute="leading" secondItem="4jh-uh-PKM" secondAttribute="leading" constant="33" id="vWt-3k-nnX"/>
+                                <constraint firstItem="Mfx-gF-F8U" firstAttribute="leading" secondItem="4jh-uh-PKM" secondAttribute="leading" constant="13" id="vWt-3k-nnX"/>
                             </constraints>
                         </view>
                         <blurEffect style="light"/>
@@ -1993,10 +1993,10 @@ Graduates</string>
             </objects>
             <point key="canvasLocation" x="2134" y="5775"/>
         </scene>
-        <!--View Controller-->
+        <!--Ad ApplicationVC-->
         <scene sceneID="WUs-L2-Rti">
             <objects>
-                <viewController id="bGf-RV-gBB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="adApplicationVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bGf-RV-gBB" customClass="adApplicationVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="89p-8s-X8y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2006,9 +2006,138 @@ Graduates</string>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDd-ac-4yg">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appProce.png" translatesAutoresizingMaskIntoConstraints="NO" id="SYQ-1w-age">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sH-9s-4c5">
+                                                <rect key="frame" x="31" y="82" width="52" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <segue destination="kdf-l3-MtU" kind="show" id="E8V-ma-GIa"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Application Procedures" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CeS-XM-LZk">
+                                                <rect key="frame" x="8" y="137" width="210" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Applicants can submit their application via the online application system by clicking the following button." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMF-e6-MDe">
+                                                <rect key="frame" x="0.0" y="171" width="320" height="89"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Zp-9S-Jsk">
+                                                <rect key="frame" x="70" y="268" width="180" height="30"/>
+                                                <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="15"/>
+                                                <state key="normal" title="ONLINE APPLICATION">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlS-4l-B3m">
+                                                <rect key="frame" x="0.0" y="313" width="320" height="167"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Required Documents
+
+The following supporting documents should be uploaded to the online application system before the application deadline or expiry of your application account (which is valid for four weeks only), whichever is earlier ...</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cma-je-L5a">
+                                                <rect key="frame" x="0.0" y="544" width="320" height="108"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Application Fee
+
+The application fee is HK$300 (non-refundable), paid by credit card online.</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Application Timetable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqh-FL-hQQ">
+                                                <rect key="frame" x="8" y="670" width="179" height="21"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timeTable.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Hh-5D-mfQ">
+                                                <rect key="frame" x="0.0" y="699" width="320" height="68"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNI-37-ul9">
+                                                <rect key="frame" x="0.0" y="767" width="320" height="233"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">To be considered for a round, you must submit a complete application, including all online / mail-in materials by the day of the deadline.
+
+The results for admission in September are normally available by July of the same year. Hence, applicants who do not hear from the Faculty of Engineering by July 31, 2019 may assume the application to be unsuccessful.</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9X-Gz-G8s" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="118" y="488" width="85" height="27"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="More...">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="applicationBtn:" destination="bGf-RV-gBB" eventType="touchUpInside" id="x65-Is-nVU"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="qhh-SU-8z4"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="Gqh-FL-hQQ" firstAttribute="top" secondItem="cma-je-L5a" secondAttribute="bottom" constant="18" id="1lF-we-eXb"/>
+                                            <constraint firstAttribute="bottom" secondItem="0Hh-5D-mfQ" secondAttribute="bottom" constant="233" id="2Zt-Y4-XOG"/>
+                                            <constraint firstItem="1Zp-9S-Jsk" firstAttribute="top" secondItem="sMF-e6-MDe" secondAttribute="bottom" constant="8" id="2oJ-ok-gE7"/>
+                                            <constraint firstItem="sMF-e6-MDe" firstAttribute="top" secondItem="CeS-XM-LZk" secondAttribute="bottom" constant="15" id="3IP-U7-DWP"/>
+                                            <constraint firstAttribute="bottom" secondItem="dNI-37-ul9" secondAttribute="bottom" id="4PL-iQ-2aW"/>
+                                            <constraint firstItem="SYQ-1w-age" firstAttribute="top" secondItem="gDd-ac-4yg" secondAttribute="top" id="7c8-dV-l9F"/>
+                                            <constraint firstAttribute="trailing" secondItem="sMF-e6-MDe" secondAttribute="trailing" id="8pI-1B-hrG"/>
+                                            <constraint firstAttribute="trailing" secondItem="1Zp-9S-Jsk" secondAttribute="trailing" constant="70" id="9PY-Vt-jAy"/>
+                                            <constraint firstAttribute="bottom" secondItem="Gqh-FL-hQQ" secondAttribute="bottom" constant="309" id="BaJ-Na-YG7"/>
+                                            <constraint firstAttribute="bottom" secondItem="1Zp-9S-Jsk" secondAttribute="bottom" constant="702" id="EuC-T9-oyr"/>
+                                            <constraint firstAttribute="trailing" secondItem="e9X-Gz-G8s" secondAttribute="trailing" constant="117" id="H89-pg-uxX"/>
+                                            <constraint firstItem="CeS-XM-LZk" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" constant="8" id="MHv-Gz-sSF"/>
+                                            <constraint firstItem="dNI-37-ul9" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" id="MLX-t8-U3y"/>
+                                            <constraint firstAttribute="bottom" secondItem="SYQ-1w-age" secondAttribute="bottom" constant="891" id="MRQ-jy-3QB"/>
+                                            <constraint firstAttribute="trailing" secondItem="0Hh-5D-mfQ" secondAttribute="trailing" id="MaP-FA-dwF"/>
+                                            <constraint firstItem="Gqh-FL-hQQ" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" constant="8" id="Mhf-Og-THt"/>
+                                            <constraint firstAttribute="bottom" secondItem="cma-je-L5a" secondAttribute="bottom" constant="348" id="OGf-lY-ESh"/>
+                                            <constraint firstItem="cma-je-L5a" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" id="OpW-Mh-XIg"/>
+                                            <constraint firstItem="e9X-Gz-G8s" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" constant="118" id="SDe-9I-FIH"/>
+                                            <constraint firstItem="hlS-4l-B3m" firstAttribute="top" secondItem="1Zp-9S-Jsk" secondAttribute="bottom" constant="15" id="TOo-cm-ydj"/>
                                             <constraint firstAttribute="height" constant="1000" id="To6-wC-f0n"/>
+                                            <constraint firstItem="0Hh-5D-mfQ" firstAttribute="top" secondItem="Gqh-FL-hQQ" secondAttribute="bottom" constant="8" id="V1E-DV-kmW"/>
+                                            <constraint firstAttribute="trailing" secondItem="cma-je-L5a" secondAttribute="trailing" id="V7H-ts-dvO"/>
+                                            <constraint firstItem="SYQ-1w-age" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" id="VDm-qA-cl6"/>
+                                            <constraint firstAttribute="trailing" secondItem="dNI-37-ul9" secondAttribute="trailing" id="Ve4-lC-2cJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="SYQ-1w-age" secondAttribute="trailing" id="WQM-Mc-aFc"/>
+                                            <constraint firstItem="cma-je-L5a" firstAttribute="top" secondItem="e9X-Gz-G8s" secondAttribute="bottom" constant="29" id="X7a-6K-snk"/>
+                                            <constraint firstAttribute="trailing" secondItem="hlS-4l-B3m" secondAttribute="trailing" id="aOb-tb-D2c"/>
+                                            <constraint firstAttribute="bottom" secondItem="sMF-e6-MDe" secondAttribute="bottom" constant="740" id="c5i-lc-7EJ"/>
+                                            <constraint firstItem="e9X-Gz-G8s" firstAttribute="top" secondItem="hlS-4l-B3m" secondAttribute="bottom" constant="8" id="f37-ya-QKf"/>
+                                            <constraint firstAttribute="bottom" secondItem="hlS-4l-B3m" secondAttribute="bottom" constant="520" id="gq1-UF-crj"/>
+                                            <constraint firstItem="hlS-4l-B3m" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" id="nGE-yX-ZXl"/>
+                                            <constraint firstItem="sMF-e6-MDe" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" id="nPu-iv-5F0"/>
+                                            <constraint firstItem="dNI-37-ul9" firstAttribute="top" secondItem="0Hh-5D-mfQ" secondAttribute="bottom" id="oYm-xx-lan"/>
+                                            <constraint firstAttribute="bottom" secondItem="CeS-XM-LZk" secondAttribute="bottom" constant="844" id="q8z-yB-J3t"/>
+                                            <constraint firstItem="CeS-XM-LZk" firstAttribute="top" secondItem="SYQ-1w-age" secondAttribute="bottom" constant="28" id="tg9-Pg-Mtx"/>
+                                            <constraint firstItem="1Zp-9S-Jsk" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" constant="70" id="uNJ-2f-PAA"/>
+                                            <constraint firstAttribute="bottom" secondItem="e9X-Gz-G8s" secondAttribute="bottom" constant="485" id="vYt-NR-7mv"/>
+                                            <constraint firstItem="0Hh-5D-mfQ" firstAttribute="leading" secondItem="gDd-ac-4yg" secondAttribute="leading" id="xQe-NH-ViM"/>
+                                            <constraint firstAttribute="trailing" secondItem="CeS-XM-LZk" secondAttribute="trailing" constant="102" id="zpY-3I-juB"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gqh-FL-hQQ" secondAttribute="trailing" constant="133" id="zqX-zg-rav"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -2034,7 +2163,7 @@ Graduates</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PhE-xg-yYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2829" y="264"/>
+            <point key="canvasLocation" x="2827.5" y="266.19718309859155"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wMT-X3-k8z">
@@ -2517,15 +2646,17 @@ Graduates</string>
         <image name="Slider1.jpg" width="1980" height="800"/>
         <image name="WhyHKU.jpg" width="1920" height="1080"/>
         <image name="adRequire.png" width="1546" height="482"/>
+        <image name="appProce.png" width="1590" height="518"/>
         <image name="director.jpg" width="2086" height="508"/>
         <image name="faculty.jpg" width="1392" height="472"/>
         <image name="home_about.jpg" width="1118" height="454"/>
         <image name="mfpd.JPG" width="1600" height="800"/>
+        <image name="timeTable.png" width="1492" height="296"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="T4h-f5-8JC"/>
-        <segue reference="gvy-AE-tGQ"/>
-        <segue reference="VA5-Kt-zXX"/>
+        <segue reference="qhh-SU-8z4"/>
+        <segue reference="E8V-ma-GIa"/>
         <segue reference="VUa-8E-tF1"/>
         <segue reference="8Ux-ZS-l5L"/>
         <segue reference="0sH-B8-uNF"/>

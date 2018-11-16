@@ -11,6 +11,7 @@ import UIKit
 class adminPopVC: UIViewController {
 
     @IBOutlet weak var showTextView: UITextView!
+    
     @IBAction func dismissPop(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
@@ -22,7 +23,10 @@ class adminPopVC: UIViewController {
     }
     
     func btnPressed() {
-        showTextView.text = adminSender
+        if 1 == 1{
+            showTextView.text = adminSender
+            adminSender = Regulation
+        }
     }
 
   
