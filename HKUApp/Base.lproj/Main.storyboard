@@ -333,15 +333,6 @@ Programme Director</string>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q51-pg-UoG">
-                                                <rect key="frame" x="19" y="585" width="107" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <connections>
-                                                    <action selector="clWang:" destination="6ay-nh-IJP" eventType="touchUpInside" id="USJ-Vc-kej"/>
-                                                    <segue destination="DLU-sM-cfs" kind="presentation" identifier="DirectorDetilSegue" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="ZI0-SK-inD"/>
-                                                </connections>
-                                            </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Xmv-rE-23x">
                                                 <rect key="frame" x="0.0" y="725" width="320" height="309"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -942,49 +933,92 @@ Programme Director</string>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faculty.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nsz-Q3-r7x">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sep-ef-CKv">
-                                                <rect key="frame" x="0.0" y="128" width="320" height="204"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">The Department of Computer Science is committed to high-quality education and training of computing professionals at both the undergraduate and postgraduate levels. At the postgraduate level, we offer two taught programmes based on coursework, the MSc(CompSc) and the MSc(ECom&amp;IComp), as well as the research-based MPhil and PhD programmes.
-
-The academic staff is active in research and development in a variety of areas including databases, parallel and distributed computing, computer networks, computer graphics, algorithms and complexity, computer vision, multimedia, software engineering, statistical computing, information security and computer forensics, and legal aspects of computing. Some of our research results have been applied to the development of real software and systems. You will have these researchers as your inspiring teachers of the courses in this programme. Here are some of them.</mutableString>
-                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hhn-lT-J7s">
-                                                <rect key="frame" x="8" y="340" width="304" height="652"/>
+                                                <rect key="frame" x="0.0" y="128" width="320" height="490"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VrZ-Rg-7SV">
-                                                    <size key="itemSize" width="100" height="86"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dja-LK-x8d">
+                                                    <size key="itemSize" width="112" height="155"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3Qb-pF-v7S">
-                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="86"/>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="teacher" id="3Qb-pF-v7S" customClass="facultyCell" customModule="HKUApp" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="112" height="155"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                            <rect key="frame" x="0.0" y="0.0" width="100" height="86"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="112" height="155"/>
                                                             <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nww-jC-SRF">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="112" height="115"/>
+                                                                </imageView>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFb-Gn-q7n">
+                                                                    <rect key="frame" x="0.0" y="115" width="112" height="40"/>
+                                                                    <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                                </textView>
+                                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ce2-gl-c08">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="112" height="155"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                    <state key="normal" title="Button"/>
+                                                                    <connections>
+                                                                        <action selector="facultyDetail:" destination="3Qb-pF-v7S" eventType="touchUpInside" id="sRG-IS-akm"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstItem="tFb-Gn-q7n" firstAttribute="leading" secondItem="3Qb-pF-v7S" secondAttribute="leading" id="9Jl-zf-QWa"/>
+                                                            <constraint firstItem="tFb-Gn-q7n" firstAttribute="leading" secondItem="3Qb-pF-v7S" secondAttribute="leading" id="BSu-Vr-0Tk"/>
+                                                            <constraint firstAttribute="trailing" secondItem="tFb-Gn-q7n" secondAttribute="trailing" id="Qar-JX-DVh"/>
+                                                            <constraint firstItem="Nww-jC-SRF" firstAttribute="top" secondItem="3Qb-pF-v7S" secondAttribute="top" id="Ruy-lb-tJz"/>
+                                                            <constraint firstItem="Nww-jC-SRF" firstAttribute="leading" secondItem="3Qb-pF-v7S" secondAttribute="leading" id="VDF-sg-bXD"/>
+                                                            <constraint firstAttribute="bottom" secondItem="tFb-Gn-q7n" secondAttribute="bottom" id="fXN-S7-XC0"/>
+                                                            <constraint firstAttribute="trailing" secondItem="tFb-Gn-q7n" secondAttribute="trailing" id="n8c-Sd-5ie"/>
+                                                            <constraint firstItem="tFb-Gn-q7n" firstAttribute="top" secondItem="Nww-jC-SRF" secondAttribute="bottom" id="pLZ-Ka-cwB"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Nww-jC-SRF" secondAttribute="bottom" constant="40" id="r0G-bl-05G"/>
+                                                            <constraint firstAttribute="bottom" secondItem="tFb-Gn-q7n" secondAttribute="bottom" id="tbx-IT-dJr"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Nww-jC-SRF" secondAttribute="trailing" id="vlx-VP-q3B"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="facultyEmail" destination="tFb-Gn-q7n" id="7yz-Jj-w9B"/>
+                                                            <outlet property="facultyPhoto" destination="Nww-jC-SRF" id="1qT-nN-NLL"/>
+                                                        </connections>
                                                     </collectionViewCell>
                                                 </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="KCl-hT-mMB" id="D3u-oq-QD3"/>
+                                                    <outlet property="delegate" destination="KCl-hT-mMB" id="43z-37-VaF"/>
+                                                </connections>
                                             </collectionView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sep-ef-CKv">
+                                                <rect key="frame" x="0.0" y="626" width="320" height="366"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">The Department of Computer Science is committed to high-quality education and training of computing professionals at both the undergraduate and postgraduate levels. At the postgraduate level, we offer two taught programmes based on coursework, the MSc(CompSc) and the MSc(ECom&amp;IComp), as well as the research-based MPhil and PhD programmes.
+
+The academic staff is active in research and development in a variety of areas including databases, parallel and distributed computing, computer networks, computer graphics, algorithms and complexity, computer vision, multimedia, software engineering, statistical computing, information security and computer forensics, and legal aspects of computing. Some of our research results have been applied to the development of real software and systems. You will have these researchers as your inspiring teachers of the courses in this programme. </mutableString>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="sep-ef-CKv" secondAttribute="trailing" id="4Ok-4d-9ph"/>
-                                            <constraint firstItem="sep-ef-CKv" firstAttribute="top" secondItem="nsz-Q3-r7x" secondAttribute="bottom" constant="8" id="ABA-60-7Tp"/>
-                                            <constraint firstItem="hhn-lT-J7s" firstAttribute="top" secondItem="sep-ef-CKv" secondAttribute="bottom" constant="8" id="Dkz-mT-ncf"/>
-                                            <constraint firstAttribute="bottom" secondItem="sep-ef-CKv" secondAttribute="bottom" constant="668" id="GCj-uy-RkS"/>
+                                            <constraint firstItem="hhn-lT-J7s" firstAttribute="top" secondItem="nsz-Q3-r7x" secondAttribute="bottom" constant="8" id="8QT-wy-3wK"/>
+                                            <constraint firstAttribute="trailing" secondItem="sep-ef-CKv" secondAttribute="trailing" id="Bmz-a9-gey"/>
                                             <constraint firstItem="nsz-Q3-r7x" firstAttribute="leading" secondItem="j2t-74-7oe" secondAttribute="leading" id="SRX-XJ-fCM"/>
-                                            <constraint firstAttribute="bottom" secondItem="hhn-lT-J7s" secondAttribute="bottom" constant="8" id="XC8-Cc-wBT"/>
-                                            <constraint firstAttribute="trailing" secondItem="hhn-lT-J7s" secondAttribute="trailing" constant="8" id="aWF-Ye-0si"/>
+                                            <constraint firstItem="sep-ef-CKv" firstAttribute="leading" secondItem="j2t-74-7oe" secondAttribute="leading" id="WI9-LD-XNk"/>
+                                            <constraint firstAttribute="trailing" secondItem="hhn-lT-J7s" secondAttribute="trailing" id="aWF-Ye-0si"/>
                                             <constraint firstItem="nsz-Q3-r7x" firstAttribute="top" secondItem="j2t-74-7oe" secondAttribute="top" id="cCF-Ek-5KU"/>
+                                            <constraint firstAttribute="bottom" secondItem="sep-ef-CKv" secondAttribute="bottom" constant="8" id="cIc-iK-8IC"/>
                                             <constraint firstAttribute="trailing" secondItem="nsz-Q3-r7x" secondAttribute="trailing" id="eJV-KR-Q5r"/>
-                                            <constraint firstItem="hhn-lT-J7s" firstAttribute="leading" secondItem="j2t-74-7oe" secondAttribute="leading" constant="8" id="eS4-rW-j34"/>
+                                            <constraint firstItem="hhn-lT-J7s" firstAttribute="leading" secondItem="j2t-74-7oe" secondAttribute="leading" id="eS4-rW-j34"/>
                                             <constraint firstItem="sep-ef-CKv" firstAttribute="leading" secondItem="j2t-74-7oe" secondAttribute="leading" id="m2m-as-8Qg"/>
+                                            <constraint firstItem="sep-ef-CKv" firstAttribute="top" secondItem="hhn-lT-J7s" secondAttribute="bottom" constant="8" id="n66-ZL-oRn"/>
+                                            <constraint firstAttribute="bottom" secondItem="hhn-lT-J7s" secondAttribute="bottom" constant="382" id="pji-ul-q3x"/>
                                             <constraint firstAttribute="height" constant="1000" id="r6T-Ug-V57"/>
                                             <constraint firstAttribute="bottom" secondItem="nsz-Q3-r7x" secondAttribute="bottom" constant="880" id="x9R-cn-bHD"/>
                                         </constraints>
@@ -994,7 +1028,7 @@ The academic staff is active in research and development in a variety of areas i
                                     <constraint firstAttribute="trailing" secondItem="j2t-74-7oe" secondAttribute="trailing" id="X75-Qw-8dE"/>
                                     <constraint firstItem="j2t-74-7oe" firstAttribute="leading" secondItem="C6t-LN-j6g" secondAttribute="leading" id="a8U-5t-c2l"/>
                                     <constraint firstItem="j2t-74-7oe" firstAttribute="top" secondItem="C6t-LN-j6g" secondAttribute="top" id="hty-uY-82z"/>
-                                    <constraint firstAttribute="bottom" secondItem="j2t-74-7oe" secondAttribute="bottom" id="m2e-xZ-Plp"/>
+                                    <constraint firstAttribute="bottom" secondItem="j2t-74-7oe" secondAttribute="bottom" constant="36" id="m2e-xZ-Plp"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -1010,6 +1044,9 @@ The academic staff is active in research and development in a variety of areas i
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
                     <size key="freeformSize" width="320" height="1100"/>
+                    <connections>
+                        <outlet property="teacherView" destination="hhn-lT-J7s" id="ZV9-lx-nst"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbD-Qd-qui" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

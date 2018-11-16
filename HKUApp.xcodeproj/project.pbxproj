@@ -36,6 +36,7 @@
 		A54F6CB2219DB5D90028723A /* Prof. Lau F.C.M..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C98219DB5D80028723A /* Prof. Lau F.C.M..jpg */; };
 		A54F6CB3219DB5D90028723A /* Mr. Mitcheson, G..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C99219DB5D80028723A /* Mr. Mitcheson, G..jpg */; };
 		A54F6CB4219DB5D90028723A /* Dr. Choi L.Y.K..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C9A219DB5D80028723A /* Dr. Choi L.Y.K..jpg */; };
+		A54F6CB6219E84D10028723A /* facultyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CB5219E84D10028723A /* facultyCell.swift */; };
 		A5F227F82192E7F800C5189F /* DirectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F72192E7F800C5189F /* DirectorViewController.swift */; };
 		A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F92192EFA600C5189F /* MapViewController.swift */; };
 		A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227FC2192F51600C5189F /* DesignableButton.swift */; };
@@ -112,6 +113,7 @@
 		A54F6C98219DB5D80028723A /* Prof. Lau F.C.M..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prof. Lau F.C.M..jpg"; sourceTree = "<group>"; };
 		A54F6C99219DB5D80028723A /* Mr. Mitcheson, G..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mr. Mitcheson, G..jpg"; sourceTree = "<group>"; };
 		A54F6C9A219DB5D80028723A /* Dr. Choi L.Y.K..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Choi L.Y.K..jpg"; sourceTree = "<group>"; };
+		A54F6CB5219E84D10028723A /* facultyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facultyCell.swift; sourceTree = "<group>"; };
 		A5F227F72192E7F800C5189F /* DirectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorViewController.swift; sourceTree = "<group>"; };
 		A5F227F92192EFA600C5189F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A5F227FC2192F51600C5189F /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				A5F7ACA3219170AC006DC855 /* Main.storyboard */,
 				A54F6C7C219DB1DC0028723A /* FacultyVC.swift */,
 				A54F6C78219D9DBE0028723A /* myCell.swift */,
+				A54F6CB5219E84D10028723A /* facultyCell.swift */,
 				A5F228022193110A00C5189F /* ProfInfoVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A5F227F72192E7F800C5189F /* DirectorViewController.swift */,
@@ -471,6 +474,7 @@
 				A5F7AD07219299DE006DC855 /* aboutTabController.swift in Sources */,
 				A5F7ACFF21927F9B006DC855 /* MenuViewController.swift in Sources */,
 				A54F6C79219D9DBE0028723A /* myCell.swift in Sources */,
+				A54F6CB6219E84D10028723A /* facultyCell.swift in Sources */,
 				A54F6C7D219DB1DC0028723A /* FacultyVC.swift in Sources */,
 				A5F228032193110A00C5189F /* ProfInfoVC.swift in Sources */,
 				A5F227FF21930DB800C5189F /* DesignableView.swift in Sources */,
