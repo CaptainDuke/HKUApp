@@ -79,6 +79,13 @@ class MenuViewController: UIViewController {
         
     }
     
+    @IBAction func btnAdminTapped(_ sender: Any) {
+        let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "adminVC")as! adminVC
+        
+        self.navigationController?.pushViewController(DVC, animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 

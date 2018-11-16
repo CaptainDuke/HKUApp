@@ -37,6 +37,9 @@
 		A54F6CB3219DB5D90028723A /* Mr. Mitcheson, G..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C99219DB5D80028723A /* Mr. Mitcheson, G..jpg */; };
 		A54F6CB4219DB5D90028723A /* Dr. Choi L.Y.K..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C9A219DB5D80028723A /* Dr. Choi L.Y.K..jpg */; };
 		A54F6CB6219E84D10028723A /* facultyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CB5219E84D10028723A /* facultyCell.swift */; };
+		A54F6CB8219EA50A0028723A /* adminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CB7219EA50A0028723A /* adminVC.swift */; };
+		A54F6CBA219EAE650028723A /* Nav_lv2-Admission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6CB9219EAE640028723A /* Nav_lv2-Admission.jpg */; };
+		A54F6CBC219EB1930028723A /* tbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CBB219EB1930028723A /* tbCell.swift */; };
 		A5F227F82192E7F800C5189F /* DirectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F72192E7F800C5189F /* DirectorViewController.swift */; };
 		A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F92192EFA600C5189F /* MapViewController.swift */; };
 		A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227FC2192F51600C5189F /* DesignableButton.swift */; };
@@ -114,6 +117,9 @@
 		A54F6C99219DB5D80028723A /* Mr. Mitcheson, G..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mr. Mitcheson, G..jpg"; sourceTree = "<group>"; };
 		A54F6C9A219DB5D80028723A /* Dr. Choi L.Y.K..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Choi L.Y.K..jpg"; sourceTree = "<group>"; };
 		A54F6CB5219E84D10028723A /* facultyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facultyCell.swift; sourceTree = "<group>"; };
+		A54F6CB7219EA50A0028723A /* adminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminVC.swift; sourceTree = "<group>"; };
+		A54F6CB9219EAE640028723A /* Nav_lv2-Admission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-Admission.jpg"; sourceTree = "<group>"; };
+		A54F6CBB219EB1930028723A /* tbCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tbCell.swift; sourceTree = "<group>"; };
 		A5F227F72192E7F800C5189F /* DirectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorViewController.swift; sourceTree = "<group>"; };
 		A5F227F92192EFA600C5189F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A5F227FC2192F51600C5189F /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
@@ -245,9 +251,11 @@
 				A5F7ACFE21927F9B006DC855 /* MenuViewController.swift */,
 				A5F7AC9D219170AC006DC855 /* AppDelegate.swift */,
 				A5F7ACA3219170AC006DC855 /* Main.storyboard */,
+				A54F6CBB219EB1930028723A /* tbCell.swift */,
+				A54F6CB7219EA50A0028723A /* adminVC.swift */,
 				A54F6C7C219DB1DC0028723A /* FacultyVC.swift */,
-				A54F6C78219D9DBE0028723A /* myCell.swift */,
 				A54F6CB5219E84D10028723A /* facultyCell.swift */,
+				A54F6C78219D9DBE0028723A /* myCell.swift */,
 				A5F228022193110A00C5189F /* ProfInfoVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A5F227F72192E7F800C5189F /* DirectorViewController.swift */,
@@ -288,6 +296,7 @@
 				A5F7AD102192CB09006DC855 /* ChowKP-Square.jpg */,
 				A5F7AD122192E0A9006DC855 /* WhyHKU.jpg */,
 				A5F7AD0E2192C533006DC855 /* mfpd.JPG */,
+				A54F6CB9219EAE640028723A /* Nav_lv2-Admission.jpg */,
 				A5F7AD0C2192C032006DC855 /* MScDarkLogo.png */,
 				A54F6C7E219DB3F20028723A /* facultyTitle.png */,
 				A5F7ACED21919766006DC855 /* YiuSM.jpg */,
@@ -405,6 +414,7 @@
 			files = (
 				A54F6CAB219DB5D90028723A /* Dr. Yiu S.W..jpg in Resources */,
 				A54F6C9E219DB5D90028723A /* Dr. Schnieders D..jpg in Resources */,
+				A54F6CBA219EAE650028723A /* Nav_lv2-Admission.jpg in Resources */,
 				A54F6CAF219DB5D90028723A /* Dr. Chan H.T.H..jpg in Resources */,
 				A54F6CAC219DB5D90028723A /* Prof. Kao B.C.M..jpg in Resources */,
 				A5F7AD0D2192C032006DC855 /* MScDarkLogo.png in Resources */,
@@ -479,7 +489,9 @@
 				A5F228032193110A00C5189F /* ProfInfoVC.swift in Sources */,
 				A5F227FF21930DB800C5189F /* DesignableView.swift in Sources */,
 				A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */,
+				A54F6CB8219EA50A0028723A /* adminVC.swift in Sources */,
 				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,
+				A54F6CBC219EB1930028723A /* tbCell.swift in Sources */,
 				A5F7ACFD21927ECB006DC855 /* BaseViewController.swift in Sources */,
 				A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */,
 			);

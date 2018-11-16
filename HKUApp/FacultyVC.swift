@@ -9,9 +9,55 @@
 import UIKit
 
 
-let facultyList = ["Dr. Chim T.W.","Prof. Lam T.W.","Dr. Wong K.K.Y.","Dr. Schnieders D.","Dr. Pun K.K.H.","Dr. Lau V.M.K.","Dr. Chung H.Y.","Prof. Cheung D.W.L.","Prof. Wang W.","Mr. Ng P.T.L.","Prof. Tse T.H.","Dr. Chow K.P.","Dr. Yiu S.M.","Dr. Tam A.T.C.","Prof. White B.","Dr. Ting H.F.","Dr. Yiu S.W.","Prof. Kao B.C.M.","Dr. Cheng R.C.K.","Dr. Wu C.","Dr. Chan H.T.H.","Dr. Rahmel J.H.","Dr. Chan K.P.","Prof. Lau F.C.M.","Mr. Mitcheson, G.","Dr. Choi L.Y.K."]
+let facultyList = ["Dr. Chim T.W.","Prof. Lam T.W.","Dr. Wong K.K.Y.","Dr. Schnieders D.","Dr. Pun K.K.H.","Dr. Lau V.M.K.","Dr. Chung H.Y.","Prof. Cheung D.W.L.","Prof. Wang W.","Mr. Ng P.T.L.","Prof. Tse T.H.","Dr. Chow K.P.","Dr. Yiu S.M.","Dr. Tam A.T.C.","Prof. White B.","Dr. Ting H.F.","Dr. Yiu S.W.","Prof. Kao B.C.M.","Dr. Cheng R.C.K.","Dr. Wu C.","Dr. Chan H.T.H.","Dr. Rahmel J.H.","Dr. Chan K.P.","Prof. Lau F.C.M.","Mr. Mitcheson, G."]
 
 let emailList = ["hubert@cs.hku.hk","kpchan@cs.hku.hk"]
+let ctw = """
+Dr. Chim T.W.
+
+PhD (HK)
+Field of Research
+Network Security and Cryptography
+twchim@cs.hku.hk
+"""
+
+let ltw = """
+Prof. Lam T.W.
+
+PhD (Washington)
+Field of Research
+Algorithms, Computational Biology
+twlam@cs.hku.hk
+"""
+
+let wkk = """
+Dr. Wong K.K.Y.
+
+PhD (Cambridge)
+Field of Research
+Camera Calibration, Motion Tracking
+kykwong@cs.hku.hk
+"""
+
+let sd = """
+Dr. Schnieders D.
+
+PhD (HK)
+Field of Research
+Computer Vision, Image Processing, Pattern Recognition
+sdirk@cs.hku.hk
+"""
+
+let pkh = """
+Dr. Pun K.K.H.
+
+PhD (Illinois); LLB, LLM (London)
+Field of Research
+Information Technology Law, e-Commerce, e-Crimes, Computerization of Law
+pun@cs.hku.hk
+"""
+
+let facultyDetails = [ctw,ltw,wkk,sd,pkh,ctw,ltw,wkk,sd,pkh,ctw,ltw,wkk,sd,pkh,ctw,ltw,wkk,sd,pkh,ctw,ltw,wkk,sd,pkh]
 
 class FacultyVC: BaseViewController {
 
@@ -58,5 +104,16 @@ extension FacultyVC:UICollectionViewDelegate,UICollectionViewDataSource{
         cell?.facultyPhoto.image = UIImage(named: facultyList[indexPath.row]+".jpg")
         cell?.facultyEmail.text = facultyList[indexPath.row]
         return cell!
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let desVC = mainStoryboard.instantiateViewController(withIdentifier: "ProfInfoVC") as! ProfInfoVC
+        desVC.text = facultyDetails[indexPath.row]
+        
+        //self.navigationController?.pushViewController(desVC, animated: true)
+
+        self.present(desVC, animated: true, completion: nil)
     }
 }

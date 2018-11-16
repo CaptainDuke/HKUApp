@@ -43,10 +43,7 @@ class DirectorViewController: BaseViewController {
     
     @IBOutlet weak var subTeacherView: UICollectionView!
     
-    @IBAction func clWang(_ sender: UIButton) {
-        numDirector = 1
-        self.performSegue(withIdentifier: "DirectorDetilSegue", sender: self)
-    }
+
     
     /*
     // MARK: - Navigation

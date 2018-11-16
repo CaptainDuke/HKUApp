@@ -10,15 +10,18 @@ import UIKit
 
 class ProfInfoVC: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        test.text = mainProf[numDirector]
-        // Do any additional setup after loading the view.
-    }
- 
-    @IBOutlet weak var test: UITextField!
-    
-    @IBAction func dismissPopup(_ sender: UIButton) {
+    @IBAction func dissmissPopup(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBOutlet weak var facultyDetail: UITextView!
+    var text = ""
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        
+        facultyDetail.text! = text
+        // Do any additional setup after loading the view.
+    }
+
 }
