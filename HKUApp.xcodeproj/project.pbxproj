@@ -9,6 +9,33 @@
 /* Begin PBXBuildFile section */
 		A54F6C79219D9DBE0028723A /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6C78219D9DBE0028723A /* myCell.swift */; };
 		A54F6C7D219DB1DC0028723A /* FacultyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6C7C219DB1DC0028723A /* FacultyVC.swift */; };
+		A54F6C7F219DB3F30028723A /* facultyTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C7E219DB3F20028723A /* facultyTitle.png */; };
+		A54F6C9B219DB5D90028723A /* Dr. Chim T.W..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C81219DB5D80028723A /* Dr. Chim T.W..jpg */; };
+		A54F6C9C219DB5D90028723A /* Prof. Lam T.W..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C82219DB5D80028723A /* Prof. Lam T.W..jpg */; };
+		A54F6C9D219DB5D90028723A /* Dr. Wong K.K.Y..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C83219DB5D80028723A /* Dr. Wong K.K.Y..jpg */; };
+		A54F6C9E219DB5D90028723A /* Dr. Schnieders D..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C84219DB5D80028723A /* Dr. Schnieders D..jpg */; };
+		A54F6C9F219DB5D90028723A /* Dr. Pun K.K.H..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C85219DB5D80028723A /* Dr. Pun K.K.H..jpg */; };
+		A54F6CA0219DB5D90028723A /* Dr. Lau V.M.K..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C86219DB5D80028723A /* Dr. Lau V.M.K..jpg */; };
+		A54F6CA1219DB5D90028723A /* Dr. Chung H.Y..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C87219DB5D80028723A /* Dr. Chung H.Y..jpg */; };
+		A54F6CA2219DB5D90028723A /* Prof. Cheung D.W.L..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C88219DB5D80028723A /* Prof. Cheung D.W.L..jpg */; };
+		A54F6CA3219DB5D90028723A /* Prof. Wang W..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C89219DB5D80028723A /* Prof. Wang W..jpg */; };
+		A54F6CA4219DB5D90028723A /* Mr. Ng P.T.L..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C8A219DB5D80028723A /* Mr. Ng P.T.L..jpg */; };
+		A54F6CA5219DB5D90028723A /* Prof. Tse T.H..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C8B219DB5D80028723A /* Prof. Tse T.H..jpg */; };
+		A54F6CA6219DB5D90028723A /* Dr. Chow K.P..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C8C219DB5D80028723A /* Dr. Chow K.P..jpg */; };
+		A54F6CA7219DB5D90028723A /* Dr. Yiu S.M..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C8D219DB5D80028723A /* Dr. Yiu S.M..jpg */; };
+		A54F6CA8219DB5D90028723A /* Dr. Tam A.T.C..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C8E219DB5D80028723A /* Dr. Tam A.T.C..jpg */; };
+		A54F6CA9219DB5D90028723A /* Prof. White B..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C8F219DB5D80028723A /* Prof. White B..jpg */; };
+		A54F6CAA219DB5D90028723A /* Dr. Ting H.F..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C90219DB5D80028723A /* Dr. Ting H.F..jpg */; };
+		A54F6CAB219DB5D90028723A /* Dr. Yiu S.W..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C91219DB5D80028723A /* Dr. Yiu S.W..jpg */; };
+		A54F6CAC219DB5D90028723A /* Prof. Kao B.C.M..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C92219DB5D80028723A /* Prof. Kao B.C.M..jpg */; };
+		A54F6CAD219DB5D90028723A /* Dr. Cheng R.C.K..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C93219DB5D80028723A /* Dr. Cheng R.C.K..jpg */; };
+		A54F6CAE219DB5D90028723A /* Dr. Wu C..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C94219DB5D80028723A /* Dr. Wu C..jpg */; };
+		A54F6CAF219DB5D90028723A /* Dr. Chan H.T.H..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C95219DB5D80028723A /* Dr. Chan H.T.H..jpg */; };
+		A54F6CB0219DB5D90028723A /* Dr. Rahmel J.H..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C96219DB5D80028723A /* Dr. Rahmel J.H..jpg */; };
+		A54F6CB1219DB5D90028723A /* Dr. Chan K.P..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C97219DB5D80028723A /* Dr. Chan K.P..jpg */; };
+		A54F6CB2219DB5D90028723A /* Prof. Lau F.C.M..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C98219DB5D80028723A /* Prof. Lau F.C.M..jpg */; };
+		A54F6CB3219DB5D90028723A /* Mr. Mitcheson, G..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C99219DB5D80028723A /* Mr. Mitcheson, G..jpg */; };
+		A54F6CB4219DB5D90028723A /* Dr. Choi L.Y.K..jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6C9A219DB5D80028723A /* Dr. Choi L.Y.K..jpg */; };
 		A5F227F82192E7F800C5189F /* DirectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F72192E7F800C5189F /* DirectorViewController.swift */; };
 		A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227F92192EFA600C5189F /* MapViewController.swift */; };
 		A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F227FC2192F51600C5189F /* DesignableButton.swift */; };
@@ -58,6 +85,33 @@
 /* Begin PBXFileReference section */
 		A54F6C78219D9DBE0028723A /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		A54F6C7C219DB1DC0028723A /* FacultyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyVC.swift; sourceTree = "<group>"; };
+		A54F6C7E219DB3F20028723A /* facultyTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facultyTitle.png; sourceTree = "<group>"; };
+		A54F6C81219DB5D80028723A /* Dr. Chim T.W..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Chim T.W..jpg"; sourceTree = "<group>"; };
+		A54F6C82219DB5D80028723A /* Prof. Lam T.W..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prof. Lam T.W..jpg"; sourceTree = "<group>"; };
+		A54F6C83219DB5D80028723A /* Dr. Wong K.K.Y..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Wong K.K.Y..jpg"; sourceTree = "<group>"; };
+		A54F6C84219DB5D80028723A /* Dr. Schnieders D..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Schnieders D..jpg"; sourceTree = "<group>"; };
+		A54F6C85219DB5D80028723A /* Dr. Pun K.K.H..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Pun K.K.H..jpg"; sourceTree = "<group>"; };
+		A54F6C86219DB5D80028723A /* Dr. Lau V.M.K..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Lau V.M.K..jpg"; sourceTree = "<group>"; };
+		A54F6C87219DB5D80028723A /* Dr. Chung H.Y..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Chung H.Y..jpg"; sourceTree = "<group>"; };
+		A54F6C88219DB5D80028723A /* Prof. Cheung D.W.L..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prof. Cheung D.W.L..jpg"; sourceTree = "<group>"; };
+		A54F6C89219DB5D80028723A /* Prof. Wang W..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prof. Wang W..jpg"; sourceTree = "<group>"; };
+		A54F6C8A219DB5D80028723A /* Mr. Ng P.T.L..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mr. Ng P.T.L..jpg"; sourceTree = "<group>"; };
+		A54F6C8B219DB5D80028723A /* Prof. Tse T.H..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prof. Tse T.H..jpg"; sourceTree = "<group>"; };
+		A54F6C8C219DB5D80028723A /* Dr. Chow K.P..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Chow K.P..jpg"; sourceTree = "<group>"; };
+		A54F6C8D219DB5D80028723A /* Dr. Yiu S.M..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Yiu S.M..jpg"; sourceTree = "<group>"; };
+		A54F6C8E219DB5D80028723A /* Dr. Tam A.T.C..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Tam A.T.C..jpg"; sourceTree = "<group>"; };
+		A54F6C8F219DB5D80028723A /* Prof. White B..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prof. White B..jpg"; sourceTree = "<group>"; };
+		A54F6C90219DB5D80028723A /* Dr. Ting H.F..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Ting H.F..jpg"; sourceTree = "<group>"; };
+		A54F6C91219DB5D80028723A /* Dr. Yiu S.W..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Yiu S.W..jpg"; sourceTree = "<group>"; };
+		A54F6C92219DB5D80028723A /* Prof. Kao B.C.M..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prof. Kao B.C.M..jpg"; sourceTree = "<group>"; };
+		A54F6C93219DB5D80028723A /* Dr. Cheng R.C.K..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Cheng R.C.K..jpg"; sourceTree = "<group>"; };
+		A54F6C94219DB5D80028723A /* Dr. Wu C..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Wu C..jpg"; sourceTree = "<group>"; };
+		A54F6C95219DB5D80028723A /* Dr. Chan H.T.H..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Chan H.T.H..jpg"; sourceTree = "<group>"; };
+		A54F6C96219DB5D80028723A /* Dr. Rahmel J.H..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Rahmel J.H..jpg"; sourceTree = "<group>"; };
+		A54F6C97219DB5D80028723A /* Dr. Chan K.P..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Chan K.P..jpg"; sourceTree = "<group>"; };
+		A54F6C98219DB5D80028723A /* Prof. Lau F.C.M..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prof. Lau F.C.M..jpg"; sourceTree = "<group>"; };
+		A54F6C99219DB5D80028723A /* Mr. Mitcheson, G..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mr. Mitcheson, G..jpg"; sourceTree = "<group>"; };
+		A54F6C9A219DB5D80028723A /* Dr. Choi L.Y.K..jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr. Choi L.Y.K..jpg"; sourceTree = "<group>"; };
 		A5F227F72192E7F800C5189F /* DirectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorViewController.swift; sourceTree = "<group>"; };
 		A5F227F92192EFA600C5189F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A5F227FC2192F51600C5189F /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
@@ -118,6 +172,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A54F6C80219DB5D80028723A /* PicFalcuty */ = {
+			isa = PBXGroup;
+			children = (
+				A54F6C81219DB5D80028723A /* Dr. Chim T.W..jpg */,
+				A54F6C82219DB5D80028723A /* Prof. Lam T.W..jpg */,
+				A54F6C83219DB5D80028723A /* Dr. Wong K.K.Y..jpg */,
+				A54F6C84219DB5D80028723A /* Dr. Schnieders D..jpg */,
+				A54F6C85219DB5D80028723A /* Dr. Pun K.K.H..jpg */,
+				A54F6C86219DB5D80028723A /* Dr. Lau V.M.K..jpg */,
+				A54F6C87219DB5D80028723A /* Dr. Chung H.Y..jpg */,
+				A54F6C88219DB5D80028723A /* Prof. Cheung D.W.L..jpg */,
+				A54F6C89219DB5D80028723A /* Prof. Wang W..jpg */,
+				A54F6C8A219DB5D80028723A /* Mr. Ng P.T.L..jpg */,
+				A54F6C8B219DB5D80028723A /* Prof. Tse T.H..jpg */,
+				A54F6C8C219DB5D80028723A /* Dr. Chow K.P..jpg */,
+				A54F6C8D219DB5D80028723A /* Dr. Yiu S.M..jpg */,
+				A54F6C8E219DB5D80028723A /* Dr. Tam A.T.C..jpg */,
+				A54F6C8F219DB5D80028723A /* Prof. White B..jpg */,
+				A54F6C90219DB5D80028723A /* Dr. Ting H.F..jpg */,
+				A54F6C91219DB5D80028723A /* Dr. Yiu S.W..jpg */,
+				A54F6C92219DB5D80028723A /* Prof. Kao B.C.M..jpg */,
+				A54F6C93219DB5D80028723A /* Dr. Cheng R.C.K..jpg */,
+				A54F6C94219DB5D80028723A /* Dr. Wu C..jpg */,
+				A54F6C95219DB5D80028723A /* Dr. Chan H.T.H..jpg */,
+				A54F6C96219DB5D80028723A /* Dr. Rahmel J.H..jpg */,
+				A54F6C97219DB5D80028723A /* Dr. Chan K.P..jpg */,
+				A54F6C98219DB5D80028723A /* Prof. Lau F.C.M..jpg */,
+				A54F6C99219DB5D80028723A /* Mr. Mitcheson, G..jpg */,
+				A54F6C9A219DB5D80028723A /* Dr. Choi L.Y.K..jpg */,
+			);
+			path = PicFalcuty;
+			sourceTree = "<group>";
+		};
 		A5F227FB2192F1E400C5189F /* IBDesignables */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +252,7 @@
 				A5F7AD0021928200006DC855 /* HomeViewController.swift */,
 				A5F7ACA6219170AE006DC855 /* Assets.xcassets */,
 				A5F7ACA8219170AE006DC855 /* LaunchScreen.storyboard */,
+				A54F6C80219DB5D80028723A /* PicFalcuty */,
 				A5F7ACEB21919766006DC855 /* pictures */,
 				A5F7ACAB219170AE006DC855 /* Info.plist */,
 			);
@@ -198,6 +286,7 @@
 				A5F7AD122192E0A9006DC855 /* WhyHKU.jpg */,
 				A5F7AD0E2192C533006DC855 /* mfpd.JPG */,
 				A5F7AD0C2192C032006DC855 /* MScDarkLogo.png */,
+				A54F6C7E219DB3F20028723A /* facultyTitle.png */,
 				A5F7ACED21919766006DC855 /* YiuSM.jpg */,
 				A5F7ACEE21919766006DC855 /* home_about.jpg */,
 				A5F7ACEF21919766006DC855 /* faculty.jpg */,
@@ -311,20 +400,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54F6CAB219DB5D90028723A /* Dr. Yiu S.W..jpg in Resources */,
+				A54F6C9E219DB5D90028723A /* Dr. Schnieders D..jpg in Resources */,
+				A54F6CAF219DB5D90028723A /* Dr. Chan H.T.H..jpg in Resources */,
+				A54F6CAC219DB5D90028723A /* Prof. Kao B.C.M..jpg in Resources */,
 				A5F7AD0D2192C032006DC855 /* MScDarkLogo.png in Resources */,
+				A54F6CA0219DB5D90028723A /* Dr. Lau V.M.K..jpg in Resources */,
 				A5F7AD132192E0AA006DC855 /* WhyHKU.jpg in Resources */,
+				A54F6C9D219DB5D90028723A /* Dr. Wong K.K.Y..jpg in Resources */,
+				A54F6CA1219DB5D90028723A /* Dr. Chung H.Y..jpg in Resources */,
+				A54F6CAD219DB5D90028723A /* Dr. Cheng R.C.K..jpg in Resources */,
 				A5F7ACAA219170AE006DC855 /* LaunchScreen.storyboard in Resources */,
+				A54F6CB2219DB5D90028723A /* Prof. Lau F.C.M..jpg in Resources */,
+				A54F6CA3219DB5D90028723A /* Prof. Wang W..jpg in Resources */,
+				A54F6CA5219DB5D90028723A /* Prof. Tse T.H..jpg in Resources */,
+				A54F6CB1219DB5D90028723A /* Dr. Chan K.P..jpg in Resources */,
 				A5F7ACF221919767006DC855 /* WangCL.jpg in Resources */,
 				A5F7AD092192B4DB006DC855 /* Slider1.jpg in Resources */,
+				A54F6C9C219DB5D90028723A /* Prof. Lam T.W..jpg in Resources */,
 				A5F7ACA7219170AE006DC855 /* Assets.xcassets in Resources */,
+				A54F6CA9219DB5D90028723A /* Prof. White B..jpg in Resources */,
 				A5F7ACF321919767006DC855 /* YiuSM.jpg in Resources */,
 				A5F7AD0F2192C533006DC855 /* mfpd.JPG in Resources */,
+				A54F6CA8219DB5D90028723A /* Dr. Tam A.T.C..jpg in Resources */,
+				A54F6CB4219DB5D90028723A /* Dr. Choi L.Y.K..jpg in Resources */,
 				A5F7ACF421919767006DC855 /* home_about.jpg in Resources */,
+				A54F6CAA219DB5D90028723A /* Dr. Ting H.F..jpg in Resources */,
+				A54F6C9F219DB5D90028723A /* Dr. Pun K.K.H..jpg in Resources */,
 				A5F7ACA5219170AC006DC855 /* Main.storyboard in Resources */,
 				A5F7AD112192CB09006DC855 /* ChowKP-Square.jpg in Resources */,
+				A54F6C7F219DB3F30028723A /* facultyTitle.png in Resources */,
+				A54F6C9B219DB5D90028723A /* Dr. Chim T.W..jpg in Resources */,
+				A54F6CA2219DB5D90028723A /* Prof. Cheung D.W.L..jpg in Resources */,
+				A54F6CA7219DB5D90028723A /* Dr. Yiu S.M..jpg in Resources */,
 				A5F7ACF521919767006DC855 /* faculty.jpg in Resources */,
 				A5F7ACF721919767006DC855 /* SchD.jpg in Resources */,
+				A54F6CA4219DB5D90028723A /* Mr. Ng P.T.L..jpg in Resources */,
+				A54F6CAE219DB5D90028723A /* Dr. Wu C..jpg in Resources */,
+				A54F6CB3219DB5D90028723A /* Mr. Mitcheson, G..jpg in Resources */,
+				A54F6CA6219DB5D90028723A /* Dr. Chow K.P..jpg in Resources */,
 				A5F7ACF621919767006DC855 /* director.jpg in Resources */,
+				A54F6CB0219DB5D90028723A /* Dr. Rahmel J.H..jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
