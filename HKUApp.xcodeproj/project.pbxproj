@@ -40,6 +40,17 @@
 		A54F6CB8219EA50A0028723A /* adminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CB7219EA50A0028723A /* adminVC.swift */; };
 		A54F6CBA219EAE650028723A /* Nav_lv2-Admission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A54F6CB9219EAE640028723A /* Nav_lv2-Admission.jpg */; };
 		A54F6CBC219EB1930028723A /* tbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CBB219EB1930028723A /* tbCell.swift */; };
+		A58EDFC621A145EC0025F1D3 /* wordsSgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EDFC521A145EC0025F1D3 /* wordsSgVC.swift */; };
+		A58EDFE721A14F840025F1D3 /* Tony Ngan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFDD21A14F830025F1D3 /* Tony Ngan.jpg */; };
+		A58EDFE821A14F840025F1D3 /* Lee Lip Tong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFDE21A14F830025F1D3 /* Lee Lip Tong.jpg */; };
+		A58EDFE921A14F840025F1D3 /* Philip Lee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFDF21A14F830025F1D3 /* Philip Lee.jpg */; };
+		A58EDFEA21A14F840025F1D3 /* Cui Yitong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE021A14F830025F1D3 /* Cui Yitong.jpg */; };
+		A58EDFEB21A14F840025F1D3 /* Stoffregen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE121A14F830025F1D3 /* Stoffregen.jpg */; };
+		A58EDFEC21A14F840025F1D3 /* Liang Xingchi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE221A14F830025F1D3 /* Liang Xingchi.jpg */; };
+		A58EDFED21A14F840025F1D3 /* Karina Vidyantiningrum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE321A14F830025F1D3 /* Karina Vidyantiningrum.jpg */; };
+		A58EDFEE21A14F840025F1D3 /* Clark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE421A14F830025F1D3 /* Clark.jpg */; };
+		A58EDFEF21A14F840025F1D3 /* LengSiyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE521A14F830025F1D3 /* LengSiyu.jpg */; };
+		A58EDFF021A14F840025F1D3 /* HuTianyi_Bruce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE621A14F830025F1D3 /* HuTianyi_Bruce.jpg */; };
 		A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BECBA9219F058800DEC21C /* timeTable.png */; };
 		A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAB219F076100DEC21C /* adApplicationVC.swift */; };
 		A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */; };
@@ -132,6 +143,17 @@
 		A54F6CB7219EA50A0028723A /* adminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminVC.swift; sourceTree = "<group>"; };
 		A54F6CB9219EAE640028723A /* Nav_lv2-Admission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-Admission.jpg"; sourceTree = "<group>"; };
 		A54F6CBB219EB1930028723A /* tbCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tbCell.swift; sourceTree = "<group>"; };
+		A58EDFC521A145EC0025F1D3 /* wordsSgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordsSgVC.swift; sourceTree = "<group>"; };
+		A58EDFDD21A14F830025F1D3 /* Tony Ngan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tony Ngan.jpg"; sourceTree = "<group>"; };
+		A58EDFDE21A14F830025F1D3 /* Lee Lip Tong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lee Lip Tong.jpg"; sourceTree = "<group>"; };
+		A58EDFDF21A14F830025F1D3 /* Philip Lee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Philip Lee.jpg"; sourceTree = "<group>"; };
+		A58EDFE021A14F830025F1D3 /* Cui Yitong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cui Yitong.jpg"; sourceTree = "<group>"; };
+		A58EDFE121A14F830025F1D3 /* Stoffregen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stoffregen.jpg; sourceTree = "<group>"; };
+		A58EDFE221A14F830025F1D3 /* Liang Xingchi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Liang Xingchi.jpg"; sourceTree = "<group>"; };
+		A58EDFE321A14F830025F1D3 /* Karina Vidyantiningrum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Karina Vidyantiningrum.jpg"; sourceTree = "<group>"; };
+		A58EDFE421A14F830025F1D3 /* Clark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clark.jpg; sourceTree = "<group>"; };
+		A58EDFE521A14F830025F1D3 /* LengSiyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LengSiyu.jpg; sourceTree = "<group>"; };
+		A58EDFE621A14F830025F1D3 /* HuTianyi_Bruce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HuTianyi_Bruce.jpg; sourceTree = "<group>"; };
 		A5BECBA9219F058800DEC21C /* timeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeTable.png; sourceTree = "<group>"; };
 		A5BECBAB219F076100DEC21C /* adApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adApplicationVC.swift; sourceTree = "<group>"; };
 		A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compFeeVC.swift; sourceTree = "<group>"; };
@@ -237,6 +259,23 @@
 			path = PicFalcuty;
 			sourceTree = "<group>";
 		};
+		A58EDFDC21A14F830025F1D3 /* StudentsPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				A58EDFDD21A14F830025F1D3 /* Tony Ngan.jpg */,
+				A58EDFDE21A14F830025F1D3 /* Lee Lip Tong.jpg */,
+				A58EDFDF21A14F830025F1D3 /* Philip Lee.jpg */,
+				A58EDFE021A14F830025F1D3 /* Cui Yitong.jpg */,
+				A58EDFE121A14F830025F1D3 /* Stoffregen.jpg */,
+				A58EDFE221A14F830025F1D3 /* Liang Xingchi.jpg */,
+				A58EDFE321A14F830025F1D3 /* Karina Vidyantiningrum.jpg */,
+				A58EDFE421A14F830025F1D3 /* Clark.jpg */,
+				A58EDFE521A14F830025F1D3 /* LengSiyu.jpg */,
+				A58EDFE621A14F830025F1D3 /* HuTianyi_Bruce.jpg */,
+			);
+			path = StudentsPhoto;
+			sourceTree = "<group>";
+		};
 		A5D21320219EEE26002000E4 /* subTitleImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +337,7 @@
 				A5BECBAB219F076100DEC21C /* adApplicationVC.swift */,
 				A5D2132F219EF565002000E4 /* adRequire.swift */,
 				A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */,
+				A58EDFC521A145EC0025F1D3 /* wordsSgVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A54F6CBB219EB1930028723A /* tbCell.swift */,
 				A54F6CB5219E84D10028723A /* facultyCell.swift */,
@@ -335,6 +375,7 @@
 				A5D21320219EEE26002000E4 /* subTitleImage */,
 				A5F7AD082192B4DA006DC855 /* Slider1.jpg */,
 				A5BECBA9219F058800DEC21C /* timeTable.png */,
+				A58EDFDC21A14F830025F1D3 /* StudentsPhoto */,
 				A5F7ACEC21919766006DC855 /* WangCL.jpg */,
 				A5F7AD102192CB09006DC855 /* ChowKP-Square.jpg */,
 				A5D2131E219EE92B002000E4 /* Nav_lv2-Curriculum.jpg */,
@@ -458,6 +499,7 @@
 			files = (
 				A54F6CAB219DB5D90028723A /* Dr. Yiu S.W..jpg in Resources */,
 				A54F6C9E219DB5D90028723A /* Dr. Schnieders D..jpg in Resources */,
+				A58EDFE721A14F840025F1D3 /* Tony Ngan.jpg in Resources */,
 				A54F6CBA219EAE650028723A /* Nav_lv2-Admission.jpg in Resources */,
 				A54F6CAF219DB5D90028723A /* Dr. Chan H.T.H..jpg in Resources */,
 				A54F6CAC219DB5D90028723A /* Prof. Kao B.C.M..jpg in Resources */,
@@ -468,9 +510,12 @@
 				A54F6C9D219DB5D90028723A /* Dr. Wong K.K.Y..jpg in Resources */,
 				A54F6CA1219DB5D90028723A /* Dr. Chung H.Y..jpg in Resources */,
 				A54F6CAD219DB5D90028723A /* Dr. Cheng R.C.K..jpg in Resources */,
+				A58EDFE821A14F840025F1D3 /* Lee Lip Tong.jpg in Resources */,
 				A5F7ACAA219170AE006DC855 /* LaunchScreen.storyboard in Resources */,
 				A54F6CB2219DB5D90028723A /* Prof. Lau F.C.M..jpg in Resources */,
+				A58EDFEF21A14F840025F1D3 /* LengSiyu.jpg in Resources */,
 				A54F6CA3219DB5D90028723A /* Prof. Wang W..jpg in Resources */,
+				A58EDFEE21A14F840025F1D3 /* Clark.jpg in Resources */,
 				A54F6CA5219DB5D90028723A /* Prof. Tse T.H..jpg in Resources */,
 				A5D2132C219EEE28002000E4 /* appProce.png in Resources */,
 				A54F6CB1219DB5D90028723A /* Dr. Chan K.P..jpg in Resources */,
@@ -485,27 +530,33 @@
 				A5D2132A219EEE28002000E4 /* infoSess.png in Resources */,
 				A5F7AD0F2192C533006DC855 /* mfpd.JPG in Resources */,
 				A54F6CA8219DB5D90028723A /* Dr. Tam A.T.C..jpg in Resources */,
+				A58EDFEB21A14F840025F1D3 /* Stoffregen.jpg in Resources */,
 				A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */,
 				A54F6CB4219DB5D90028723A /* Dr. Choi L.Y.K..jpg in Resources */,
 				A5F7ACF421919767006DC855 /* home_about.jpg in Resources */,
 				A54F6CAA219DB5D90028723A /* Dr. Ting H.F..jpg in Resources */,
 				A54F6C9F219DB5D90028723A /* Dr. Pun K.K.H..jpg in Resources */,
 				A5D21332219EF845002000E4 /* adRequire.png in Resources */,
+				A58EDFE921A14F840025F1D3 /* Philip Lee.jpg in Resources */,
 				A5F7ACA5219170AC006DC855 /* Main.storyboard in Resources */,
 				A5F7AD112192CB09006DC855 /* ChowKP-Square.jpg in Resources */,
 				A54F6C7F219DB3F30028723A /* facultyTitle.png in Resources */,
+				A58EDFEA21A14F840025F1D3 /* Cui Yitong.jpg in Resources */,
 				A54F6C9B219DB5D90028723A /* Dr. Chim T.W..jpg in Resources */,
+				A58EDFEC21A14F840025F1D3 /* Liang Xingchi.jpg in Resources */,
 				A54F6CA2219DB5D90028723A /* Prof. Cheung D.W.L..jpg in Resources */,
 				A54F6CA7219DB5D90028723A /* Dr. Yiu S.M..jpg in Resources */,
 				A5F7ACF521919767006DC855 /* faculty.jpg in Resources */,
 				A5D21328219EEE28002000E4 /* wordsSG.png in Resources */,
 				A5F7ACF721919767006DC855 /* SchD.jpg in Resources */,
+				A58EDFF021A14F840025F1D3 /* HuTianyi_Bruce.jpg in Resources */,
 				A54F6CA4219DB5D90028723A /* Mr. Ng P.T.L..jpg in Resources */,
 				A54F6CAE219DB5D90028723A /* Dr. Wu C..jpg in Resources */,
 				A54F6CB3219DB5D90028723A /* Mr. Mitcheson, G..jpg in Resources */,
 				A54F6CA6219DB5D90028723A /* Dr. Chow K.P..jpg in Resources */,
 				A5F7ACF621919767006DC855 /* director.jpg in Resources */,
 				A54F6CB0219DB5D90028723A /* Dr. Rahmel J.H..jpg in Resources */,
+				A58EDFED21A14F840025F1D3 /* Karina Vidyantiningrum.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58EDFC621A145EC0025F1D3 /* wordsSgVC.swift in Sources */,
 				A5F7AD032192946B006DC855 /* DetailViewController.swift in Sources */,
 				A5F227F82192E7F800C5189F /* DirectorViewController.swift in Sources */,
 				A5F7AC9E219170AC006DC855 /* AppDelegate.swift in Sources */,

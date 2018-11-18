@@ -100,11 +100,11 @@
             <objects>
                 <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DGS-m7-hKT" customClass="DetailViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SxK-BA-LbF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJ9-ip-x9t">
-                                <rect key="frame" x="0.0" y="64" width="320" height="1136"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gp-pM-uPb">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
@@ -246,11 +246,11 @@ HKU has ten faculties, a graduate school and a number of independent centres of 
             <objects>
                 <viewController storyboardIdentifier="DirectorViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6ay-nh-IJP" customClass="DirectorViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P5c-uY-rki">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAt-B6-qjf">
-                                <rect key="frame" x="0.0" y="64" width="320" height="1136"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8lk-gJ-JGQ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
@@ -919,7 +919,7 @@ Procedures</string>
    Sessions</string>
                                 </state>
                                 <connections>
-                                    <segue destination="bSu-xG-Hyv" kind="show" id="skB-JD-PpD"/>
+                                    <segue destination="9oj-xt-osl" kind="show" id="itI-ZL-S0h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t84-jE-ci2">
@@ -950,7 +950,7 @@ Students &amp;
 Graduates</string>
                                 </state>
                                 <connections>
-                                    <segue destination="9oj-xt-osl" kind="show" id="Jo5-Xm-of7"/>
+                                    <segue destination="bSu-xG-Hyv" kind="show" id="str-rx-UQK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2208,10 +2208,10 @@ The results for admission in September are normally available by July of the sam
             </objects>
             <point key="canvasLocation" x="5625" y="265"/>
         </scene>
-        <!--View Controller-->
+        <!--Words SgVC-->
         <scene sceneID="bAY-FP-HRh">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="bSu-xG-Hyv" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="wordsSgVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bSu-xG-Hyv" customClass="wordsSgVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wzl-0Y-oQF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2220,45 +2220,151 @@ The results for admission in September are normally available by July of the sam
                                 <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U5a-k1-jQN">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1080"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wordsSG.png" translatesAutoresizingMaskIntoConstraints="NO" id="08U-Ra-oTz">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wordsSG.png" translatesAutoresizingMaskIntoConstraints="NO" id="ygJ-Ur-Qlb">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ej2-8R-sgo">
-                                                <rect key="frame" x="26" y="82" width="52" height="27"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OYe-da-gcA">
+                                                <rect key="frame" x="29" y="69" width="52" height="27"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <segue destination="kdf-l3-MtU" kind="show" id="HiF-q9-DvQ"/>
+                                                </connections>
                                             </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Words from Students and Graduates" textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="7Xb-rx-mZR">
+                                                <rect key="frame" x="8" y="112" width="301" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sni-LG-x4t">
+                                                <rect key="frame" x="0.0" y="139" width="320" height="211"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">When you enrol in the MSc(CompSc) Programme, you gain all the advantages of a famous university with an outstanding reputation. When you leave our Programme, you will have a solid foundation in the theoretical aspect of computer science, together with hands-on technical experience in information technology, to help you begin a rewarding career.</mutableString>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaR-rC-ZsA" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="118" y="358" width="85" height="27"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="More...">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="SgBtn:" destination="bSu-xG-Hyv" eventType="touchUpInside" id="bAR-fN-amc"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="Di3-wo-rwe"/>
+                                                </connections>
+                                            </button>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zLH-WM-0tO">
+                                                <rect key="frame" x="0.0" y="393" width="320" height="679"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hjX-Id-cfn">
+                                                    <size key="itemSize" width="118" height="156"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="studentWord" id="ZQP-wN-bck" customClass="facultyCell" customModule="HKUApp" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="156"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="118" height="156"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zWd-fq-sVF">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="118" height="108"/>
+                                                                </imageView>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBV-Z6-VOh">
+                                                                    <rect key="frame" x="0.0" y="110" width="118" height="46"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                                </textView>
+                                                            </subviews>
+                                                        </view>
+                                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="0.14332726883561644" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="ZBV-Z6-VOh" secondAttribute="bottom" id="3Ny-eA-SRE"/>
+                                                            <constraint firstItem="zWd-fq-sVF" firstAttribute="top" secondItem="ZQP-wN-bck" secondAttribute="top" id="6Cc-Wm-f72"/>
+                                                            <constraint firstItem="ZBV-Z6-VOh" firstAttribute="leading" secondItem="ZQP-wN-bck" secondAttribute="leading" id="DK9-FK-fYI"/>
+                                                            <constraint firstAttribute="bottom" secondItem="zWd-fq-sVF" secondAttribute="bottom" constant="48" id="FbK-02-7Vw"/>
+                                                            <constraint firstAttribute="trailing" secondItem="zWd-fq-sVF" secondAttribute="trailing" id="KOb-Of-Yb2"/>
+                                                            <constraint firstItem="ZBV-Z6-VOh" firstAttribute="top" secondItem="zWd-fq-sVF" secondAttribute="bottom" constant="2" id="jLM-bC-kxE"/>
+                                                            <constraint firstItem="zWd-fq-sVF" firstAttribute="leading" secondItem="ZQP-wN-bck" secondAttribute="leading" id="rTH-b9-xiA"/>
+                                                            <constraint firstAttribute="trailing" secondItem="ZBV-Z6-VOh" secondAttribute="trailing" id="tvC-Ke-fni"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="facultyEmail" destination="ZBV-Z6-VOh" id="9Ij-q9-aZe"/>
+                                                            <outlet property="facultyPhoto" destination="zWd-fq-sVF" id="OdL-ed-Jqb"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="bSu-xG-Hyv" id="eqc-7b-1fD"/>
+                                                    <outlet property="delegate" destination="bSu-xG-Hyv" id="JWR-qF-qCk"/>
+                                                </connections>
+                                            </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="08U-Ra-oTz" firstAttribute="leading" secondItem="U5a-k1-jQN" secondAttribute="leading" id="DxW-cb-IfQ"/>
-                                            <constraint firstAttribute="trailing" secondItem="08U-Ra-oTz" secondAttribute="trailing" id="Nxc-Vn-ZSy"/>
-                                            <constraint firstAttribute="bottom" secondItem="08U-Ra-oTz" secondAttribute="bottom" constant="905" id="aH0-ZT-6Ri"/>
-                                            <constraint firstItem="08U-Ra-oTz" firstAttribute="top" secondItem="U5a-k1-jQN" secondAttribute="top" id="tO6-YK-Zgo"/>
-                                            <constraint firstAttribute="height" constant="1000" id="uYm-1P-3Tk"/>
+                                            <constraint firstAttribute="trailing" secondItem="ygJ-Ur-Qlb" secondAttribute="trailing" id="87K-dl-1gQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sni-LG-x4t" secondAttribute="trailing" id="8Tu-GH-fVC"/>
+                                            <constraint firstItem="zLH-WM-0tO" firstAttribute="leading" secondItem="U5a-k1-jQN" secondAttribute="leading" id="HoD-LV-X2R"/>
+                                            <constraint firstAttribute="height" constant="1080" id="JLG-nE-fSs"/>
+                                            <constraint firstAttribute="trailing" secondItem="XaR-rC-ZsA" secondAttribute="trailing" constant="117" id="Jtc-PJ-0Bd"/>
+                                            <constraint firstItem="XaR-rC-ZsA" firstAttribute="leading" secondItem="U5a-k1-jQN" secondAttribute="leading" constant="118" id="K9A-OO-VhY"/>
+                                            <constraint firstItem="XaR-rC-ZsA" firstAttribute="top" secondItem="Sni-LG-x4t" secondAttribute="bottom" constant="8" id="KDq-lB-aOE"/>
+                                            <constraint firstAttribute="bottom" secondItem="7Xb-rx-mZR" secondAttribute="bottom" constant="949" id="LSq-u3-RUW"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Xb-rx-mZR" secondAttribute="trailing" constant="11" id="M1R-QI-vFj"/>
+                                            <constraint firstItem="ygJ-Ur-Qlb" firstAttribute="leading" secondItem="U5a-k1-jQN" secondAttribute="leading" id="NgT-h1-JTa"/>
+                                            <constraint firstAttribute="bottom" secondItem="zLH-WM-0tO" secondAttribute="bottom" constant="8" id="ZhX-hd-Xg1"/>
+                                            <constraint firstItem="Sni-LG-x4t" firstAttribute="top" secondItem="7Xb-rx-mZR" secondAttribute="bottom" constant="8" id="aLD-3o-7BW"/>
+                                            <constraint firstItem="Sni-LG-x4t" firstAttribute="leading" secondItem="U5a-k1-jQN" secondAttribute="leading" id="cx8-fm-evp"/>
+                                            <constraint firstAttribute="bottom" secondItem="ygJ-Ur-Qlb" secondAttribute="bottom" constant="984" id="fev-wM-Qc6"/>
+                                            <constraint firstItem="ygJ-Ur-Qlb" firstAttribute="top" secondItem="U5a-k1-jQN" secondAttribute="top" id="hHn-oq-Wlo"/>
+                                            <constraint firstItem="7Xb-rx-mZR" firstAttribute="leading" secondItem="U5a-k1-jQN" secondAttribute="leading" constant="8" id="hQG-1j-VTI"/>
+                                            <constraint firstItem="7Xb-rx-mZR" firstAttribute="top" secondItem="ygJ-Ur-Qlb" secondAttribute="bottom" constant="16" id="nG3-Q9-Jg9"/>
+                                            <constraint firstAttribute="bottom" secondItem="Sni-LG-x4t" secondAttribute="bottom" constant="730" id="rZu-fl-YYP"/>
+                                            <constraint firstAttribute="bottom" secondItem="XaR-rC-ZsA" secondAttribute="bottom" constant="695" id="uTn-Wd-mRA"/>
+                                            <constraint firstItem="zLH-WM-0tO" firstAttribute="top" secondItem="XaR-rC-ZsA" secondAttribute="bottom" constant="8" id="uVL-Bw-DlC"/>
+                                            <constraint firstAttribute="trailing" secondItem="zLH-WM-0tO" secondAttribute="trailing" id="wnq-wM-f1x"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="U5a-k1-jQN" firstAttribute="top" secondItem="YvV-DL-uSU" secondAttribute="top" id="2bV-IV-0io"/>
-                                    <constraint firstItem="U5a-k1-jQN" firstAttribute="leading" secondItem="YvV-DL-uSU" secondAttribute="leading" id="ABk-Cs-eO8"/>
-                                    <constraint firstAttribute="bottom" secondItem="U5a-k1-jQN" secondAttribute="bottom" id="QJB-Da-MVc"/>
-                                    <constraint firstAttribute="trailing" secondItem="U5a-k1-jQN" secondAttribute="trailing" id="o3N-Jp-97T"/>
+                                    <constraint firstItem="U5a-k1-jQN" firstAttribute="top" secondItem="YvV-DL-uSU" secondAttribute="top" id="E3Z-i6-toI"/>
+                                    <constraint firstAttribute="bottom" secondItem="U5a-k1-jQN" secondAttribute="bottom" id="QE4-jp-h2t"/>
+                                    <constraint firstItem="U5a-k1-jQN" firstAttribute="leading" secondItem="YvV-DL-uSU" secondAttribute="leading" id="kNk-OE-Xpe"/>
+                                    <constraint firstAttribute="trailing" secondItem="U5a-k1-jQN" secondAttribute="trailing" id="kaT-3B-BsP"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="YvV-DL-uSU" firstAttribute="bottom" secondItem="qqS-x6-Qjg" secondAttribute="bottom" id="NY1-nI-I85"/>
-                            <constraint firstItem="U5a-k1-jQN" firstAttribute="width" secondItem="wzl-0Y-oQF" secondAttribute="width" id="NdE-gI-lnR"/>
-                            <constraint firstItem="YvV-DL-uSU" firstAttribute="trailing" secondItem="qqS-x6-Qjg" secondAttribute="trailing" id="Y9X-pB-VKb"/>
-                            <constraint firstItem="YvV-DL-uSU" firstAttribute="leading" secondItem="qqS-x6-Qjg" secondAttribute="leading" id="g4w-gY-FDF"/>
-                            <constraint firstItem="YvV-DL-uSU" firstAttribute="top" secondItem="qqS-x6-Qjg" secondAttribute="top" id="jKE-Nw-6u0"/>
+                            <constraint firstItem="YvV-DL-uSU" firstAttribute="bottom" secondItem="qqS-x6-Qjg" secondAttribute="bottom" id="0Td-CB-EKT"/>
+                            <constraint firstItem="YvV-DL-uSU" firstAttribute="leading" secondItem="qqS-x6-Qjg" secondAttribute="leading" id="BPB-ap-e2c"/>
+                            <constraint firstItem="YvV-DL-uSU" firstAttribute="top" secondItem="qqS-x6-Qjg" secondAttribute="top" id="JjA-y2-jS0"/>
+                            <constraint firstItem="U5a-k1-jQN" firstAttribute="width" secondItem="wzl-0Y-oQF" secondAttribute="width" id="eck-Og-DA0"/>
+                            <constraint firstItem="YvV-DL-uSU" firstAttribute="trailing" secondItem="qqS-x6-Qjg" secondAttribute="trailing" id="wma-S4-BVx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qqS-x6-Qjg"/>
                     </view>
                     <size key="freeformSize" width="320" height="1100"/>
+                    <connections>
+                        <outlet property="SGcollectionView" destination="zLH-WM-0tO" id="gh1-BO-9cv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4U-dN-nBr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2296,7 +2402,7 @@ The results for admission in September are normally available by July of the sam
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTt-H5-Qnk">
                                                 <rect key="frame" x="0.0" y="164" width="320" height="383"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">The composition fee for each 6-credit course is HK$13,000*. Project has a composition fee of HK$26,000 and the Dissertation has a composition fee of HK$52,000. Total composition fee for the two study modes are therefore as follows:
+                                                <string key="text">The composition fee for each 6-credit course is HK$13,000*. Project has a composition fee of HK$26,000 and the Dissertation has a composition fee of HK$52,000. Total composition fee for the two study modes are therefore as follows:
 10 courses + Project:
 (13,000 x 10) + (26,000) = HK$156,000
 
@@ -2304,7 +2410,7 @@ The results for admission in September are normally available by July of the sam
 (13,000 x 8) + (52,000) = HK$156,000
 
 Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) programmes have to pay HK$13,000* and HK$12,000* respectively per 6-credit course ...
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -2843,11 +2949,11 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
         <image name="wordsSG.png" width="1702" height="452"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="T4h-f5-8JC"/>
-        <segue reference="ChG-AW-MlC"/>
-        <segue reference="p5a-QR-rB5"/>
+        <segue reference="vlZ-pu-eK4"/>
+        <segue reference="Di3-wo-rwe"/>
+        <segue reference="HiF-q9-DvQ"/>
         <segue reference="VUa-8E-tF1"/>
-        <segue reference="8Ux-ZS-l5L"/>
-        <segue reference="0sH-B8-uNF"/>
+        <segue reference="8eJ-3L-IEo"/>
+        <segue reference="pC3-sa-WQz"/>
     </inferredMetricsTieBreakers>
 </document>
