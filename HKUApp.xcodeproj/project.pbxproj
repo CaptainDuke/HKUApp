@@ -71,6 +71,7 @@
 		A58EE01421A1820E0025F1D3 /* StuResVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EE01321A1820E0025F1D3 /* StuResVC.swift */; };
 		A58EE01721A183690025F1D3 /* useFulLinks.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EE01521A183640025F1D3 /* useFulLinks.png */; };
 		A58EE01821A183690025F1D3 /* learningEnv.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EE01621A183670025F1D3 /* learningEnv.png */; };
+		A58EE01A21A1859A0025F1D3 /* usefulLinksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EE01921A1859A0025F1D3 /* usefulLinksVC.swift */; };
 		A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BECBA9219F058800DEC21C /* timeTable.png */; };
 		A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAB219F076100DEC21C /* adApplicationVC.swift */; };
 		A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */; };
@@ -194,6 +195,7 @@
 		A58EE01321A1820E0025F1D3 /* StuResVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuResVC.swift; sourceTree = "<group>"; };
 		A58EE01521A183640025F1D3 /* useFulLinks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = useFulLinks.png; sourceTree = "<group>"; };
 		A58EE01621A183670025F1D3 /* learningEnv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = learningEnv.png; sourceTree = "<group>"; };
+		A58EE01921A1859A0025F1D3 /* usefulLinksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usefulLinksVC.swift; sourceTree = "<group>"; };
 		A5BECBA9219F058800DEC21C /* timeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeTable.png; sourceTree = "<group>"; };
 		A5BECBAB219F076100DEC21C /* adApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adApplicationVC.swift; sourceTree = "<group>"; };
 		A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compFeeVC.swift; sourceTree = "<group>"; };
@@ -397,6 +399,7 @@
 				A58EDFF521A1625B0025F1D3 /* progOverViewVC.swift */,
 				A58EE00B21A17C7B0025F1D3 /* GradAluVC.swift */,
 				A58EE01321A1820E0025F1D3 /* StuResVC.swift */,
+				A58EE01921A1859A0025F1D3 /* usefulLinksVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A54F6CBB219EB1930028723A /* tbCell.swift */,
 				A54F6CB5219E84D10028723A /* facultyCell.swift */,
@@ -675,6 +678,7 @@
 				A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */,
 				A54F6CB8219EA50A0028723A /* adminVC.swift in Sources */,
 				A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */,
+				A58EE01A21A1859A0025F1D3 /* usefulLinksVC.swift in Sources */,
 				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,
 				A54F6CBC219EB1930028723A /* tbCell.swift in Sources */,
 				A58EE01421A1820E0025F1D3 /* StuResVC.swift in Sources */,

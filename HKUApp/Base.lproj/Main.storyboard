@@ -3200,10 +3200,10 @@ Full-time: 1-2 years</string>
             </objects>
             <point key="canvasLocation" x="2827.5" y="3012.676056338028"/>
         </scene>
-        <!--View Controller-->
+        <!--Useful LinksVC-->
         <scene sceneID="tM7-sm-y3m">
             <objects>
-                <viewController id="3ty-rP-KIo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="usefulLinksVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3ty-rP-KIo" customClass="usefulLinksVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jlk-Vp-CMF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3217,13 +3217,45 @@ Full-time: 1-2 years</string>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="useFulLinks.png" translatesAutoresizingMaskIntoConstraints="NO" id="ezx-1O-xRx">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="106"/>
                                             </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKK-wB-nPx">
+                                                <rect key="frame" x="8" y="114" width="304" height="718"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">The University of Hong Kong Home Page
+   -  https://www.hku.hk
+
+The Faculty of Engineering
+   -  http://engg.hku.hk
+
+Department of Computer Science
+   -  http://www.cs.hku.hk 
+
+Information Technology Services
+   -  http://www.its.hku.hk
+
+Centre of Development and Resources for Students
+   -  http://www.cedars.hku.hk   
+
+China Affairs Office
+   -  http://www.aal.hku.hk/cao
+
+The HKU Libraries
+   -  https://lib.hku.hk/
+
+Please email msccs@cs.hku.hk if you find any above links broken or if you have any suggestion of other useful links for us to include in the list.</mutableString>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="ezx-1O-xRx" secondAttribute="trailing" id="7LK-Jo-zNo"/>
+                                            <constraint firstItem="OKK-wB-nPx" firstAttribute="top" secondItem="ezx-1O-xRx" secondAttribute="bottom" constant="8" id="9Lc-49-LBU"/>
                                             <constraint firstItem="ezx-1O-xRx" firstAttribute="top" secondItem="88U-E9-c0v" secondAttribute="top" id="HAk-sX-YhL"/>
+                                            <constraint firstItem="OKK-wB-nPx" firstAttribute="leading" secondItem="88U-E9-c0v" secondAttribute="leading" constant="8" id="Qnw-3v-cxZ"/>
                                             <constraint firstAttribute="height" constant="1000" id="R59-Sj-tb9"/>
                                             <constraint firstItem="ezx-1O-xRx" firstAttribute="leading" secondItem="88U-E9-c0v" secondAttribute="leading" id="VDq-7U-gTq"/>
+                                            <constraint firstAttribute="bottom" secondItem="OKK-wB-nPx" secondAttribute="bottom" constant="168" id="agA-ff-OFh"/>
+                                            <constraint firstAttribute="trailing" secondItem="OKK-wB-nPx" secondAttribute="trailing" constant="8" id="eaS-Ln-DXv"/>
                                             <constraint firstAttribute="bottom" secondItem="ezx-1O-xRx" secondAttribute="bottom" constant="894" id="w0X-DD-lPi"/>
                                         </constraints>
                                     </view>
