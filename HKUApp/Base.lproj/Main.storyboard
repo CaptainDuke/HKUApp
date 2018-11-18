@@ -111,11 +111,11 @@
             <objects>
                 <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DGS-m7-hKT" customClass="DetailViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SxK-BA-LbF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJ9-ip-x9t">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1136"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gp-pM-uPb">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
@@ -257,11 +257,11 @@ HKU has ten faculties, a graduate school and a number of independent centres of 
             <objects>
                 <viewController storyboardIdentifier="DirectorViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6ay-nh-IJP" customClass="DirectorViewController" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P5c-uY-rki">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAt-B6-qjf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1136"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8lk-gJ-JGQ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1200"/>
@@ -486,10 +486,10 @@ Programme Director</string>
                                     </connections>
                                 </button>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwZ-M8-mNS" userLabel="PopUp" customClass="DesignableView" customModule="HKUApp" customModuleProvider="target">
-                                    <rect key="frame" x="40" y="193" width="240" height="182"/>
+                                    <rect key="frame" x="40" y="160" width="240" height="249"/>
                                     <subviews>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vc8-ih-FgK">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="182"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="249"/>
                                             <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="0.53627996575342463" colorSpace="custom" customColorSpace="sRGB"/>
                                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -514,10 +514,10 @@ Programme Director</string>
                                 <constraint firstItem="bwZ-M8-mNS" firstAttribute="leading" secondItem="Qa6-RT-jE0" secondAttribute="leading" constant="40" id="850-3K-cEB"/>
                                 <constraint firstAttribute="bottom" secondItem="c76-Cl-fiD" secondAttribute="bottom" id="dXU-d5-0tZ"/>
                                 <constraint firstItem="c76-Cl-fiD" firstAttribute="leading" secondItem="Qa6-RT-jE0" secondAttribute="leading" id="nDE-Ab-Dvq"/>
-                                <constraint firstItem="bwZ-M8-mNS" firstAttribute="top" secondItem="Qa6-RT-jE0" secondAttribute="top" constant="193" id="oGB-Jz-qDE"/>
+                                <constraint firstItem="bwZ-M8-mNS" firstAttribute="top" secondItem="Qa6-RT-jE0" secondAttribute="top" constant="160" id="oGB-Jz-qDE"/>
                                 <constraint firstAttribute="trailing" secondItem="c76-Cl-fiD" secondAttribute="trailing" id="oUl-o1-5Lv"/>
                                 <constraint firstAttribute="trailing" secondItem="bwZ-M8-mNS" secondAttribute="trailing" constant="40" id="qOA-54-30K"/>
-                                <constraint firstAttribute="bottom" secondItem="bwZ-M8-mNS" secondAttribute="bottom" constant="193" id="uTJ-8n-qbF"/>
+                                <constraint firstAttribute="bottom" secondItem="bwZ-M8-mNS" secondAttribute="bottom" constant="159" id="uTJ-8n-qbF"/>
                                 <constraint firstItem="c76-Cl-fiD" firstAttribute="top" secondItem="Qa6-RT-jE0" secondAttribute="top" id="wGP-tt-jcM"/>
                             </constraints>
                         </view>
@@ -596,6 +596,9 @@ Programme Director</string>
                                                 <state key="normal" title="Message from Programme Director">
                                                     <color key="titleColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="6ay-nh-IJP" kind="show" id="u57-hz-4qG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKE-Wc-2FZ" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
                                                 <rect key="frame" x="108" y="848" width="104" height="33"/>
@@ -609,6 +612,9 @@ Programme Director</string>
                                                         <real key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="UM0-ej-cYG" kind="show" id="Ic6-KD-mq3"/>
+                                                </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission 2019" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WMu-5Y-Egx">
                                                 <rect key="frame" x="96" y="810" width="128" height="30"/>
@@ -644,6 +650,9 @@ Programme Director</string>
                                                         <real key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="fjj-UC-x4c" kind="show" id="i6u-cb-GNh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -899,7 +908,7 @@ Programme Director</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Z7E-6y-yoS">
-                                <rect key="frame" x="16" y="105" width="133" height="157"/>
+                                <rect key="frame" x="16" y="149" width="133" height="113"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
                                     <string key="title">  Admission
@@ -911,7 +920,7 @@ Requirement</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="98P-IU-WGC">
-                                <rect key="frame" x="171" y="105" width="133" height="157"/>
+                                <rect key="frame" x="171" y="149" width="133" height="113"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
                                     <string key="title">Application
@@ -965,7 +974,7 @@ Graduates</string>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gpx-n4-6h6">
-                                <rect key="frame" x="111" y="59" width="99" height="67"/>
+                                <rect key="frame" x="111" y="103" width="99" height="23"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1290,7 +1299,7 @@ The academic staff is active in research and development in a variety of areas i
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="krS-Qi-k91">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDe-SF-Jm6">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -1527,9 +1536,8 @@ Applicants who wish to be admitted on the basis of a qualification from a univer
                                     <segue destination="3yq-ew-SQB" kind="show" id="MRr-9R-CFG"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Curriculum" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zHu-Pp-kVq">
-                                <rect key="frame" x="108" y="108" width="106" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Curriculum" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y2f-1f-aOu">
+                                <rect key="frame" x="107" y="111" width="106" height="23"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1537,16 +1545,20 @@ Applicants who wish to be admitted on the basis of a qualification from a univer
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="Y2f-1f-aOu" secondAttribute="trailing" constant="107" id="0il-tp-74Z"/>
                             <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="UcL-Dp-AWr" secondAttribute="bottom" constant="70" id="4ya-MS-BUW"/>
                             <constraint firstItem="7lU-ge-JZr" firstAttribute="top" secondItem="OfO-vO-U2p" secondAttribute="bottom" constant="8" id="8Qu-Lq-xbh"/>
+                            <constraint firstItem="Y2f-1f-aOu" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="107" id="BPU-HK-gWa"/>
                             <constraint firstItem="GFN-5X-C3p" firstAttribute="top" secondItem="wfo-b0-ayd" secondAttribute="top" constant="90" id="Cy5-Sg-6vu"/>
                             <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="OfO-vO-U2p" secondAttribute="bottom" constant="246" id="Dlq-Fa-xx2"/>
                             <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="GFN-5X-C3p" secondAttribute="trailing" constant="30" id="Kr2-K9-U0q"/>
                             <constraint firstItem="OfO-vO-U2p" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="30" id="PhP-yr-Nf3"/>
                             <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="7lU-ge-JZr" secondAttribute="trailing" constant="30" id="UIb-jL-NFC"/>
                             <constraint firstAttribute="bottomMargin" secondItem="7lU-ge-JZr" secondAttribute="bottom" constant="158" id="WMU-6s-5cs"/>
+                            <constraint firstItem="GFN-5X-C3p" firstAttribute="top" secondItem="Y2f-1f-aOu" secondAttribute="bottom" constant="20" id="Xjy-Mx-lDJ"/>
                             <constraint firstItem="OfO-vO-U2p" firstAttribute="top" secondItem="GFN-5X-C3p" secondAttribute="bottom" constant="8" id="ZvH-3d-vfD"/>
                             <constraint firstItem="UcL-Dp-AWr" firstAttribute="top" secondItem="7lU-ge-JZr" secondAttribute="bottom" constant="8" id="b47-o7-coS"/>
+                            <constraint firstItem="Y2f-1f-aOu" firstAttribute="top" secondItem="wfo-b0-ayd" secondAttribute="top" constant="47" id="bW1-b2-3h7"/>
                             <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="GFN-5X-C3p" secondAttribute="bottom" constant="334" id="dUK-9g-kJ2"/>
                             <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="UcL-Dp-AWr" secondAttribute="trailing" constant="30" id="e1B-pE-5Aa"/>
                             <constraint firstItem="7lU-ge-JZr" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="30" id="lig-df-V3z"/>
@@ -1834,10 +1846,10 @@ Graduates</string>
             </objects>
             <point key="canvasLocation" x="1277" y="5775"/>
         </scene>
-        <!--View Controller-->
+        <!--Prog Over ViewVC-->
         <scene sceneID="hB7-O1-L6T">
             <objects>
-                <viewController id="fjj-UC-x4c" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="progOverViewVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fjj-UC-x4c" customClass="progOverViewVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sOi-tV-gdp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1847,9 +1859,261 @@ Graduates</string>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-3t-PIY">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="progOverView.png" translatesAutoresizingMaskIntoConstraints="NO" id="YIj-y9-3CH">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Programme Overview" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gMc-65-M6E">
+                                                <rect key="frame" x="8" y="117" width="210" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4b-FN-Dl8">
+                                                <rect key="frame" x="0.0" y="144" width="320" height="149"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">The MSc(CompSc) programme is a comprehensive postgraduate study programme provides advanced and in-depth learning in Computer Science.  The programme is credit unit based, with courses of both applied and fundamental nature.</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBy-YY-bg0" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="112" y="295" width="96" height="33"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="33" id="IEl-Sl-fXF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="More...">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="overViewBtn:" destination="fjj-UC-x4c" eventType="touchUpInside" id="whd-27-dCa"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="c7O-am-rfc"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Stream of Study" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="937-WA-786">
+                                                <rect key="frame" x="8" y="358" width="210" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zzN-Nx-wX1">
+                                                <rect key="frame" x="8" y="385" width="304" height="132"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sBr-qb-7r6">
+                                                    <size key="itemSize" width="169" height="109"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="streamOfStudy" id="aWR-lC-tId" customClass="facultyCell" customModule="HKUApp" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="11.5" width="169" height="109"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="169" height="109"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dzZ-Gl-yjm">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="169" height="79"/>
+                                                                </imageView>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkY-xi-5XC">
+                                                                    <rect key="frame" x="0.0" y="80" width="169" height="29"/>
+                                                                    <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                                </textView>
+                                                            </subviews>
+                                                        </view>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="dzZ-Gl-yjm" secondAttribute="trailing" id="MyY-fh-1G8"/>
+                                                            <constraint firstItem="HkY-xi-5XC" firstAttribute="leading" secondItem="aWR-lC-tId" secondAttribute="leading" id="aS4-Tb-oEw"/>
+                                                            <constraint firstItem="dzZ-Gl-yjm" firstAttribute="leading" secondItem="aWR-lC-tId" secondAttribute="leading" id="gJL-dE-hHB"/>
+                                                            <constraint firstItem="HkY-xi-5XC" firstAttribute="top" secondItem="dzZ-Gl-yjm" secondAttribute="bottom" constant="1" id="jHd-pK-LXX"/>
+                                                            <constraint firstAttribute="bottom" secondItem="HkY-xi-5XC" secondAttribute="bottom" id="lvs-WS-CIi"/>
+                                                            <constraint firstItem="dzZ-Gl-yjm" firstAttribute="top" secondItem="aWR-lC-tId" secondAttribute="top" id="rBw-D1-UOo"/>
+                                                            <constraint firstAttribute="bottom" secondItem="dzZ-Gl-yjm" secondAttribute="bottom" constant="30" id="s97-IQ-KgU"/>
+                                                            <constraint firstAttribute="trailing" secondItem="HkY-xi-5XC" secondAttribute="trailing" id="udQ-Fc-5r2"/>
+                                                        </constraints>
+                                                        <connections>
+                                                            <outlet property="facultyEmail" destination="HkY-xi-5XC" id="Obt-pE-FEv"/>
+                                                            <outlet property="facultyPhoto" destination="dzZ-Gl-yjm" id="c36-ts-BXk"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="fjj-UC-x4c" id="R2P-UQ-nWA"/>
+                                                    <outlet property="delegate" destination="fjj-UC-x4c" id="rI7-EN-yQi"/>
+                                                </connections>
+                                            </collectionView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Pattern of Study" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kZN-PA-7Ql">
+                                                <rect key="frame" x="8" y="532" width="147" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Capstone Experience –" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WVb-Ac-QGh">
+                                                <rect key="frame" x="8" y="759" width="190" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Dissertations and Projects" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IHk-ub-jxz">
+                                                <rect key="frame" x="8" y="781" width="219" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Students are required to complete 72 credits of courses selected from the syllabus which must include capstone experience." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcX-tg-Yfv">
+                                                <rect key="frame" x="0.0" y="559" width="320" height="80.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGB-2P-sxo" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="84" y="665" width="152" height="33"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Enrolment Mode">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="enroModeBtn:" destination="fjj-UC-x4c" eventType="touchUpInside" id="ynm-DU-fwV"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="wZm-9x-4bY"/>
+                                                </connections>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="The capstone experience will definitely be beneficial for students to put together what they have learnt in the programme ..." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCD-2b-a4Q">
+                                                <rect key="frame" x="0.0" y="808" width="320" height="84"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEc-q1-377" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="112" y="900" width="96" height="33"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="More...">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="dissertBtn:" destination="fjj-UC-x4c" eventType="touchUpInside" id="dIU-Jx-0Mh"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="8IF-d1-ns4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq2-gM-sFN" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="65" y="706" width="190" height="33"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="Selection of Courses">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="selectOfCourseBtn:" destination="fjj-UC-x4c" eventType="touchUpInside" id="drv-7w-VbH"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="k94-wr-fey"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6N4-f6-hFL">
+                                                <rect key="frame" x="26" y="88" width="52" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <segue destination="o9I-Au-YIZ" kind="show" id="lQH-Kp-YVO"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="pEc-q1-377" secondAttribute="trailing" constant="112" id="1ZT-OU-ybQ"/>
+                                            <constraint firstItem="eCD-2b-a4Q" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" id="3xS-dr-BlZ"/>
+                                            <constraint firstAttribute="bottom" secondItem="SBy-YY-bg0" secondAttribute="bottom" constant="672" id="5GO-i6-Gvd"/>
+                                            <constraint firstItem="VcX-tg-Yfv" firstAttribute="top" secondItem="kZN-PA-7Ql" secondAttribute="bottom" constant="8" id="83q-JF-aXh"/>
+                                            <constraint firstItem="SBy-YY-bg0" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="112" id="8Iv-LA-CJd"/>
+                                            <constraint firstAttribute="bottom" secondItem="gMc-65-M6E" secondAttribute="bottom" constant="864" id="8c5-ET-twr"/>
+                                            <constraint firstAttribute="trailing" secondItem="Tq2-gM-sFN" secondAttribute="trailing" constant="65" id="BVm-ZU-c4e"/>
+                                            <constraint firstItem="eCD-2b-a4Q" firstAttribute="top" secondItem="IHk-ub-jxz" secondAttribute="bottom" constant="8" id="EO2-nZ-L81"/>
+                                            <constraint firstAttribute="trailing" secondItem="h4b-FN-Dl8" secondAttribute="trailing" id="Eei-EN-S6O"/>
+                                            <constraint firstAttribute="trailing" secondItem="WVb-Ac-QGh" secondAttribute="trailing" constant="122" id="FfJ-QQ-qxQ"/>
+                                            <constraint firstItem="gMc-65-M6E" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="8" id="J0U-XZ-sjh"/>
+                                            <constraint firstAttribute="trailing" secondItem="gMc-65-M6E" secondAttribute="trailing" constant="102" id="J3F-4b-h7c"/>
+                                            <constraint firstAttribute="bottom" secondItem="Tq2-gM-sFN" secondAttribute="bottom" constant="261" id="JUR-y9-DVf"/>
+                                            <constraint firstAttribute="trailing" secondItem="IHk-ub-jxz" secondAttribute="trailing" constant="93" id="Jdn-HU-lxe"/>
+                                            <constraint firstItem="nGB-2P-sxo" firstAttribute="top" secondItem="VcX-tg-Yfv" secondAttribute="bottom" constant="25.5" id="Je8-ow-x5f"/>
+                                            <constraint firstAttribute="trailing" secondItem="937-WA-786" secondAttribute="trailing" constant="102" id="Jte-4Q-uvc"/>
+                                            <constraint firstItem="nGB-2P-sxo" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="84" id="LDE-qh-brn"/>
+                                            <constraint firstAttribute="bottom" secondItem="pEc-q1-377" secondAttribute="bottom" constant="67" id="LRw-fI-KZX"/>
+                                            <constraint firstAttribute="bottom" secondItem="nGB-2P-sxo" secondAttribute="bottom" constant="302" id="NsN-6h-0w1"/>
+                                            <constraint firstItem="YIj-y9-3CH" firstAttribute="top" secondItem="pgc-3t-PIY" secondAttribute="top" id="PK1-Kp-Vwt"/>
+                                            <constraint firstAttribute="trailing" secondItem="SBy-YY-bg0" secondAttribute="trailing" constant="112" id="RAM-wu-OhW"/>
+                                            <constraint firstItem="IHk-ub-jxz" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="8" id="RTv-zB-i8U"/>
+                                            <constraint firstItem="WVb-Ac-QGh" firstAttribute="top" secondItem="Tq2-gM-sFN" secondAttribute="bottom" constant="20" id="S0X-pY-F4H"/>
+                                            <constraint firstAttribute="bottom" secondItem="937-WA-786" secondAttribute="bottom" constant="623" id="Xig-DR-xFC"/>
+                                            <constraint firstAttribute="bottom" secondItem="kZN-PA-7Ql" secondAttribute="bottom" constant="449" id="YAm-Kt-XFA"/>
+                                            <constraint firstItem="Tq2-gM-sFN" firstAttribute="top" secondItem="nGB-2P-sxo" secondAttribute="bottom" constant="8" id="YGr-FO-Ymw"/>
+                                            <constraint firstItem="pEc-q1-377" firstAttribute="top" secondItem="eCD-2b-a4Q" secondAttribute="bottom" constant="8" id="YOt-gQ-Y7t"/>
+                                            <constraint firstItem="h4b-FN-Dl8" firstAttribute="top" secondItem="gMc-65-M6E" secondAttribute="bottom" constant="8" id="Ydu-y1-4zy"/>
+                                            <constraint firstAttribute="trailing" secondItem="YIj-y9-3CH" secondAttribute="trailing" id="Yhz-Hf-js2"/>
+                                            <constraint firstAttribute="trailing" secondItem="eCD-2b-a4Q" secondAttribute="trailing" id="Z9w-g4-uO5"/>
+                                            <constraint firstItem="zzN-Nx-wX1" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="8" id="Zfl-vV-UMC"/>
+                                            <constraint firstAttribute="bottom" secondItem="zzN-Nx-wX1" secondAttribute="bottom" constant="483" id="a69-YK-KCp"/>
+                                            <constraint firstItem="Tq2-gM-sFN" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="65" id="amw-KC-Z4T"/>
+                                            <constraint firstItem="gMc-65-M6E" firstAttribute="top" secondItem="YIj-y9-3CH" secondAttribute="bottom" constant="8" id="c6w-ja-Lqb"/>
+                                            <constraint firstItem="kZN-PA-7Ql" firstAttribute="top" secondItem="zzN-Nx-wX1" secondAttribute="bottom" constant="15" id="e8l-fJ-4Ze"/>
+                                            <constraint firstAttribute="bottom" secondItem="eCD-2b-a4Q" secondAttribute="bottom" constant="108" id="ecd-om-pOF"/>
+                                            <constraint firstAttribute="trailing" secondItem="VcX-tg-Yfv" secondAttribute="trailing" id="fLQ-nB-pXX"/>
+                                            <constraint firstItem="937-WA-786" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="8" id="fhQ-oO-k4o"/>
                                             <constraint firstAttribute="height" constant="1000" id="g8O-r3-EhH"/>
+                                            <constraint firstAttribute="bottom" secondItem="YIj-y9-3CH" secondAttribute="bottom" constant="891" id="iZb-Se-jOG"/>
+                                            <constraint firstItem="h4b-FN-Dl8" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" id="imj-Yt-JAt"/>
+                                            <constraint firstAttribute="bottom" secondItem="VcX-tg-Yfv" secondAttribute="bottom" constant="360.5" id="jKl-pB-4oc"/>
+                                            <constraint firstAttribute="bottom" secondItem="IHk-ub-jxz" secondAttribute="bottom" constant="200" id="l6A-cF-cSJ"/>
+                                            <constraint firstItem="pEc-q1-377" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="112" id="lKi-ec-hLL"/>
+                                            <constraint firstItem="zzN-Nx-wX1" firstAttribute="top" secondItem="937-WA-786" secondAttribute="bottom" constant="8" id="lgb-8n-EPD"/>
+                                            <constraint firstItem="937-WA-786" firstAttribute="top" secondItem="SBy-YY-bg0" secondAttribute="bottom" constant="30" id="lir-79-09Q"/>
+                                            <constraint firstItem="WVb-Ac-QGh" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="8" id="niJ-ch-kVK"/>
+                                            <constraint firstItem="WVb-Ac-QGh" firstAttribute="top" secondItem="Tq2-gM-sFN" secondAttribute="bottom" constant="20" id="oYf-8j-Q76"/>
+                                            <constraint firstAttribute="trailing" secondItem="nGB-2P-sxo" secondAttribute="trailing" constant="84" id="qU0-Hq-ml8"/>
+                                            <constraint firstAttribute="bottom" secondItem="h4b-FN-Dl8" secondAttribute="bottom" constant="707" id="rAR-YI-Qtm"/>
+                                            <constraint firstItem="IHk-ub-jxz" firstAttribute="top" secondItem="WVb-Ac-QGh" secondAttribute="bottom" constant="3" id="t5t-nu-hbI"/>
+                                            <constraint firstItem="kZN-PA-7Ql" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" constant="8" id="t7a-6E-mLN"/>
+                                            <constraint firstAttribute="trailing" secondItem="zzN-Nx-wX1" secondAttribute="trailing" constant="8" id="tAn-m3-h3X"/>
+                                            <constraint firstItem="SBy-YY-bg0" firstAttribute="top" secondItem="h4b-FN-Dl8" secondAttribute="bottom" constant="2" id="tTj-if-3wA"/>
+                                            <constraint firstItem="VcX-tg-Yfv" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" id="tct-A5-Vb6"/>
+                                            <constraint firstItem="YIj-y9-3CH" firstAttribute="leading" secondItem="pgc-3t-PIY" secondAttribute="leading" id="ubO-Jl-Kag"/>
+                                            <constraint firstItem="IHk-ub-jxz" firstAttribute="top" secondItem="WVb-Ac-QGh" secondAttribute="bottom" constant="3" id="wnF-21-DJe"/>
+                                            <constraint firstAttribute="trailing" secondItem="kZN-PA-7Ql" secondAttribute="trailing" constant="165" id="yim-N1-2M7"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1872,10 +2136,13 @@ Graduates</string>
                         <viewLayoutGuide key="safeArea" id="rJi-Vo-k8U"/>
                     </view>
                     <size key="freeformSize" width="320" height="1100"/>
+                    <connections>
+                        <outlet property="streamsCollectView" destination="zzN-Nx-wX1" id="gJS-1q-NSG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nnp-p8-5af" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2134" y="1683"/>
+            <point key="canvasLocation" x="2133.75" y="1682.7464788732395"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="x3t-xg-nJJ">
@@ -2015,7 +2282,7 @@ Graduates</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cld-QF-2zk">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDd-ac-4yg">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2187,7 +2454,7 @@ The results for admission in September are normally available by July of the sam
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86x-rT-eT9">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vk9-Pb-Tte">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2230,7 +2497,7 @@ The results for admission in September are normally available by July of the sam
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YvV-DL-uSU">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U5a-k1-jQN">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1080"/>
@@ -2392,7 +2659,7 @@ The results for admission in September are normally available by July of the sam
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WT-cy-8do">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eOY-4t-Rtq">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2609,7 +2876,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XOc-Xi-cSm">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5XG-09-DSU">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2699,9 +2966,18 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0R-P9-7IM">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="durationTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vIo-h9-4pn">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="vIo-h9-4pn" secondAttribute="bottom" constant="902" id="9AM-PN-FZx"/>
                                             <constraint firstAttribute="height" constant="1000" id="LAs-Jg-k6A"/>
+                                            <constraint firstAttribute="trailing" secondItem="vIo-h9-4pn" secondAttribute="trailing" id="Mte-Nr-LBl"/>
+                                            <constraint firstItem="vIo-h9-4pn" firstAttribute="leading" secondItem="M0R-P9-7IM" secondAttribute="leading" id="Ok3-V7-iY9"/>
+                                            <constraint firstItem="vIo-h9-4pn" firstAttribute="top" secondItem="M0R-P9-7IM" secondAttribute="top" id="jFt-ia-Gt9"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -2727,7 +3003,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C9U-6n-JtT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3521" y="1683"/>
+            <point key="canvasLocation" x="3519.375" y="1682.7464788732395"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DVa-uV-XYX">
@@ -2742,9 +3018,18 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Uj-Uq-ttt">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="courseTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="o3y-5p-Fbh">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="o3y-5p-Fbh" firstAttribute="leading" secondItem="8Uj-Uq-ttt" secondAttribute="leading" id="9i0-In-GNj"/>
+                                            <constraint firstAttribute="bottom" secondItem="o3y-5p-Fbh" secondAttribute="bottom" constant="897" id="Bg4-Uv-e3U"/>
+                                            <constraint firstAttribute="trailing" secondItem="o3y-5p-Fbh" secondAttribute="trailing" id="hSt-WP-e8K"/>
                                             <constraint firstAttribute="height" constant="1000" id="hdw-1L-EUn"/>
+                                            <constraint firstItem="o3y-5p-Fbh" firstAttribute="top" secondItem="8Uj-Uq-ttt" secondAttribute="top" id="lVt-7B-LUc"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -2770,7 +3055,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hec-N1-fBL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2828" y="1683"/>
+            <point key="canvasLocation" x="2827.5" y="1682.7464788732395"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WDQ-Ua-2hY">
@@ -2955,19 +3240,25 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
         <image name="adRequire.png" width="1546" height="482"/>
         <image name="appProce.png" width="1590" height="518"/>
         <image name="compFee.png" width="1492" height="496"/>
+        <image name="courseTitle.png" width="1646" height="516"/>
         <image name="director.jpg" width="2086" height="508"/>
+        <image name="durationTitle.png" width="1768" height="498"/>
         <image name="faculty.jpg" width="1392" height="472"/>
         <image name="home_about.jpg" width="1118" height="454"/>
         <image name="mfpd.JPG" width="1600" height="800"/>
+        <image name="progOverView.png" width="1520" height="548"/>
         <image name="timeTable.png" width="1492" height="296"/>
         <image name="wordsSG.png" width="1702" height="452"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vlZ-pu-eK4"/>
-        <segue reference="qhh-SU-8z4"/>
-        <segue reference="E8V-ma-GIa"/>
+        <segue reference="i6u-cb-GNh"/>
+        <segue reference="elB-xE-o1p"/>
+        <segue reference="Ic6-KD-mq3"/>
+        <segue reference="T4h-f5-8JC"/>
+        <segue reference="c7O-am-rfc"/>
+        <segue reference="aQf-hW-t3W"/>
         <segue reference="VUa-8E-tF1"/>
-        <segue reference="8eJ-3L-IEo"/>
-        <segue reference="pC3-sa-WQz"/>
+        <segue reference="8Ux-ZS-l5L"/>
+        <segue reference="0sH-B8-uNF"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -53,6 +53,15 @@
 		A58EDFF021A14F840025F1D3 /* HuTianyi_Bruce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE621A14F830025F1D3 /* HuTianyi_Bruce.jpg */; };
 		A58EDFF221A158AE0025F1D3 /* Nav_lv2-Curriculum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFF121A158AD0025F1D3 /* Nav_lv2-Curriculum.jpg */; };
 		A58EDFF421A15B5D0025F1D3 /* CurriVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EDFF321A15B5D0025F1D3 /* CurriVC.swift */; };
+		A58EDFF621A1625B0025F1D3 /* progOverViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EDFF521A1625B0025F1D3 /* progOverViewVC.swift */; };
+		A58EDFFB21A163720025F1D3 /* durationTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFF721A1636A0025F1D3 /* durationTitle.png */; };
+		A58EDFFC21A163720025F1D3 /* progOverView.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFF821A1636C0025F1D3 /* progOverView.png */; };
+		A58EDFFD21A163720025F1D3 /* courseTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFF921A1636E0025F1D3 /* courseTitle.png */; };
+		A58EDFFE21A163720025F1D3 /* regulationTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFFA21A163700025F1D3 /* regulationTitle.png */; };
+		A58EE00321A164B60025F1D3 /* FinancialComputing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFFF21A164B60025F1D3 /* FinancialComputing.jpg */; };
+		A58EE00421A164B60025F1D3 /* MultimediaComputing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00021A164B60025F1D3 /* MultimediaComputing.jpg */; };
+		A58EE00521A164B60025F1D3 /* GeneralStream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00121A164B60025F1D3 /* GeneralStream.jpg */; };
+		A58EE00621A164B60025F1D3 /* InformationSecurity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00221A164B60025F1D3 /* InformationSecurity.jpg */; };
 		A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BECBA9219F058800DEC21C /* timeTable.png */; };
 		A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAB219F076100DEC21C /* adApplicationVC.swift */; };
 		A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */; };
@@ -158,6 +167,15 @@
 		A58EDFE621A14F830025F1D3 /* HuTianyi_Bruce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HuTianyi_Bruce.jpg; sourceTree = "<group>"; };
 		A58EDFF121A158AD0025F1D3 /* Nav_lv2-Curriculum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-Curriculum.jpg"; sourceTree = "<group>"; };
 		A58EDFF321A15B5D0025F1D3 /* CurriVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriVC.swift; sourceTree = "<group>"; };
+		A58EDFF521A1625B0025F1D3 /* progOverViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progOverViewVC.swift; sourceTree = "<group>"; };
+		A58EDFF721A1636A0025F1D3 /* durationTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = durationTitle.png; sourceTree = "<group>"; };
+		A58EDFF821A1636C0025F1D3 /* progOverView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progOverView.png; sourceTree = "<group>"; };
+		A58EDFF921A1636E0025F1D3 /* courseTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courseTitle.png; sourceTree = "<group>"; };
+		A58EDFFA21A163700025F1D3 /* regulationTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regulationTitle.png; sourceTree = "<group>"; };
+		A58EDFFF21A164B60025F1D3 /* FinancialComputing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FinancialComputing.jpg; sourceTree = "<group>"; };
+		A58EE00021A164B60025F1D3 /* MultimediaComputing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MultimediaComputing.jpg; sourceTree = "<group>"; };
+		A58EE00121A164B60025F1D3 /* GeneralStream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GeneralStream.jpg; sourceTree = "<group>"; };
+		A58EE00221A164B60025F1D3 /* InformationSecurity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InformationSecurity.jpg; sourceTree = "<group>"; };
 		A5BECBA9219F058800DEC21C /* timeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeTable.png; sourceTree = "<group>"; };
 		A5BECBAB219F076100DEC21C /* adApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adApplicationVC.swift; sourceTree = "<group>"; };
 		A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compFeeVC.swift; sourceTree = "<group>"; };
@@ -284,6 +302,14 @@
 			isa = PBXGroup;
 			children = (
 				A5D21321219EEE26002000E4 /* compFee.png */,
+				A58EDFF921A1636E0025F1D3 /* courseTitle.png */,
+				A58EDFF721A1636A0025F1D3 /* durationTitle.png */,
+				A58EDFFF21A164B60025F1D3 /* FinancialComputing.jpg */,
+				A58EE00121A164B60025F1D3 /* GeneralStream.jpg */,
+				A58EE00221A164B60025F1D3 /* InformationSecurity.jpg */,
+				A58EE00021A164B60025F1D3 /* MultimediaComputing.jpg */,
+				A58EDFF821A1636C0025F1D3 /* progOverView.png */,
+				A58EDFFA21A163700025F1D3 /* regulationTitle.png */,
 				A5D21322219EEE26002000E4 /* wordsSG.png */,
 				A5D21331219EF844002000E4 /* adRequire.png */,
 				A5D21324219EEE26002000E4 /* infoSess.png */,
@@ -343,6 +369,7 @@
 				A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */,
 				A58EDFC521A145EC0025F1D3 /* wordsSgVC.swift */,
 				A58EDFF321A15B5D0025F1D3 /* CurriVC.swift */,
+				A58EDFF521A1625B0025F1D3 /* progOverViewVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A54F6CBB219EB1930028723A /* tbCell.swift */,
 				A54F6CB5219E84D10028723A /* facultyCell.swift */,
@@ -521,10 +548,15 @@
 				A54F6CB2219DB5D90028723A /* Prof. Lau F.C.M..jpg in Resources */,
 				A58EDFEF21A14F840025F1D3 /* LengSiyu.jpg in Resources */,
 				A54F6CA3219DB5D90028723A /* Prof. Wang W..jpg in Resources */,
+				A58EDFFE21A163720025F1D3 /* regulationTitle.png in Resources */,
 				A58EDFEE21A14F840025F1D3 /* Clark.jpg in Resources */,
+				A58EE00321A164B60025F1D3 /* FinancialComputing.jpg in Resources */,
 				A54F6CA5219DB5D90028723A /* Prof. Tse T.H..jpg in Resources */,
 				A5D2132C219EEE28002000E4 /* appProce.png in Resources */,
+				A58EDFFD21A163720025F1D3 /* courseTitle.png in Resources */,
+				A58EE00621A164B60025F1D3 /* InformationSecurity.jpg in Resources */,
 				A54F6CB1219DB5D90028723A /* Dr. Chan K.P..jpg in Resources */,
+				A58EDFFC21A163720025F1D3 /* progOverView.png in Resources */,
 				A5F7ACF221919767006DC855 /* WangCL.jpg in Resources */,
 				A5D2132B219EEE28002000E4 /* fAq.png in Resources */,
 				A5F7AD092192B4DB006DC855 /* Slider1.jpg in Resources */,
@@ -537,6 +569,7 @@
 				A5F7AD0F2192C533006DC855 /* mfpd.JPG in Resources */,
 				A54F6CA8219DB5D90028723A /* Dr. Tam A.T.C..jpg in Resources */,
 				A58EDFEB21A14F840025F1D3 /* Stoffregen.jpg in Resources */,
+				A58EE00521A164B60025F1D3 /* GeneralStream.jpg in Resources */,
 				A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */,
 				A54F6CB4219DB5D90028723A /* Dr. Choi L.Y.K..jpg in Resources */,
 				A5F7ACF421919767006DC855 /* home_about.jpg in Resources */,
@@ -557,6 +590,7 @@
 				A5D21328219EEE28002000E4 /* wordsSG.png in Resources */,
 				A5F7ACF721919767006DC855 /* SchD.jpg in Resources */,
 				A58EDFF021A14F840025F1D3 /* HuTianyi_Bruce.jpg in Resources */,
+				A58EDFFB21A163720025F1D3 /* durationTitle.png in Resources */,
 				A54F6CA4219DB5D90028723A /* Mr. Ng P.T.L..jpg in Resources */,
 				A54F6CAE219DB5D90028723A /* Dr. Wu C..jpg in Resources */,
 				A54F6CB3219DB5D90028723A /* Mr. Mitcheson, G..jpg in Resources */,
@@ -564,6 +598,7 @@
 				A5F7ACF621919767006DC855 /* director.jpg in Resources */,
 				A54F6CB0219DB5D90028723A /* Dr. Rahmel J.H..jpg in Resources */,
 				A58EDFED21A14F840025F1D3 /* Karina Vidyantiningrum.jpg in Resources */,
+				A58EE00421A164B60025F1D3 /* MultimediaComputing.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +643,7 @@
 				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,
 				A54F6CBC219EB1930028723A /* tbCell.swift in Sources */,
 				A5D2132E219EF442002000E4 /* adminPopVC.swift in Sources */,
+				A58EDFF621A1625B0025F1D3 /* progOverViewVC.swift in Sources */,
 				A5F7ACFD21927ECB006DC855 /* BaseViewController.swift in Sources */,
 				A5F227FA2192EFA600C5189F /* MapViewController.swift in Sources */,
 			);

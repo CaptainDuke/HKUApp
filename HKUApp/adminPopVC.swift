@@ -19,14 +19,14 @@ class adminPopVC: UIViewController {
         super.viewDidLoad()
         
         btnPressed()
+        btnPressed()
         // Do any additional setup after loading the view.
     }
     
     func btnPressed() {
-        if 1 == 1{
-            showTextView.text = adminSender
-            adminSender = Regulation
-        }
+        showTextView.text = adminSender
+
+        
     }
 
   
