@@ -51,6 +51,8 @@
 		A58EDFEE21A14F840025F1D3 /* Clark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE421A14F830025F1D3 /* Clark.jpg */; };
 		A58EDFEF21A14F840025F1D3 /* LengSiyu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE521A14F830025F1D3 /* LengSiyu.jpg */; };
 		A58EDFF021A14F840025F1D3 /* HuTianyi_Bruce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFE621A14F830025F1D3 /* HuTianyi_Bruce.jpg */; };
+		A58EDFF221A158AE0025F1D3 /* Nav_lv2-Curriculum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EDFF121A158AD0025F1D3 /* Nav_lv2-Curriculum.jpg */; };
+		A58EDFF421A15B5D0025F1D3 /* CurriVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EDFF321A15B5D0025F1D3 /* CurriVC.swift */; };
 		A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BECBA9219F058800DEC21C /* timeTable.png */; };
 		A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAB219F076100DEC21C /* adApplicationVC.swift */; };
 		A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */; };
@@ -154,6 +156,8 @@
 		A58EDFE421A14F830025F1D3 /* Clark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clark.jpg; sourceTree = "<group>"; };
 		A58EDFE521A14F830025F1D3 /* LengSiyu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LengSiyu.jpg; sourceTree = "<group>"; };
 		A58EDFE621A14F830025F1D3 /* HuTianyi_Bruce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HuTianyi_Bruce.jpg; sourceTree = "<group>"; };
+		A58EDFF121A158AD0025F1D3 /* Nav_lv2-Curriculum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-Curriculum.jpg"; sourceTree = "<group>"; };
+		A58EDFF321A15B5D0025F1D3 /* CurriVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriVC.swift; sourceTree = "<group>"; };
 		A5BECBA9219F058800DEC21C /* timeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeTable.png; sourceTree = "<group>"; };
 		A5BECBAB219F076100DEC21C /* adApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adApplicationVC.swift; sourceTree = "<group>"; };
 		A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compFeeVC.swift; sourceTree = "<group>"; };
@@ -338,6 +342,7 @@
 				A5D2132F219EF565002000E4 /* adRequire.swift */,
 				A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */,
 				A58EDFC521A145EC0025F1D3 /* wordsSgVC.swift */,
+				A58EDFF321A15B5D0025F1D3 /* CurriVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A54F6CBB219EB1930028723A /* tbCell.swift */,
 				A54F6CB5219E84D10028723A /* facultyCell.swift */,
@@ -381,6 +386,7 @@
 				A5D2131E219EE92B002000E4 /* Nav_lv2-Curriculum.jpg */,
 				A5F7AD122192E0A9006DC855 /* WhyHKU.jpg */,
 				A5F7AD0E2192C533006DC855 /* mfpd.JPG */,
+				A58EDFF121A158AD0025F1D3 /* Nav_lv2-Curriculum.jpg */,
 				A54F6CB9219EAE640028723A /* Nav_lv2-Admission.jpg */,
 				A5F7AD0C2192C032006DC855 /* MScDarkLogo.png */,
 				A54F6C7E219DB3F20028723A /* facultyTitle.png */,
@@ -547,6 +553,7 @@
 				A54F6CA2219DB5D90028723A /* Prof. Cheung D.W.L..jpg in Resources */,
 				A54F6CA7219DB5D90028723A /* Dr. Yiu S.M..jpg in Resources */,
 				A5F7ACF521919767006DC855 /* faculty.jpg in Resources */,
+				A58EDFF221A158AE0025F1D3 /* Nav_lv2-Curriculum.jpg in Resources */,
 				A5D21328219EEE28002000E4 /* wordsSG.png in Resources */,
 				A5F7ACF721919767006DC855 /* SchD.jpg in Resources */,
 				A58EDFF021A14F840025F1D3 /* HuTianyi_Bruce.jpg in Resources */,
@@ -593,6 +600,7 @@
 				A54F6C7D219DB1DC0028723A /* FacultyVC.swift in Sources */,
 				A5F228032193110A00C5189F /* ProfInfoVC.swift in Sources */,
 				A5F227FF21930DB800C5189F /* DesignableView.swift in Sources */,
+				A58EDFF421A15B5D0025F1D3 /* CurriVC.swift in Sources */,
 				A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */,
 				A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */,
 				A54F6CB8219EA50A0028723A /* adminVC.swift in Sources */,

@@ -86,6 +86,13 @@ class MenuViewController: UIViewController {
         self.navigationController?.pushViewController(DVC, animated: true)
     }
     
+    @IBAction func btnCurrTapped(_ sender: Any) {
+        let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "CurriVC")as! CurriVC
+        
+        self.navigationController?.pushViewController(DVC, animated: true)
+        
+    }
     /*
     // MARK: - Navigation
 

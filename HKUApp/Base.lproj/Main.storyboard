@@ -49,7 +49,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryD-KE-V6b">
-                                        <rect key="frame" x="8" y="125" width="213" height="45"/>
+                                        <rect key="frame" x="8" y="369" width="213" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="Contact">
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4D-ZM-MlL">
-                                        <rect key="frame" x="8" y="175" width="213" height="40"/>
+                                        <rect key="frame" x="8" y="125" width="213" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="Admission">
@@ -68,6 +68,17 @@
                                         </state>
                                         <connections>
                                             <action selector="btnAdminTapped:" destination="N60-Nm-nO5" eventType="touchUpInside" id="F9t-Im-edB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lL2-nh-AxW">
+                                        <rect key="frame" x="8" y="173" width="213" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Curriculum">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnCurrTapped:" destination="N60-Nm-nO5" eventType="touchUpInside" id="nsv-r4-4o3"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -912,7 +923,7 @@ Procedures</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5JV-AL-0gi">
-                                <rect key="frame" x="171" y="270" width="133" height="113"/>
+                                <rect key="frame" x="16" y="391" width="133" height="113"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
                                     <string key="title">Information
@@ -942,7 +953,7 @@ Procedures</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yLu-2R-2SR">
-                                <rect key="frame" x="16" y="391" width="133" height="113"/>
+                                <rect key="frame" x="171" y="270" width="133" height="113"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
                                     <string key="title">Words from
@@ -953,31 +964,41 @@ Graduates</string>
                                     <segue destination="bSu-xG-Hyv" kind="show" id="str-rx-UQK"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gpx-n4-6h6">
+                                <rect key="frame" x="111" y="59" width="99" height="67"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="Z7E-6y-yoS" secondAttribute="trailing" constant="171" id="1bx-x4-599"/>
-                            <constraint firstItem="yEi-cc-x5w" firstAttribute="bottom" secondItem="yLu-2R-2SR" secondAttribute="bottom" constant="64" id="3qQ-G0-Gf2"/>
+                            <constraint firstItem="yEi-cc-x5w" firstAttribute="bottom" secondItem="yLu-2R-2SR" secondAttribute="bottom" constant="185" id="3qQ-G0-Gf2"/>
                             <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="98P-IU-WGC" secondAttribute="trailing" constant="16" id="8Ij-8W-x6e"/>
-                            <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="5JV-AL-0gi" secondAttribute="trailing" constant="16" id="9mR-nF-FQX"/>
+                            <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="5JV-AL-0gi" secondAttribute="trailing" constant="171" id="9mR-nF-FQX"/>
                             <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="t84-jE-ci2" secondAttribute="trailing" constant="16" id="E4f-a5-eYQ"/>
+                            <constraint firstItem="Gpx-n4-6h6" firstAttribute="top" secondItem="yEi-cc-x5w" secondAttribute="top" constant="39" id="Fqq-BU-j99"/>
                             <constraint firstItem="yEi-cc-x5w" firstAttribute="bottom" secondItem="Z7E-6y-yoS" secondAttribute="bottom" constant="306" id="Oi7-mF-pBH"/>
                             <constraint firstItem="98P-IU-WGC" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="171" id="Oq4-xh-GM5"/>
                             <constraint firstItem="t84-jE-ci2" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="171" id="SaN-aU-RKH"/>
                             <constraint firstItem="Z7E-6y-yoS" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="16" id="VFn-0K-kh5"/>
                             <constraint firstItem="xht-4L-tGD" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="16" id="Yh5-hE-0I9"/>
-                            <constraint firstItem="yLu-2R-2SR" firstAttribute="top" secondItem="xht-4L-tGD" secondAttribute="bottom" constant="8" id="ZVE-hw-1wa"/>
-                            <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="yLu-2R-2SR" secondAttribute="trailing" constant="171" id="b3X-de-VCH"/>
-                            <constraint firstItem="yEi-cc-x5w" firstAttribute="bottom" secondItem="5JV-AL-0gi" secondAttribute="bottom" constant="185" id="c5C-Sz-loX"/>
-                            <constraint firstItem="5JV-AL-0gi" firstAttribute="top" secondItem="98P-IU-WGC" secondAttribute="bottom" constant="8" id="eX7-5r-HgK"/>
+                            <constraint firstItem="yLu-2R-2SR" firstAttribute="top" secondItem="xht-4L-tGD" secondAttribute="bottom" constant="-113" id="ZVE-hw-1wa"/>
+                            <constraint firstItem="Gpx-n4-6h6" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="111" id="ann-KU-zVM"/>
+                            <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="yLu-2R-2SR" secondAttribute="trailing" constant="16" id="b3X-de-VCH"/>
+                            <constraint firstItem="yEi-cc-x5w" firstAttribute="bottom" secondItem="5JV-AL-0gi" secondAttribute="bottom" constant="64" id="c5C-Sz-loX"/>
+                            <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="Gpx-n4-6h6" secondAttribute="trailing" constant="110" id="dt8-ew-vkQ"/>
+                            <constraint firstItem="5JV-AL-0gi" firstAttribute="top" secondItem="98P-IU-WGC" secondAttribute="bottom" constant="129" id="eX7-5r-HgK"/>
                             <constraint firstItem="yEi-cc-x5w" firstAttribute="bottom" secondItem="t84-jE-ci2" secondAttribute="bottom" constant="64" id="etT-di-S56"/>
                             <constraint firstItem="98P-IU-WGC" firstAttribute="top" secondItem="yEi-cc-x5w" secondAttribute="top" constant="85" id="fgG-cW-P2E"/>
                             <constraint firstItem="xht-4L-tGD" firstAttribute="top" secondItem="Z7E-6y-yoS" secondAttribute="bottom" constant="8" id="gD4-5a-RYd"/>
-                            <constraint firstItem="t84-jE-ci2" firstAttribute="top" secondItem="5JV-AL-0gi" secondAttribute="bottom" constant="8" id="oKZ-hf-5kk"/>
-                            <constraint firstItem="5JV-AL-0gi" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="171" id="qRZ-sl-t0M"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Gpx-n4-6h6" secondAttribute="bottom" constant="442" id="lmH-Ar-Tm2"/>
+                            <constraint firstItem="t84-jE-ci2" firstAttribute="top" secondItem="5JV-AL-0gi" secondAttribute="bottom" constant="-113" id="oKZ-hf-5kk"/>
+                            <constraint firstItem="5JV-AL-0gi" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="16" id="qRZ-sl-t0M"/>
                             <constraint firstItem="Z7E-6y-yoS" firstAttribute="top" secondItem="yEi-cc-x5w" secondAttribute="top" constant="85" id="tKb-c9-szc"/>
                             <constraint firstItem="yEi-cc-x5w" firstAttribute="bottom" secondItem="xht-4L-tGD" secondAttribute="bottom" constant="185" id="uOf-2Z-VUp"/>
-                            <constraint firstItem="yLu-2R-2SR" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="16" id="vtx-gD-Sux"/>
+                            <constraint firstItem="yLu-2R-2SR" firstAttribute="leading" secondItem="yEi-cc-x5w" secondAttribute="leading" constant="171" id="vtx-gD-Sux"/>
                             <constraint firstItem="yEi-cc-x5w" firstAttribute="bottom" secondItem="98P-IU-WGC" secondAttribute="bottom" constant="306" id="xlw-kU-nNP"/>
                             <constraint firstItem="yEi-cc-x5w" firstAttribute="trailing" secondItem="xht-4L-tGD" secondAttribute="trailing" constant="171" id="z1V-Nq-9ks"/>
                         </constraints>
@@ -986,7 +1007,7 @@ Graduates</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXf-vQ-zXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1277" y="221"/>
+            <point key="canvasLocation" x="1276.875" y="220.77464788732394"/>
         </scene>
         <!--Admin PopVC-->
         <scene sceneID="pKN-i9-UfN">
@@ -1457,96 +1478,88 @@ Applicants who wish to be admitted on the basis of a qualification from a univer
             </objects>
             <point key="canvasLocation" x="2133.75" y="267.25352112676057"/>
         </scene>
-        <!--View Controller-->
+        <!--CurriVC-->
         <scene sceneID="UiY-pL-G5L">
             <objects>
-                <viewController id="o9I-Au-YIZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CurriVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="o9I-Au-YIZ" customClass="CurriVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LLQ-nJ-UEJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GFN-5X-C3p">
-                                <rect key="frame" x="16" y="149" width="133" height="113"/>
+                                <rect key="frame" x="30" y="154" width="260" height="80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">  Admission
-Requirement</string>
+                                <state key="normal" backgroundImage="Nav_lv2-Curriculum.jpg">
+                                    <string key="title">Programme
+  Overview</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="fjj-UC-x4c" kind="show" id="1Hk-nx-Np7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7lU-ge-JZr">
-                                <rect key="frame" x="171" y="149" width="133" height="113"/>
+                                <rect key="frame" x="30" y="330" width="260" height="80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Application
-Procedures</string>
+                                <state key="normal" title="Duration of Study &amp;     Class Schedule" backgroundImage="Nav_lv2-Curriculum.jpg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="9Ns-MR-tNf" kind="show" id="T4e-9M-qv5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="UcL-Dp-AWr">
-                                <rect key="frame" x="171" y="270" width="133" height="113"/>
+                                <rect key="frame" x="30" y="418" width="260" height="80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Information
-   Sessions</string>
+                                <state key="normal" backgroundImage="Nav_lv2-Curriculum.jpg">
+                                    <string key="title">Regulations &amp;
+     Syllabus</string>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ce-Kh-AsA">
-                                <rect key="frame" x="171" y="391" width="133" height="113"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="FAQ" backgroundImage="Nav_lv2-Admission.jpg"/>
+                                <connections>
+                                    <segue destination="Btu-yc-8uc" kind="show" id="7gn-WY-LSv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OfO-vO-U2p">
-                                <rect key="frame" x="16" y="270" width="133" height="113"/>
+                                <rect key="frame" x="30" y="242" width="260" height="80"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Composition
-         Fee</string>
-                                </state>
+                                <state key="normal" title="Course" backgroundImage="Nav_lv2-Curriculum.jpg"/>
+                                <connections>
+                                    <segue destination="3yq-ew-SQB" kind="show" id="MRr-9R-CFG"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HVW-pK-Ief">
-                                <rect key="frame" x="16" y="391" width="133" height="113"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Curriculum" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zHu-Pp-kVq">
+                                <rect key="frame" x="108" y="108" width="106" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Words from
-Students &amp;
-Graduates</string>
-                                </state>
-                            </button>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="UcL-Dp-AWr" firstAttribute="top" secondItem="7lU-ge-JZr" secondAttribute="bottom" constant="8" id="5mK-UH-ZRZ"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="7lU-ge-JZr" secondAttribute="bottom" constant="306" id="77W-NM-qaf"/>
-                            <constraint firstItem="GFN-5X-C3p" firstAttribute="top" secondItem="wfo-b0-ayd" secondAttribute="top" constant="85" id="Cy5-Sg-6vu"/>
-                            <constraint firstItem="7lU-ge-JZr" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="171" id="DLQ-Zf-sWY"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="OfO-vO-U2p" secondAttribute="bottom" constant="185" id="Dlq-Fa-xx2"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="GFN-5X-C3p" secondAttribute="trailing" constant="171" id="Kr2-K9-U0q"/>
-                            <constraint firstItem="HVW-pK-Ief" firstAttribute="top" secondItem="OfO-vO-U2p" secondAttribute="bottom" constant="8" id="OO3-fC-47c"/>
-                            <constraint firstItem="OfO-vO-U2p" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="16" id="PhP-yr-Nf3"/>
-                            <constraint firstItem="6ce-Kh-AsA" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="171" id="XM5-Ar-8vv"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="HVW-pK-Ief" secondAttribute="trailing" constant="171" id="ZIE-sH-PbH"/>
+                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="UcL-Dp-AWr" secondAttribute="bottom" constant="70" id="4ya-MS-BUW"/>
+                            <constraint firstItem="7lU-ge-JZr" firstAttribute="top" secondItem="OfO-vO-U2p" secondAttribute="bottom" constant="8" id="8Qu-Lq-xbh"/>
+                            <constraint firstItem="GFN-5X-C3p" firstAttribute="top" secondItem="wfo-b0-ayd" secondAttribute="top" constant="90" id="Cy5-Sg-6vu"/>
+                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="OfO-vO-U2p" secondAttribute="bottom" constant="246" id="Dlq-Fa-xx2"/>
+                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="GFN-5X-C3p" secondAttribute="trailing" constant="30" id="Kr2-K9-U0q"/>
+                            <constraint firstItem="OfO-vO-U2p" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="30" id="PhP-yr-Nf3"/>
+                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="7lU-ge-JZr" secondAttribute="trailing" constant="30" id="UIb-jL-NFC"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="7lU-ge-JZr" secondAttribute="bottom" constant="158" id="WMU-6s-5cs"/>
                             <constraint firstItem="OfO-vO-U2p" firstAttribute="top" secondItem="GFN-5X-C3p" secondAttribute="bottom" constant="8" id="ZvH-3d-vfD"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="GFN-5X-C3p" secondAttribute="bottom" constant="306" id="dUK-9g-kJ2"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="6ce-Kh-AsA" secondAttribute="trailing" constant="16" id="j84-o0-dUG"/>
-                            <constraint firstItem="6ce-Kh-AsA" firstAttribute="top" secondItem="UcL-Dp-AWr" secondAttribute="bottom" constant="8" id="jGA-9F-gSh"/>
-                            <constraint firstItem="7lU-ge-JZr" firstAttribute="top" secondItem="wfo-b0-ayd" secondAttribute="top" constant="85" id="jSD-yq-Nz1"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="7lU-ge-JZr" secondAttribute="trailing" constant="16" id="jz7-GE-cHn"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="UcL-Dp-AWr" secondAttribute="bottom" constant="185" id="lvP-Qs-EfH"/>
-                            <constraint firstItem="HVW-pK-Ief" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="16" id="mKs-gM-8bu"/>
-                            <constraint firstItem="UcL-Dp-AWr" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="171" id="n9u-GG-ejq"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="UcL-Dp-AWr" secondAttribute="trailing" constant="16" id="nNW-CV-oo5"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="HVW-pK-Ief" secondAttribute="bottom" constant="64" id="pCe-PH-nqd"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="OfO-vO-U2p" secondAttribute="trailing" constant="171" id="tjU-Tu-ugO"/>
-                            <constraint firstItem="GFN-5X-C3p" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="16" id="vOg-dE-3sn"/>
-                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="6ce-Kh-AsA" secondAttribute="bottom" constant="64" id="xh9-VT-xkH"/>
+                            <constraint firstItem="UcL-Dp-AWr" firstAttribute="top" secondItem="7lU-ge-JZr" secondAttribute="bottom" constant="8" id="b47-o7-coS"/>
+                            <constraint firstItem="wfo-b0-ayd" firstAttribute="bottom" secondItem="GFN-5X-C3p" secondAttribute="bottom" constant="334" id="dUK-9g-kJ2"/>
+                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="UcL-Dp-AWr" secondAttribute="trailing" constant="30" id="e1B-pE-5Aa"/>
+                            <constraint firstItem="7lU-ge-JZr" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="30" id="lig-df-V3z"/>
+                            <constraint firstItem="UcL-Dp-AWr" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="30" id="tGM-tT-9Mr"/>
+                            <constraint firstItem="wfo-b0-ayd" firstAttribute="trailing" secondItem="OfO-vO-U2p" secondAttribute="trailing" constant="30" id="tjU-Tu-ugO"/>
+                            <constraint firstItem="GFN-5X-C3p" firstAttribute="leading" secondItem="wfo-b0-ayd" secondAttribute="leading" constant="30" id="vOg-dE-3sn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wfo-b0-ayd"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UEd-8m-027" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1277" y="1683"/>
+            <point key="canvasLocation" x="1276.875" y="1682.7464788732395"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8mq-Xn-drW">
@@ -1830,7 +1843,7 @@ Graduates</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rlk-pz-ofs">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgc-3t-PIY">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2639,7 +2652,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tG8-MN-MZX">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Slo-oa-PuF">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2682,7 +2695,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mif-qZ-MMn">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0R-P9-7IM">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2725,7 +2738,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HxD-Wu-sQo">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Uj-Uq-ttt">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2936,6 +2949,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
         <image name="ChowKP-Square.jpg" width="200" height="200"/>
         <image name="MScDarkLogo.png" width="1440" height="1440"/>
         <image name="Nav_lv2-Admission.jpg" width="640" height="343"/>
+        <image name="Nav_lv2-Curriculum.jpg" width="640" height="340"/>
         <image name="Slider1.jpg" width="1980" height="800"/>
         <image name="WhyHKU.jpg" width="1920" height="1080"/>
         <image name="adRequire.png" width="1546" height="482"/>
@@ -2950,8 +2964,8 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vlZ-pu-eK4"/>
-        <segue reference="Di3-wo-rwe"/>
-        <segue reference="HiF-q9-DvQ"/>
+        <segue reference="qhh-SU-8z4"/>
+        <segue reference="E8V-ma-GIa"/>
         <segue reference="VUa-8E-tF1"/>
         <segue reference="8eJ-3L-IEo"/>
         <segue reference="pC3-sa-WQz"/>
