@@ -92,6 +92,17 @@
                                             <action selector="btnGraAluTapped:" destination="N60-Nm-nO5" eventType="touchUpInside" id="Jcb-7T-NsU"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfV-I4-bFW">
+                                        <rect key="frame" x="8" y="279" width="213" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Student Resources">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnStuResTapped:" destination="N60-Nm-nO5" eventType="touchUpInside" id="eaY-fh-vrQ"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.62942368005073013" blue="0.35225867002731148" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -1732,88 +1743,52 @@ Graduates</string>
             </objects>
             <point key="canvasLocation" x="1276.875" y="3012.676056338028"/>
         </scene>
-        <!--View Controller-->
+        <!--Stu ResVC-->
         <scene sceneID="pmc-d3-ldJ">
             <objects>
-                <viewController id="xYm-E7-P2Z" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StuResVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xYm-E7-P2Z" customClass="StuResVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iVa-2w-3Io">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cBw-rd-hZj">
-                                <rect key="frame" x="16" y="149" width="133" height="113"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">  Admission
-Requirement</string>
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Erf-k9-4KF">
-                                <rect key="frame" x="171" y="149" width="133" height="113"/>
+                                <rect key="frame" x="16" y="182" width="288" height="113"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Application
-Procedures</string>
+                                <state key="normal" title="Learning Environment" backgroundImage="Nav_lv2-StuRes.jpg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gBQ-3f-3rA" kind="show" id="oZd-Jy-SN3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GVH-cS-Ieh">
-                                <rect key="frame" x="171" y="270" width="133" height="113"/>
+                                <rect key="frame" x="16" y="327" width="288" height="113"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Information
-   Sessions</string>
-                                </state>
+                                <state key="normal" title="Useful Links" backgroundImage="Nav_lv2-StuRes.jpg"/>
+                                <connections>
+                                    <segue destination="3ty-rP-KIo" kind="show" id="81D-Bq-zFx"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lF4-6g-FWd">
-                                <rect key="frame" x="171" y="391" width="133" height="113"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Graduate &amp; Alumni" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yX1-SL-EU1">
+                                <rect key="frame" x="68" y="138" width="184" height="23"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="FAQ" backgroundImage="Nav_lv2-Admission.jpg"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lvu-8c-aje">
-                                <rect key="frame" x="16" y="270" width="133" height="113"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Composition
-         Fee</string>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ypc-ZP-8WG">
-                                <rect key="frame" x="16" y="391" width="133" height="113"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Words from
-Students &amp;
-Graduates</string>
-                                </state>
-                            </button>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="cBw-rd-hZj" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="16" id="0W5-yd-exx"/>
-                            <constraint firstItem="ypc-ZP-8WG" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="16" id="141-zw-6Qq"/>
-                            <constraint firstItem="cBw-rd-hZj" firstAttribute="top" secondItem="vmC-ZT-49G" secondAttribute="top" constant="85" id="5i6-wt-gxZ"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="bottom" secondItem="ypc-ZP-8WG" secondAttribute="bottom" constant="64" id="6B8-9H-fSh"/>
-                            <constraint firstItem="lF4-6g-FWd" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="171" id="6P2-1V-Yb8"/>
-                            <constraint firstItem="GVH-cS-Ieh" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="171" id="8Ad-ls-cGk"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="bottom" secondItem="lvu-8c-aje" secondAttribute="bottom" constant="185" id="8vn-gy-Iaa"/>
-                            <constraint firstItem="lF4-6g-FWd" firstAttribute="top" secondItem="GVH-cS-Ieh" secondAttribute="bottom" constant="8" id="D7e-Mo-PNo"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="bottom" secondItem="Erf-k9-4KF" secondAttribute="bottom" constant="306" id="Ejs-II-QSV"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="trailing" secondItem="ypc-ZP-8WG" secondAttribute="trailing" constant="171" id="H0g-rg-wOf"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="bottom" secondItem="cBw-rd-hZj" secondAttribute="bottom" constant="306" id="K4E-H7-g8N"/>
-                            <constraint firstItem="GVH-cS-Ieh" firstAttribute="top" secondItem="Erf-k9-4KF" secondAttribute="bottom" constant="8" id="MI4-3K-RPQ"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="trailing" secondItem="cBw-rd-hZj" secondAttribute="trailing" constant="171" id="OeZ-NF-cFw"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="bottom" secondItem="lF4-6g-FWd" secondAttribute="bottom" constant="64" id="Tg5-r1-0lk"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="trailing" secondItem="lvu-8c-aje" secondAttribute="trailing" constant="171" id="WCr-bQ-xfG"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="bottom" secondItem="GVH-cS-Ieh" secondAttribute="bottom" constant="185" id="YYl-Ih-dxc"/>
-                            <constraint firstItem="ypc-ZP-8WG" firstAttribute="top" secondItem="lvu-8c-aje" secondAttribute="bottom" constant="8" id="gGc-XC-FiV"/>
+                            <constraint firstItem="Erf-k9-4KF" firstAttribute="top" secondItem="yX1-SL-EU1" secondAttribute="bottom" constant="21" id="0gG-a5-ZBD"/>
+                            <constraint firstItem="yX1-SL-EU1" firstAttribute="top" secondItem="vmC-ZT-49G" secondAttribute="top" constant="74" id="0uc-hc-lHd"/>
+                            <constraint firstItem="GVH-cS-Ieh" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="16" id="8Ad-ls-cGk"/>
+                            <constraint firstItem="vmC-ZT-49G" firstAttribute="bottom" secondItem="Erf-k9-4KF" secondAttribute="bottom" constant="273" id="Ejs-II-QSV"/>
+                            <constraint firstItem="GVH-cS-Ieh" firstAttribute="top" secondItem="Erf-k9-4KF" secondAttribute="bottom" constant="32" id="MI4-3K-RPQ"/>
+                            <constraint firstItem="vmC-ZT-49G" firstAttribute="bottom" secondItem="GVH-cS-Ieh" secondAttribute="bottom" constant="128" id="YYl-Ih-dxc"/>
                             <constraint firstItem="vmC-ZT-49G" firstAttribute="trailing" secondItem="Erf-k9-4KF" secondAttribute="trailing" constant="16" id="hmw-Ga-06X"/>
-                            <constraint firstItem="vmC-ZT-49G" firstAttribute="trailing" secondItem="lF4-6g-FWd" secondAttribute="trailing" constant="16" id="jgk-lu-7Sl"/>
-                            <constraint firstItem="lvu-8c-aje" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="16" id="ndZ-ss-2Qz"/>
-                            <constraint firstItem="lvu-8c-aje" firstAttribute="top" secondItem="cBw-rd-hZj" secondAttribute="bottom" constant="8" id="rEc-r7-dUi"/>
-                            <constraint firstItem="Erf-k9-4KF" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="171" id="rIR-aW-u2P"/>
-                            <constraint firstItem="Erf-k9-4KF" firstAttribute="top" secondItem="vmC-ZT-49G" secondAttribute="top" constant="85" id="vWe-Xf-0Zm"/>
+                            <constraint firstItem="yX1-SL-EU1" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="68" id="jdj-AR-Nu4"/>
+                            <constraint firstItem="vmC-ZT-49G" firstAttribute="trailing" secondItem="yX1-SL-EU1" secondAttribute="trailing" constant="68" id="ohe-64-JbM"/>
+                            <constraint firstItem="Erf-k9-4KF" firstAttribute="leading" secondItem="vmC-ZT-49G" secondAttribute="leading" constant="16" id="rIR-aW-u2P"/>
+                            <constraint firstItem="Erf-k9-4KF" firstAttribute="top" secondItem="vmC-ZT-49G" secondAttribute="top" constant="118" id="vWe-Xf-0Zm"/>
                             <constraint firstItem="vmC-ZT-49G" firstAttribute="trailing" secondItem="GVH-cS-Ieh" secondAttribute="trailing" constant="16" id="vo0-HI-Rck"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vmC-ZT-49G"/>
@@ -1821,7 +1796,7 @@ Graduates</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nMm-xA-cO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1277" y="5775"/>
+            <point key="canvasLocation" x="1276.875" y="5775"/>
         </scene>
         <!--Prog Over ViewVC-->
         <scene sceneID="hB7-O1-L6T">
@@ -2134,9 +2109,55 @@ Graduates</string>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyC-Yw-lFX">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alumniAssoc.png" translatesAutoresizingMaskIntoConstraints="NO" id="v7v-fJ-5mP">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MSc(CompSc) Alumni Association" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2zC-gQ-528">
+                                                <rect key="frame" x="8" y="111" width="281" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alumniphoto.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UsS-tC-SAa">
+                                                <rect key="frame" x="8" y="138" width="304" height="162"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="UsS-tC-SAa" secondAttribute="height" multiplier="152:81" id="dko-vJ-P6U"/>
+                                                </constraints>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQn-J7-2qq">
+                                                <rect key="frame" x="0.0" y="310" width="320" height="594.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">HKU is a journey, not a destination. When you left HKU, you are not alone for the rest of your life because you have the alumni association, your powerful backing forever.
+
+The MSc(CompSc) Alumni Association strengthens the bonding and communication among our graduates, facilitates resources sharing and thus fulfills the responsibilities of being an HKU alumni. We aim at practicing the motto "Sapience and Virtue", working in unity, helping each other, contributing to our alma mater and serving the community.
+
+Our Alumni Association is not only the heritage of HKU, but also the wealth throughout our whole lives. It actively recruits not just new graduates each year. It also invites new and current students to join the big family before their graduation. Currently, we have bases throughout China, including Hong Kong, Beijing, Shanghai, Shenzhen and Chengdu. Every student who has studied the MSc(CompSc) programme can find their own home.
+
+http://www.hkumsccs.com</mutableString>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="v7v-fJ-5mP" secondAttribute="bottom" constant="897" id="4Ed-CR-bGZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="2zC-gQ-528" secondAttribute="trailing" constant="31" id="6AI-57-nEJ"/>
+                                            <constraint firstItem="bQn-J7-2qq" firstAttribute="leading" secondItem="vyC-Yw-lFX" secondAttribute="leading" id="6XV-IC-Uqg"/>
+                                            <constraint firstItem="v7v-fJ-5mP" firstAttribute="top" secondItem="vyC-Yw-lFX" secondAttribute="top" id="AJN-Yj-f4P"/>
+                                            <constraint firstItem="UsS-tC-SAa" firstAttribute="top" secondItem="2zC-gQ-528" secondAttribute="bottom" constant="8" id="EaJ-Rs-895"/>
+                                            <constraint firstItem="UsS-tC-SAa" firstAttribute="leading" secondItem="vyC-Yw-lFX" secondAttribute="leading" constant="8" id="Kbw-I7-hYP"/>
                                             <constraint firstAttribute="height" constant="1000" id="R1v-nF-ZhW"/>
+                                            <constraint firstItem="v7v-fJ-5mP" firstAttribute="leading" secondItem="vyC-Yw-lFX" secondAttribute="leading" id="UBi-Ry-Xgm"/>
+                                            <constraint firstItem="bQn-J7-2qq" firstAttribute="top" secondItem="UsS-tC-SAa" secondAttribute="bottom" constant="10" id="UR3-Lw-Vqn"/>
+                                            <constraint firstItem="2zC-gQ-528" firstAttribute="leading" secondItem="vyC-Yw-lFX" secondAttribute="leading" constant="8" id="YoV-V5-6ut"/>
+                                            <constraint firstAttribute="trailing" secondItem="v7v-fJ-5mP" secondAttribute="trailing" id="fKQ-zs-HhH"/>
+                                            <constraint firstAttribute="bottom" secondItem="UsS-tC-SAa" secondAttribute="bottom" constant="700" id="fLV-Df-nfE"/>
+                                            <constraint firstAttribute="trailing" secondItem="bQn-J7-2qq" secondAttribute="trailing" id="hLg-Vx-Htt"/>
+                                            <constraint firstItem="2zC-gQ-528" firstAttribute="top" secondItem="v7v-fJ-5mP" secondAttribute="bottom" constant="8" id="pnV-xE-4mY"/>
+                                            <constraint firstAttribute="trailing" secondItem="UsS-tC-SAa" secondAttribute="trailing" constant="8" id="w5a-1Y-SSV"/>
+                                            <constraint firstAttribute="bottom" secondItem="bQn-J7-2qq" secondAttribute="bottom" constant="95.5" id="xeZ-Hp-qRE"/>
+                                            <constraint firstAttribute="bottom" secondItem="2zC-gQ-528" secondAttribute="bottom" constant="870" id="ycQ-yj-xNl"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -2162,7 +2183,7 @@ Graduates</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BVm-HR-xbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2134" y="3013"/>
+            <point key="canvasLocation" x="2133.75" y="3012.676056338028"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FLi-nQ-guC">
@@ -2216,13 +2237,22 @@ Graduates</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Om-Dq-EXZ">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nul-wY-rsA">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="learningEnv.png" translatesAutoresizingMaskIntoConstraints="NO" id="yPH-RN-BjC">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="yPH-RN-BjC" firstAttribute="leading" secondItem="nul-wY-rsA" secondAttribute="leading" id="Dn1-oo-ZeD"/>
                                             <constraint firstAttribute="height" constant="1000" id="P9h-bZ-41J"/>
+                                            <constraint firstAttribute="bottom" secondItem="yPH-RN-BjC" secondAttribute="bottom" constant="892" id="R81-Im-umR"/>
+                                            <constraint firstAttribute="trailing" secondItem="yPH-RN-BjC" secondAttribute="trailing" id="n4u-FV-dOm"/>
+                                            <constraint firstItem="yPH-RN-BjC" firstAttribute="top" secondItem="nul-wY-rsA" secondAttribute="top" id="wl6-gC-Toz"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -2248,7 +2278,7 @@ Graduates</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ti-qg-RLy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2134" y="5775"/>
+            <point key="canvasLocation" x="2133.75" y="5775"/>
         </scene>
         <!--Ad ApplicationVC-->
         <scene sceneID="WUs-L2-Rti">
@@ -3131,9 +3161,18 @@ Full-time: 1-2 years</string>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pg-Gy-jCo">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alumniActiv.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Ow-Ep-Kfr">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="96"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1000" id="Ak1-wK-wPi"/>
+                                            <constraint firstAttribute="bottom" secondItem="6Ow-Ep-Kfr" secondAttribute="bottom" constant="904" id="DHP-a7-yim"/>
+                                            <constraint firstItem="6Ow-Ep-Kfr" firstAttribute="top" secondItem="5pg-Gy-jCo" secondAttribute="top" id="NaO-sl-Qdj"/>
+                                            <constraint firstItem="6Ow-Ep-Kfr" firstAttribute="leading" secondItem="5pg-Gy-jCo" secondAttribute="leading" id="l6S-aP-Gp3"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Ow-Ep-Kfr" secondAttribute="trailing" id="lOR-Hl-dmb"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -3159,50 +3198,7 @@ Full-time: 1-2 years</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgn-3C-SMw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2828" y="3013"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="dul-VP-qj1">
-            <objects>
-                <viewController id="Shu-XN-11r" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Xfo-Le-0P2">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVH-qv-P51">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5e-Wf-15e">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1000" id="DWR-Yz-Bz3"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="M5e-Wf-15e" secondAttribute="trailing" id="Ao7-14-CJN"/>
-                                    <constraint firstItem="M5e-Wf-15e" firstAttribute="leading" secondItem="AVH-qv-P51" secondAttribute="leading" id="Cf2-jX-Lhg"/>
-                                    <constraint firstItem="M5e-Wf-15e" firstAttribute="top" secondItem="AVH-qv-P51" secondAttribute="top" id="yJd-9I-bWx"/>
-                                    <constraint firstAttribute="bottom" secondItem="M5e-Wf-15e" secondAttribute="bottom" id="ymq-3y-7Xm"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="AVH-qv-P51" firstAttribute="bottom" secondItem="s3q-a1-gDh" secondAttribute="bottom" id="7dU-5z-b6s"/>
-                            <constraint firstItem="AVH-qv-P51" firstAttribute="top" secondItem="s3q-a1-gDh" secondAttribute="top" id="GRP-Lr-uf5"/>
-                            <constraint firstItem="M5e-Wf-15e" firstAttribute="width" secondItem="Xfo-Le-0P2" secondAttribute="width" id="Hml-Fx-wtQ"/>
-                            <constraint firstItem="AVH-qv-P51" firstAttribute="leading" secondItem="s3q-a1-gDh" secondAttribute="leading" id="Ugf-C4-4PZ"/>
-                            <constraint firstItem="AVH-qv-P51" firstAttribute="trailing" secondItem="s3q-a1-gDh" secondAttribute="trailing" id="u6e-Ht-czW"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="s3q-a1-gDh"/>
-                    </view>
-                    <size key="freeformSize" width="320" height="1100"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FG5-Fy-5XO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4238" y="5775"/>
+            <point key="canvasLocation" x="2827.5" y="3012.676056338028"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tM7-sm-y3m">
@@ -3213,13 +3209,22 @@ Full-time: 1-2 years</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FO2-Qt-gQu">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88U-E9-c0v">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="useFulLinks.png" translatesAutoresizingMaskIntoConstraints="NO" id="ezx-1O-xRx">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="106"/>
+                                            </imageView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ezx-1O-xRx" secondAttribute="trailing" id="7LK-Jo-zNo"/>
+                                            <constraint firstItem="ezx-1O-xRx" firstAttribute="top" secondItem="88U-E9-c0v" secondAttribute="top" id="HAk-sX-YhL"/>
                                             <constraint firstAttribute="height" constant="1000" id="R59-Sj-tb9"/>
+                                            <constraint firstItem="ezx-1O-xRx" firstAttribute="leading" secondItem="88U-E9-c0v" secondAttribute="leading" id="VDq-7U-gTq"/>
+                                            <constraint firstAttribute="bottom" secondItem="ezx-1O-xRx" secondAttribute="bottom" constant="894" id="w0X-DD-lPi"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -3245,50 +3250,7 @@ Full-time: 1-2 years</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nUx-gj-3hr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3521" y="5775"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Nip-yP-dd7">
-            <objects>
-                <viewController id="QTe-bI-Gb3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cF8-mx-Yww">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1MD-BE-68t">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ac-4j-JFw">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1000" id="rKH-nk-mH5"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="5Ac-4j-JFw" firstAttribute="top" secondItem="1MD-BE-68t" secondAttribute="top" id="3z7-Py-9EF"/>
-                                    <constraint firstItem="5Ac-4j-JFw" firstAttribute="leading" secondItem="1MD-BE-68t" secondAttribute="leading" id="9SP-oz-8Vf"/>
-                                    <constraint firstAttribute="trailing" secondItem="5Ac-4j-JFw" secondAttribute="trailing" id="PDy-L3-pZW"/>
-                                    <constraint firstAttribute="bottom" secondItem="5Ac-4j-JFw" secondAttribute="bottom" id="QrZ-ff-nRs"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="5Ac-4j-JFw" firstAttribute="width" secondItem="cF8-mx-Yww" secondAttribute="width" id="AJF-xw-PrQ"/>
-                            <constraint firstItem="1MD-BE-68t" firstAttribute="top" secondItem="uce-is-ycv" secondAttribute="top" id="OL5-rN-OoI"/>
-                            <constraint firstItem="1MD-BE-68t" firstAttribute="leading" secondItem="uce-is-ycv" secondAttribute="leading" id="Pry-9C-46Z"/>
-                            <constraint firstItem="1MD-BE-68t" firstAttribute="bottom" secondItem="uce-is-ycv" secondAttribute="bottom" id="ciI-Vt-3FL"/>
-                            <constraint firstItem="1MD-BE-68t" firstAttribute="trailing" secondItem="uce-is-ycv" secondAttribute="trailing" id="h6F-Zl-2zv"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="uce-is-ycv"/>
-                    </view>
-                    <size key="freeformSize" width="320" height="1100"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uGK-fR-6YH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2828" y="5775"/>
+            <point key="canvasLocation" x="2992.5" y="5775"/>
         </scene>
     </scenes>
     <resources>
@@ -3297,9 +3259,13 @@ Full-time: 1-2 years</string>
         <image name="Nav_lv2-Admission.jpg" width="640" height="343"/>
         <image name="Nav_lv2-Curriculum.jpg" width="640" height="340"/>
         <image name="Nav_lv2-GradAlu.jpg" width="640" height="340"/>
+        <image name="Nav_lv2-StuRes.jpg" width="640" height="340"/>
         <image name="Slider1.jpg" width="1980" height="800"/>
         <image name="WhyHKU.jpg" width="1920" height="1080"/>
         <image name="adRequire.png" width="1546" height="482"/>
+        <image name="alumniActiv.png" width="1810" height="476"/>
+        <image name="alumniAssoc.png" width="1796" height="532"/>
+        <image name="alumniphoto.jpg" width="800" height="450"/>
         <image name="appProce.png" width="1590" height="518"/>
         <image name="compFee.png" width="1492" height="496"/>
         <image name="courseTitle.png" width="1646" height="516"/>
@@ -3307,10 +3273,12 @@ Full-time: 1-2 years</string>
         <image name="durationTitle.png" width="1768" height="498"/>
         <image name="faculty.jpg" width="1392" height="472"/>
         <image name="home_about.jpg" width="1118" height="454"/>
+        <image name="learningEnv.png" width="1520" height="485"/>
         <image name="mfpd.JPG" width="1600" height="800"/>
         <image name="progOverView.png" width="1520" height="548"/>
         <image name="regulationTitle.png" width="1640" height="490"/>
         <image name="timeTable.png" width="1492" height="296"/>
+        <image name="useFulLinks.png" width="1596" height="514"/>
         <image name="wordsSG.png" width="1702" height="452"/>
     </resources>
     <inferredMetricsTieBreakers>

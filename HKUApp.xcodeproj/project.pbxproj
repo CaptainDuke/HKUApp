@@ -67,6 +67,10 @@
 		A58EE00C21A17C7B0025F1D3 /* GradAluVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EE00B21A17C7B0025F1D3 /* GradAluVC.swift */; };
 		A58EE00F21A17DAF0025F1D3 /* alumniAssoc.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00D21A17DAA0025F1D3 /* alumniAssoc.png */; };
 		A58EE01021A17DAF0025F1D3 /* alumniActiv.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00E21A17DAD0025F1D3 /* alumniActiv.png */; };
+		A58EE01221A17EC10025F1D3 /* alumniphoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE01121A17EBE0025F1D3 /* alumniphoto.jpg */; };
+		A58EE01421A1820E0025F1D3 /* StuResVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EE01321A1820E0025F1D3 /* StuResVC.swift */; };
+		A58EE01721A183690025F1D3 /* useFulLinks.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EE01521A183640025F1D3 /* useFulLinks.png */; };
+		A58EE01821A183690025F1D3 /* learningEnv.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EE01621A183670025F1D3 /* learningEnv.png */; };
 		A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BECBA9219F058800DEC21C /* timeTable.png */; };
 		A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAB219F076100DEC21C /* adApplicationVC.swift */; };
 		A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */; };
@@ -186,6 +190,10 @@
 		A58EE00B21A17C7B0025F1D3 /* GradAluVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradAluVC.swift; sourceTree = "<group>"; };
 		A58EE00D21A17DAA0025F1D3 /* alumniAssoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alumniAssoc.png; sourceTree = "<group>"; };
 		A58EE00E21A17DAD0025F1D3 /* alumniActiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alumniActiv.png; sourceTree = "<group>"; };
+		A58EE01121A17EBE0025F1D3 /* alumniphoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alumniphoto.jpg; sourceTree = "<group>"; };
+		A58EE01321A1820E0025F1D3 /* StuResVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuResVC.swift; sourceTree = "<group>"; };
+		A58EE01521A183640025F1D3 /* useFulLinks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = useFulLinks.png; sourceTree = "<group>"; };
+		A58EE01621A183670025F1D3 /* learningEnv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = learningEnv.png; sourceTree = "<group>"; };
 		A5BECBA9219F058800DEC21C /* timeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeTable.png; sourceTree = "<group>"; };
 		A5BECBAB219F076100DEC21C /* adApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adApplicationVC.swift; sourceTree = "<group>"; };
 		A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compFeeVC.swift; sourceTree = "<group>"; };
@@ -312,6 +320,9 @@
 			isa = PBXGroup;
 			children = (
 				A5D21321219EEE26002000E4 /* compFee.png */,
+				A58EE01121A17EBE0025F1D3 /* alumniphoto.jpg */,
+				A58EE01621A183670025F1D3 /* learningEnv.png */,
+				A58EE01521A183640025F1D3 /* useFulLinks.png */,
 				A58EDFF921A1636E0025F1D3 /* courseTitle.png */,
 				A58EE00E21A17DAD0025F1D3 /* alumniActiv.png */,
 				A58EE00D21A17DAA0025F1D3 /* alumniAssoc.png */,
@@ -385,6 +396,7 @@
 				A58EDFF321A15B5D0025F1D3 /* CurriVC.swift */,
 				A58EDFF521A1625B0025F1D3 /* progOverViewVC.swift */,
 				A58EE00B21A17C7B0025F1D3 /* GradAluVC.swift */,
+				A58EE01321A1820E0025F1D3 /* StuResVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A54F6CBB219EB1930028723A /* tbCell.swift */,
 				A54F6CB5219E84D10028723A /* facultyCell.swift */,
@@ -556,6 +568,7 @@
 				A58EE00921A17B890025F1D3 /* Nav_lv2-StuRes.jpg in Resources */,
 				A5F7AD0D2192C032006DC855 /* MScDarkLogo.png in Resources */,
 				A5D2131F219EE92C002000E4 /* Nav_lv2-Curriculum.jpg in Resources */,
+				A58EE01821A183690025F1D3 /* learningEnv.png in Resources */,
 				A54F6CA0219DB5D90028723A /* Dr. Lau V.M.K..jpg in Resources */,
 				A5F7AD132192E0AA006DC855 /* WhyHKU.jpg in Resources */,
 				A54F6C9D219DB5D90028723A /* Dr. Wong K.K.Y..jpg in Resources */,
@@ -575,6 +588,7 @@
 				A58EE00621A164B60025F1D3 /* InformationSecurity.jpg in Resources */,
 				A54F6CB1219DB5D90028723A /* Dr. Chan K.P..jpg in Resources */,
 				A58EDFFC21A163720025F1D3 /* progOverView.png in Resources */,
+				A58EE01721A183690025F1D3 /* useFulLinks.png in Resources */,
 				A5F7ACF221919767006DC855 /* WangCL.jpg in Resources */,
 				A5D2132B219EEE28002000E4 /* fAq.png in Resources */,
 				A5F7AD092192B4DB006DC855 /* Slider1.jpg in Resources */,
@@ -603,6 +617,7 @@
 				A58EDFEC21A14F840025F1D3 /* Liang Xingchi.jpg in Resources */,
 				A54F6CA2219DB5D90028723A /* Prof. Cheung D.W.L..jpg in Resources */,
 				A54F6CA7219DB5D90028723A /* Dr. Yiu S.M..jpg in Resources */,
+				A58EE01221A17EC10025F1D3 /* alumniphoto.jpg in Resources */,
 				A5F7ACF521919767006DC855 /* faculty.jpg in Resources */,
 				A58EDFF221A158AE0025F1D3 /* Nav_lv2-Curriculum.jpg in Resources */,
 				A5D21328219EEE28002000E4 /* wordsSG.png in Resources */,
@@ -662,6 +677,7 @@
 				A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */,
 				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,
 				A54F6CBC219EB1930028723A /* tbCell.swift in Sources */,
+				A58EE01421A1820E0025F1D3 /* StuResVC.swift in Sources */,
 				A5D2132E219EF442002000E4 /* adminPopVC.swift in Sources */,
 				A58EDFF621A1625B0025F1D3 /* progOverViewVC.swift in Sources */,
 				A5F7ACFD21927ECB006DC855 /* BaseViewController.swift in Sources */,

@@ -101,4 +101,10 @@ class MenuViewController: UIViewController {
         self.navigationController?.pushViewController(DVC, animated: true)
     }
     
+    @IBAction func btnStuResTapped(_ sender: Any) {
+        let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "StuResVC")as! StuResVC
+        
+        self.navigationController?.pushViewController(DVC, animated: true)
+    }
 }
