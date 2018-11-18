@@ -62,6 +62,11 @@
 		A58EE00421A164B60025F1D3 /* MultimediaComputing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00021A164B60025F1D3 /* MultimediaComputing.jpg */; };
 		A58EE00521A164B60025F1D3 /* GeneralStream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00121A164B60025F1D3 /* GeneralStream.jpg */; };
 		A58EE00621A164B60025F1D3 /* InformationSecurity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00221A164B60025F1D3 /* InformationSecurity.jpg */; };
+		A58EE00921A17B890025F1D3 /* Nav_lv2-StuRes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00721A17B840025F1D3 /* Nav_lv2-StuRes.jpg */; };
+		A58EE00A21A17B890025F1D3 /* Nav_lv2-GradAlu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00821A17B860025F1D3 /* Nav_lv2-GradAlu.jpg */; };
+		A58EE00C21A17C7B0025F1D3 /* GradAluVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58EE00B21A17C7B0025F1D3 /* GradAluVC.swift */; };
+		A58EE00F21A17DAF0025F1D3 /* alumniAssoc.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00D21A17DAA0025F1D3 /* alumniAssoc.png */; };
+		A58EE01021A17DAF0025F1D3 /* alumniActiv.png in Resources */ = {isa = PBXBuildFile; fileRef = A58EE00E21A17DAD0025F1D3 /* alumniActiv.png */; };
 		A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BECBA9219F058800DEC21C /* timeTable.png */; };
 		A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAB219F076100DEC21C /* adApplicationVC.swift */; };
 		A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */; };
@@ -176,6 +181,11 @@
 		A58EE00021A164B60025F1D3 /* MultimediaComputing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MultimediaComputing.jpg; sourceTree = "<group>"; };
 		A58EE00121A164B60025F1D3 /* GeneralStream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GeneralStream.jpg; sourceTree = "<group>"; };
 		A58EE00221A164B60025F1D3 /* InformationSecurity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InformationSecurity.jpg; sourceTree = "<group>"; };
+		A58EE00721A17B840025F1D3 /* Nav_lv2-StuRes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-StuRes.jpg"; sourceTree = "<group>"; };
+		A58EE00821A17B860025F1D3 /* Nav_lv2-GradAlu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-GradAlu.jpg"; sourceTree = "<group>"; };
+		A58EE00B21A17C7B0025F1D3 /* GradAluVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradAluVC.swift; sourceTree = "<group>"; };
+		A58EE00D21A17DAA0025F1D3 /* alumniAssoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alumniAssoc.png; sourceTree = "<group>"; };
+		A58EE00E21A17DAD0025F1D3 /* alumniActiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alumniActiv.png; sourceTree = "<group>"; };
 		A5BECBA9219F058800DEC21C /* timeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeTable.png; sourceTree = "<group>"; };
 		A5BECBAB219F076100DEC21C /* adApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adApplicationVC.swift; sourceTree = "<group>"; };
 		A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compFeeVC.swift; sourceTree = "<group>"; };
@@ -303,11 +313,15 @@
 			children = (
 				A5D21321219EEE26002000E4 /* compFee.png */,
 				A58EDFF921A1636E0025F1D3 /* courseTitle.png */,
+				A58EE00E21A17DAD0025F1D3 /* alumniActiv.png */,
+				A58EE00D21A17DAA0025F1D3 /* alumniAssoc.png */,
 				A58EDFF721A1636A0025F1D3 /* durationTitle.png */,
 				A58EDFFF21A164B60025F1D3 /* FinancialComputing.jpg */,
 				A58EE00121A164B60025F1D3 /* GeneralStream.jpg */,
 				A58EE00221A164B60025F1D3 /* InformationSecurity.jpg */,
 				A58EE00021A164B60025F1D3 /* MultimediaComputing.jpg */,
+				A58EE00821A17B860025F1D3 /* Nav_lv2-GradAlu.jpg */,
+				A58EE00721A17B840025F1D3 /* Nav_lv2-StuRes.jpg */,
 				A58EDFF821A1636C0025F1D3 /* progOverView.png */,
 				A58EDFFA21A163700025F1D3 /* regulationTitle.png */,
 				A5D21322219EEE26002000E4 /* wordsSG.png */,
@@ -370,6 +384,7 @@
 				A58EDFC521A145EC0025F1D3 /* wordsSgVC.swift */,
 				A58EDFF321A15B5D0025F1D3 /* CurriVC.swift */,
 				A58EDFF521A1625B0025F1D3 /* progOverViewVC.swift */,
+				A58EE00B21A17C7B0025F1D3 /* GradAluVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A54F6CBB219EB1930028723A /* tbCell.swift */,
 				A54F6CB5219E84D10028723A /* facultyCell.swift */,
@@ -531,11 +546,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54F6CAB219DB5D90028723A /* Dr. Yiu S.W..jpg in Resources */,
+				A58EE00F21A17DAF0025F1D3 /* alumniAssoc.png in Resources */,
 				A54F6C9E219DB5D90028723A /* Dr. Schnieders D..jpg in Resources */,
 				A58EDFE721A14F840025F1D3 /* Tony Ngan.jpg in Resources */,
 				A54F6CBA219EAE650028723A /* Nav_lv2-Admission.jpg in Resources */,
 				A54F6CAF219DB5D90028723A /* Dr. Chan H.T.H..jpg in Resources */,
 				A54F6CAC219DB5D90028723A /* Prof. Kao B.C.M..jpg in Resources */,
+				A58EE01021A17DAF0025F1D3 /* alumniActiv.png in Resources */,
+				A58EE00921A17B890025F1D3 /* Nav_lv2-StuRes.jpg in Resources */,
 				A5F7AD0D2192C032006DC855 /* MScDarkLogo.png in Resources */,
 				A5D2131F219EE92C002000E4 /* Nav_lv2-Curriculum.jpg in Resources */,
 				A54F6CA0219DB5D90028723A /* Dr. Lau V.M.K..jpg in Resources */,
@@ -594,6 +612,7 @@
 				A54F6CA4219DB5D90028723A /* Mr. Ng P.T.L..jpg in Resources */,
 				A54F6CAE219DB5D90028723A /* Dr. Wu C..jpg in Resources */,
 				A54F6CB3219DB5D90028723A /* Mr. Mitcheson, G..jpg in Resources */,
+				A58EE00A21A17B890025F1D3 /* Nav_lv2-GradAlu.jpg in Resources */,
 				A54F6CA6219DB5D90028723A /* Dr. Chow K.P..jpg in Resources */,
 				A5F7ACF621919767006DC855 /* director.jpg in Resources */,
 				A54F6CB0219DB5D90028723A /* Dr. Rahmel J.H..jpg in Resources */,
@@ -634,6 +653,7 @@
 				A54F6CB6219E84D10028723A /* facultyCell.swift in Sources */,
 				A54F6C7D219DB1DC0028723A /* FacultyVC.swift in Sources */,
 				A5F228032193110A00C5189F /* ProfInfoVC.swift in Sources */,
+				A58EE00C21A17C7B0025F1D3 /* GradAluVC.swift in Sources */,
 				A5F227FF21930DB800C5189F /* DesignableView.swift in Sources */,
 				A58EDFF421A15B5D0025F1D3 /* CurriVC.swift in Sources */,
 				A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */,

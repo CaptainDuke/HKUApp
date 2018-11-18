@@ -81,6 +81,17 @@
                                             <action selector="btnCurrTapped:" destination="N60-Nm-nO5" eventType="touchUpInside" id="nsv-r4-4o3"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rh4-5b-Mei">
+                                        <rect key="frame" x="8" y="226" width="213" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Graduate &amp; Alumni">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnGraAluTapped:" destination="N60-Nm-nO5" eventType="touchUpInside" id="Jcb-7T-NsU"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.62942368005073013" blue="0.35225867002731148" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -1664,96 +1675,62 @@ Graduates</string>
             </objects>
             <point key="canvasLocation" x="1277" y="4420"/>
         </scene>
-        <!--View Controller-->
+        <!--Grad AluVC-->
         <scene sceneID="Mro-r4-8xN">
             <objects>
-                <viewController id="NCU-8L-UPP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GradAluVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NCU-8L-UPP" customClass="GradAluVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VE5-c6-w7y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CcP-eS-C5N">
-                                <rect key="frame" x="16" y="149" width="133" height="113"/>
+                                <rect key="frame" x="16" y="190" width="288" height="113"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">  Admission
-Requirement</string>
+                                <state key="normal" backgroundImage="Nav_lv2-GradAlu.jpg">
+                                    <string key="title">MSc(CompSc) Alumni
+           Association</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="NuG-El-1AM">
-                                <rect key="frame" x="171" y="149" width="133" height="113"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Application
-Procedures</string>
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="msR-yg-Ibp">
-                                <rect key="frame" x="171" y="270" width="133" height="113"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Information
-   Sessions</string>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0v-Ad-4Hm">
-                                <rect key="frame" x="171" y="391" width="133" height="113"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="FAQ" backgroundImage="Nav_lv2-Admission.jpg"/>
+                                <connections>
+                                    <segue destination="v54-jl-xLr" kind="show" id="w9f-Sv-tli"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BwM-lX-VO4">
-                                <rect key="frame" x="16" y="270" width="133" height="113"/>
+                                <rect key="frame" x="16" y="331" width="288" height="113"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Composition
-         Fee</string>
-                                </state>
+                                <state key="normal" title="Alumni Activities" backgroundImage="Nav_lv2-GradAlu.jpg"/>
+                                <connections>
+                                    <segue destination="i3q-Vq-YEN" kind="show" id="gQH-z2-Cut"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="EKj-Ny-aHd">
-                                <rect key="frame" x="16" y="391" width="133" height="113"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Graduate &amp; Alumni" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bbU-kC-Uvx">
+                                <rect key="frame" x="68" y="143" width="184" height="23"/>
+                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
-                                    <string key="title">Words from
-Students &amp;
-Graduates</string>
-                                </state>
-                            </button>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="bottom" secondItem="NuG-El-1AM" secondAttribute="bottom" constant="306" id="5Cd-zy-9iD"/>
-                            <constraint firstItem="CcP-eS-C5N" firstAttribute="top" secondItem="BF5-js-B45" secondAttribute="top" constant="85" id="7pF-Bc-79j"/>
-                            <constraint firstItem="NuG-El-1AM" firstAttribute="top" secondItem="BF5-js-B45" secondAttribute="top" constant="85" id="8Tz-fE-9Ts"/>
-                            <constraint firstItem="BwM-lX-VO4" firstAttribute="top" secondItem="CcP-eS-C5N" secondAttribute="bottom" constant="8" id="9dv-dt-Ddo"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="bottom" secondItem="msR-yg-Ibp" secondAttribute="bottom" constant="185" id="ExY-nT-Jij"/>
-                            <constraint firstItem="EKj-Ny-aHd" firstAttribute="top" secondItem="BwM-lX-VO4" secondAttribute="bottom" constant="8" id="GuH-2c-rpC"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="EKj-Ny-aHd" secondAttribute="trailing" constant="171" id="Hub-1C-4ep"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="bottom" secondItem="CcP-eS-C5N" secondAttribute="bottom" constant="306" id="PUI-4G-mPa"/>
+                            <constraint firstItem="CcP-eS-C5N" firstAttribute="top" secondItem="BF5-js-B45" secondAttribute="top" constant="126" id="7pF-Bc-79j"/>
+                            <constraint firstItem="BwM-lX-VO4" firstAttribute="top" secondItem="CcP-eS-C5N" secondAttribute="bottom" constant="28" id="9dv-dt-Ddo"/>
+                            <constraint firstItem="bbU-kC-Uvx" firstAttribute="top" secondItem="BF5-js-B45" secondAttribute="top" constant="79" id="A6t-oM-8aQ"/>
+                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="bbU-kC-Uvx" secondAttribute="trailing" constant="68" id="Bj0-fe-zXk"/>
+                            <constraint firstItem="BF5-js-B45" firstAttribute="bottom" secondItem="CcP-eS-C5N" secondAttribute="bottom" constant="265" id="PUI-4G-mPa"/>
                             <constraint firstItem="BwM-lX-VO4" firstAttribute="leading" secondItem="BF5-js-B45" secondAttribute="leading" constant="16" id="PyP-dp-uVg"/>
                             <constraint firstItem="CcP-eS-C5N" firstAttribute="leading" secondItem="BF5-js-B45" secondAttribute="leading" constant="16" id="UEw-ZP-Jfo"/>
-                            <constraint firstItem="N0v-Ad-4Hm" firstAttribute="leading" secondItem="BF5-js-B45" secondAttribute="leading" constant="171" id="VBn-vj-VZg"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="bottom" secondItem="EKj-Ny-aHd" secondAttribute="bottom" constant="64" id="VRr-dA-nJ8"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="NuG-El-1AM" secondAttribute="trailing" constant="16" id="XK4-QY-QDb"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="bottom" secondItem="BwM-lX-VO4" secondAttribute="bottom" constant="185" id="Yw9-Vj-hlh"/>
-                            <constraint firstItem="EKj-Ny-aHd" firstAttribute="leading" secondItem="BF5-js-B45" secondAttribute="leading" constant="16" id="e8C-0a-P5v"/>
-                            <constraint firstItem="msR-yg-Ibp" firstAttribute="top" secondItem="NuG-El-1AM" secondAttribute="bottom" constant="8" id="eXA-MW-cik"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="bottom" secondItem="N0v-Ad-4Hm" secondAttribute="bottom" constant="64" id="f0B-dj-tGa"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="N0v-Ad-4Hm" secondAttribute="trailing" constant="16" id="ixa-La-HTr"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="CcP-eS-C5N" secondAttribute="trailing" constant="171" id="otn-Rz-UKF"/>
-                            <constraint firstItem="msR-yg-Ibp" firstAttribute="leading" secondItem="BF5-js-B45" secondAttribute="leading" constant="171" id="pMA-cf-iqO"/>
-                            <constraint firstItem="NuG-El-1AM" firstAttribute="leading" secondItem="BF5-js-B45" secondAttribute="leading" constant="171" id="shq-2I-mKm"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="BwM-lX-VO4" secondAttribute="trailing" constant="171" id="vg4-gg-wQs"/>
-                            <constraint firstItem="N0v-Ad-4Hm" firstAttribute="top" secondItem="msR-yg-Ibp" secondAttribute="bottom" constant="8" id="w2l-EE-ixZ"/>
-                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="msR-yg-Ibp" secondAttribute="trailing" constant="16" id="yzA-wt-InY"/>
+                            <constraint firstItem="BF5-js-B45" firstAttribute="bottom" secondItem="BwM-lX-VO4" secondAttribute="bottom" constant="124" id="Yw9-Vj-hlh"/>
+                            <constraint firstItem="bbU-kC-Uvx" firstAttribute="leading" secondItem="BF5-js-B45" secondAttribute="leading" constant="68" id="neX-Kz-4Ba"/>
+                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="CcP-eS-C5N" secondAttribute="trailing" constant="16" id="otn-Rz-UKF"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="bbU-kC-Uvx" secondAttribute="bottom" constant="402" id="qR2-EY-VHX"/>
+                            <constraint firstItem="BF5-js-B45" firstAttribute="trailing" secondItem="BwM-lX-VO4" secondAttribute="trailing" constant="16" id="vg4-gg-wQs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BF5-js-B45"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mPk-Jp-dmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1277" y="3013"/>
+            <point key="canvasLocation" x="1276.875" y="3012.676056338028"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pmc-d3-ldJ">
@@ -2153,7 +2130,7 @@ Graduates</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1m-qH-R2M">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vyC-Yw-lFX">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2521,7 +2498,7 @@ The results for admission in September are normally available by July of the sam
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sni-LG-x4t">
                                                 <rect key="frame" x="0.0" y="139" width="320" height="211"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">When you enrol in the MSc(CompSc) Programme, you gain all the advantages of a famous university with an outstanding reputation. When you leave our Programme, you will have a solid foundation in the theoretical aspect of computer science, together with hands-on technical experience in information technology, to help you begin a rewarding career.</mutableString>
+                                                <string key="text">When you enrol in the MSc(CompSc) Programme, you gain all the advantages of a famous university with an outstanding reputation. When you leave our Programme, you will have a solid foundation in the theoretical aspect of computer science, together with hands-on technical experience in information technology, to help you begin a rewarding career.</string>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -2568,7 +2545,7 @@ The results for admission in September are normally available by July of the sam
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBV-Z6-VOh">
                                                                     <rect key="frame" x="0.0" y="110" width="118" height="46"/>
                                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                 </textView>
@@ -2923,9 +2900,45 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Slo-oa-PuF">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="regulationTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="r5r-zT-EVe">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+                                            </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="REGULATIONS" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sl0-A6-wIv">
+                                                <rect key="frame" x="8" y="106" width="210" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohA-ZS-jI4">
+                                                <rect key="frame" x="0.0" y="133" width="320" height="316"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. General Regulations of The University https://www4.hku.hk/pubunit/drcd/files/pgdr2017-18/genreg.pdf
+
+2. University's Regulations for Taught Postgraduate Curricula: https://www4.hku.hk/pubunit/drcd/files/pgdr2017-18/tpg-regulations.pdf
+
+3. Degree Regulations of MSc(CompSc)
+
+The regulations and syllabus are applicable to students admitted to the curriculum in 2018-2019 and thereafter.</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="Sl0-A6-wIv" firstAttribute="top" secondItem="r5r-zT-EVe" secondAttribute="bottom" constant="8" id="8uu-4h-CJp"/>
+                                            <constraint firstItem="r5r-zT-EVe" firstAttribute="top" secondItem="Slo-oa-PuF" secondAttribute="top" id="ACU-Hz-1VN"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sl0-A6-wIv" secondAttribute="trailing" constant="102" id="Dxc-pW-fs6"/>
+                                            <constraint firstItem="ohA-ZS-jI4" firstAttribute="top" secondItem="Sl0-A6-wIv" secondAttribute="bottom" constant="8" id="KAF-VC-qN2"/>
+                                            <constraint firstAttribute="bottom" secondItem="ohA-ZS-jI4" secondAttribute="bottom" constant="551" id="LhS-U7-nSd"/>
+                                            <constraint firstAttribute="bottom" secondItem="Sl0-A6-wIv" secondAttribute="bottom" constant="875" id="QIC-zB-c1o"/>
+                                            <constraint firstItem="ohA-ZS-jI4" firstAttribute="leading" secondItem="Slo-oa-PuF" secondAttribute="leading" id="QWH-rW-nBz"/>
+                                            <constraint firstAttribute="bottom" secondItem="r5r-zT-EVe" secondAttribute="bottom" constant="902" id="QYc-rr-Efq"/>
+                                            <constraint firstItem="Sl0-A6-wIv" firstAttribute="leading" secondItem="Slo-oa-PuF" secondAttribute="leading" constant="8" id="Vhq-nj-ndG"/>
+                                            <constraint firstAttribute="trailing" secondItem="r5r-zT-EVe" secondAttribute="trailing" id="c5I-gN-Wdo"/>
+                                            <constraint firstAttribute="trailing" secondItem="ohA-ZS-jI4" secondAttribute="trailing" id="m6j-4j-g34"/>
                                             <constraint firstAttribute="height" constant="1000" id="nU5-Xa-zNe"/>
+                                            <constraint firstItem="r5r-zT-EVe" firstAttribute="leading" secondItem="Slo-oa-PuF" secondAttribute="leading" id="rDL-uL-xXA"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -2970,14 +2983,62 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="durationTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vIo-h9-4pn">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
                                             </imageView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Duration of Study" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-AH-V2L">
+                                                <rect key="frame" x="8" y="106" width="210" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uW2-ig-PfF">
+                                                <rect key="frame" x="0.0" y="133" width="320" height="269"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">The MSc(CompSc) programme is offered in both full-time and part-time modes.  
+
+There are 3 semesters in an academic year, i.e. semester 1: September – December, semester 2: January – May and the summer semester: June – August.
+
+Part-time: 2-3 years
+
+Full-time: 1-2 years</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Duration of Study" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4yu-Tf-39b">
+                                                <rect key="frame" x="8" y="432" width="210" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujq-sk-nxr">
+                                                <rect key="frame" x="0.0" y="459" width="320" height="110"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Classes are usually conducted in weekday evenings from 7:00 p.m., or during weekends.  Some courses will be offered mainly for full-time students in weekday daytime.</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="mHK-AH-V2L" secondAttribute="trailing" constant="102" id="0Uy-Ed-98s"/>
+                                            <constraint firstAttribute="bottom" secondItem="4yu-Tf-39b" secondAttribute="bottom" constant="549" id="0t1-jQ-lya"/>
+                                            <constraint firstAttribute="bottom" secondItem="uW2-ig-PfF" secondAttribute="bottom" constant="598" id="2mR-DU-q1I"/>
+                                            <constraint firstItem="ujq-sk-nxr" firstAttribute="leading" secondItem="M0R-P9-7IM" secondAttribute="leading" id="4vJ-vO-otS"/>
+                                            <constraint firstAttribute="bottom" secondItem="mHK-AH-V2L" secondAttribute="bottom" constant="875" id="68d-tG-bvT"/>
+                                            <constraint firstItem="4yu-Tf-39b" firstAttribute="top" secondItem="uW2-ig-PfF" secondAttribute="bottom" constant="30" id="7Lt-mX-aLs"/>
                                             <constraint firstAttribute="bottom" secondItem="vIo-h9-4pn" secondAttribute="bottom" constant="902" id="9AM-PN-FZx"/>
+                                            <constraint firstItem="uW2-ig-PfF" firstAttribute="leading" secondItem="M0R-P9-7IM" secondAttribute="leading" id="C2f-9Z-bP0"/>
+                                            <constraint firstItem="mHK-AH-V2L" firstAttribute="leading" secondItem="M0R-P9-7IM" secondAttribute="leading" constant="8" id="EFg-5d-jm9"/>
+                                            <constraint firstItem="uW2-ig-PfF" firstAttribute="top" secondItem="mHK-AH-V2L" secondAttribute="bottom" constant="8" id="KHC-AO-Inl"/>
+                                            <constraint firstAttribute="trailing" secondItem="4yu-Tf-39b" secondAttribute="trailing" constant="102" id="Ku1-Rz-0ss"/>
                                             <constraint firstAttribute="height" constant="1000" id="LAs-Jg-k6A"/>
                                             <constraint firstAttribute="trailing" secondItem="vIo-h9-4pn" secondAttribute="trailing" id="Mte-Nr-LBl"/>
                                             <constraint firstItem="vIo-h9-4pn" firstAttribute="leading" secondItem="M0R-P9-7IM" secondAttribute="leading" id="Ok3-V7-iY9"/>
+                                            <constraint firstItem="mHK-AH-V2L" firstAttribute="top" secondItem="vIo-h9-4pn" secondAttribute="bottom" constant="8" id="f5d-AE-yEp"/>
+                                            <constraint firstAttribute="trailing" secondItem="uW2-ig-PfF" secondAttribute="trailing" id="iEJ-PG-IWd"/>
+                                            <constraint firstAttribute="trailing" secondItem="ujq-sk-nxr" secondAttribute="trailing" id="iSW-ai-spY"/>
+                                            <constraint firstAttribute="bottom" secondItem="ujq-sk-nxr" secondAttribute="bottom" constant="431" id="icL-ds-oC7"/>
                                             <constraint firstItem="vIo-h9-4pn" firstAttribute="top" secondItem="M0R-P9-7IM" secondAttribute="top" id="jFt-ia-Gt9"/>
+                                            <constraint firstItem="ujq-sk-nxr" firstAttribute="top" secondItem="4yu-Tf-39b" secondAttribute="bottom" constant="8" id="mJq-MW-zXb"/>
+                                            <constraint firstItem="4yu-Tf-39b" firstAttribute="leading" secondItem="M0R-P9-7IM" secondAttribute="leading" constant="8" id="s1M-96-wpK"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -3066,7 +3127,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qt-7S-dkN">
-                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5pg-Gy-jCo">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -3235,6 +3296,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
         <image name="MScDarkLogo.png" width="1440" height="1440"/>
         <image name="Nav_lv2-Admission.jpg" width="640" height="343"/>
         <image name="Nav_lv2-Curriculum.jpg" width="640" height="340"/>
+        <image name="Nav_lv2-GradAlu.jpg" width="640" height="340"/>
         <image name="Slider1.jpg" width="1980" height="800"/>
         <image name="WhyHKU.jpg" width="1920" height="1080"/>
         <image name="adRequire.png" width="1546" height="482"/>
@@ -3247,18 +3309,19 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
         <image name="home_about.jpg" width="1118" height="454"/>
         <image name="mfpd.JPG" width="1600" height="800"/>
         <image name="progOverView.png" width="1520" height="548"/>
+        <image name="regulationTitle.png" width="1640" height="490"/>
         <image name="timeTable.png" width="1492" height="296"/>
         <image name="wordsSG.png" width="1702" height="452"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="i6u-cb-GNh"/>
-        <segue reference="elB-xE-o1p"/>
+        <segue reference="lQH-Kp-YVO"/>
         <segue reference="Ic6-KD-mq3"/>
         <segue reference="T4h-f5-8JC"/>
-        <segue reference="c7O-am-rfc"/>
+        <segue reference="wZm-9x-4bY"/>
         <segue reference="aQf-hW-t3W"/>
         <segue reference="VUa-8E-tF1"/>
-        <segue reference="8Ux-ZS-l5L"/>
+        <segue reference="u57-hz-4qG"/>
         <segue reference="0sH-B8-uNF"/>
     </inferredMetricsTieBreakers>
 </document>
