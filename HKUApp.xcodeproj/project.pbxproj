@@ -42,6 +42,7 @@
 		A54F6CBC219EB1930028723A /* tbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F6CBB219EB1930028723A /* tbCell.swift */; };
 		A5BECBAA219F058B00DEC21C /* timeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BECBA9219F058800DEC21C /* timeTable.png */; };
 		A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAB219F076100DEC21C /* adApplicationVC.swift */; };
+		A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */; };
 		A5D2131F219EE92C002000E4 /* Nav_lv2-Curriculum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D2131E219EE92B002000E4 /* Nav_lv2-Curriculum.jpg */; };
 		A5D21327219EEE28002000E4 /* compFee.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D21321219EEE26002000E4 /* compFee.png */; };
 		A5D21328219EEE28002000E4 /* wordsSG.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D21322219EEE26002000E4 /* wordsSG.png */; };
@@ -133,6 +134,7 @@
 		A54F6CBB219EB1930028723A /* tbCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tbCell.swift; sourceTree = "<group>"; };
 		A5BECBA9219F058800DEC21C /* timeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeTable.png; sourceTree = "<group>"; };
 		A5BECBAB219F076100DEC21C /* adApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adApplicationVC.swift; sourceTree = "<group>"; };
+		A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compFeeVC.swift; sourceTree = "<group>"; };
 		A5D2131E219EE92B002000E4 /* Nav_lv2-Curriculum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nav_lv2-Curriculum.jpg"; sourceTree = "<group>"; };
 		A5D21321219EEE26002000E4 /* compFee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compFee.png; sourceTree = "<group>"; };
 		A5D21322219EEE26002000E4 /* wordsSG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordsSG.png; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				A5D2132D219EF442002000E4 /* adminPopVC.swift */,
 				A5BECBAB219F076100DEC21C /* adApplicationVC.swift */,
 				A5D2132F219EF565002000E4 /* adRequire.swift */,
+				A5BECBAD21A13C1900DEC21C /* compFeeVC.swift */,
 				A5F227F92192EFA600C5189F /* MapViewController.swift */,
 				A54F6CBB219EB1930028723A /* tbCell.swift */,
 				A54F6CB5219E84D10028723A /* facultyCell.swift */,
@@ -541,6 +544,7 @@
 				A5BECBAC219F076100DEC21C /* adApplicationVC.swift in Sources */,
 				A5F227FD2192F51600C5189F /* DesignableButton.swift in Sources */,
 				A54F6CB8219EA50A0028723A /* adminVC.swift in Sources */,
+				A5BECBAE21A13C1900DEC21C /* compFeeVC.swift in Sources */,
 				A5F7AD0121928200006DC855 /* HomeViewController.swift in Sources */,
 				A54F6CBC219EB1930028723A /* tbCell.swift in Sources */,
 				A5D2132E219EF442002000E4 /* adminPopVC.swift in Sources */,

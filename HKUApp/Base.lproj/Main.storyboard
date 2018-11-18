@@ -469,7 +469,7 @@ Programme Director</string>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c76-Cl-fiD">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <connections>
                                         <action selector="dissmissPopup:" destination="BLW-Jh-pTf" eventType="touchUpInside" id="t58-nL-x2d"/>
                                     </connections>
@@ -1280,7 +1280,7 @@ The academic staff is active in research and development in a variety of areas i
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission Requirements" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zTm-1m-3BW">
                                                 <rect key="frame" x="8" y="130" width="210" height="30"/>
                                                 <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzF-I0-Lxp">
@@ -1346,9 +1346,9 @@ To be eligible for admission to the programmes, a candidate shall satisfy both t
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0Z-SA-mel">
                                                 <rect key="frame" x="0.0" y="663.5" width="320" height="191.5"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">English Language Proficiency Requirement
+                                                <string key="text">English Language Proficiency Requirement
 
-Applicants who wish to be admitted on the basis of a qualification from a university or comparable institution outside Hong Kong where the language of teaching and/or examination is not English are required to obtain ...</mutableString>
+Applicants who wish to be admitted on the basis of a qualification from a university or comparable institution outside Hong Kong where the language of teaching and/or examination is not English are required to obtain ...</string>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -2020,7 +2020,7 @@ Graduates</string>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Application Procedures" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CeS-XM-LZk">
                                                 <rect key="frame" x="8" y="137" width="210" height="19"/>
                                                 <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Applicants can submit their application via the online application system by clicking the following button." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMF-e6-MDe">
@@ -2211,7 +2211,7 @@ The results for admission in September are normally available by July of the sam
         <!--View Controller-->
         <scene sceneID="bAY-FP-HRh">
             <objects>
-                <viewController id="bSu-xG-Hyv" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="bSu-xG-Hyv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wzl-0Y-oQF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2221,8 +2221,21 @@ The results for admission in September are normally available by July of the sam
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U5a-k1-jQN">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wordsSG.png" translatesAutoresizingMaskIntoConstraints="NO" id="08U-Ra-oTz">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ej2-8R-sgo">
+                                                <rect key="frame" x="26" y="82" width="52" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="08U-Ra-oTz" firstAttribute="leading" secondItem="U5a-k1-jQN" secondAttribute="leading" id="DxW-cb-IfQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="08U-Ra-oTz" secondAttribute="trailing" id="Nxc-Vn-ZSy"/>
+                                            <constraint firstAttribute="bottom" secondItem="08U-Ra-oTz" secondAttribute="bottom" constant="905" id="aH0-ZT-6Ri"/>
+                                            <constraint firstItem="08U-Ra-oTz" firstAttribute="top" secondItem="U5a-k1-jQN" secondAttribute="top" id="tO6-YK-Zgo"/>
                                             <constraint firstAttribute="height" constant="1000" id="uYm-1P-3Tk"/>
                                         </constraints>
                                     </view>
@@ -2249,12 +2262,12 @@ The results for admission in September are normally available by July of the sam
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4U-dN-nBr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4239" y="265"/>
+            <point key="canvasLocation" x="4237.5" y="264.08450704225351"/>
         </scene>
-        <!--View Controller-->
+        <!--Comp FeeVC-->
         <scene sceneID="uIe-Ew-GtT">
             <objects>
-                <viewController id="rku-fQ-r6g" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="compFeeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rku-fQ-r6g" customClass="compFeeVC" customModule="HKUApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GBb-HL-Rg8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2264,9 +2277,183 @@ The results for admission in September are normally available by July of the sam
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eOY-4t-Rtq">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compFee.png" translatesAutoresizingMaskIntoConstraints="NO" id="lQa-4J-xbs">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOq-rX-myO">
+                                                <rect key="frame" x="36" y="82" width="52" height="27"/>
+                                                <connections>
+                                                    <segue destination="kdf-l3-MtU" kind="show" id="p5a-QR-rB5"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Composition Fees" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bsy-G2-RFl">
+                                                <rect key="frame" x="8" y="137" width="210" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTt-H5-Qnk">
+                                                <rect key="frame" x="0.0" y="164" width="320" height="383"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text">The composition fee for each 6-credit course is HK$13,000*. Project has a composition fee of HK$26,000 and the Dissertation has a composition fee of HK$52,000. Total composition fee for the two study modes are therefore as follows:
+10 courses + Project:
+(13,000 x 10) + (26,000) = HK$156,000
+
+8 Courses + Dissertation:
+(13,000 x 8) + (52,000) = HK$156,000
+
+Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) programmes have to pay HK$13,000* and HK$12,000* respectively per 6-credit course ...
+</mutableString>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Some of our courses have been included in the list of reimbursable courses for the Hong Kong Continuing Education Fund (CEF)..." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3f-eB-5YP">
+                                                <rect key="frame" x="0.0" y="658" width="320" height="85"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Financial Assistance" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Pp-ww-eD9">
+                                                <rect key="frame" x="8" y="595" width="210" height="27"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raK-jq-ijm" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="118" y="547" width="85" height="27"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="More...">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="feeBtn:" destination="rku-fQ-r6g" eventType="touchUpInside" id="9mj-TT-Rb1"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="D5F-As-r48"/>
+                                                </connections>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prR-gd-FTl">
+                                                <rect key="frame" x="0.0" y="824" width="320" height="104"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">PRC students who have successfully applied and been offered a place in the Master of Science in Computer Science as full-time students in Hong Kong have an opportunity...</string>
+                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For Hong Kong Residents" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1E-75-lIh">
+                                                <rect key="frame" x="8" y="630" width="205" height="20"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                                <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3v-0v-LrV" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="118" y="745" width="85" height="27"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="27" id="6j8-Fm-SF4"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="More...">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="hkFee:" destination="rku-fQ-r6g" eventType="touchUpInside" id="hNe-WH-XBt"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="ChG-AW-MlC"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For PRC Candidates" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzh-X1-vf2">
+                                                <rect key="frame" x="8" y="796" width="205" height="20"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                                <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDL-gE-BNc" customClass="DesignableButton" customModule="HKUApp" customModuleProvider="target">
+                                                <rect key="frame" x="118" y="936" width="85" height="27"/>
+                                                <color key="backgroundColor" red="1" green="0.62942368010000005" blue="0.35225867" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <state key="normal" title="More...">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="prcFee:" destination="rku-fQ-r6g" eventType="touchUpInside" id="z16-PR-qAX"/>
+                                                    <segue destination="uqa-vD-act" kind="presentation" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="iPD-HC-Lvo"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="TOq-rX-myO" secondAttribute="trailing" constant="232" id="00m-Na-xfq"/>
+                                            <constraint firstItem="Y3f-eB-5YP" firstAttribute="top" secondItem="i1E-75-lIh" secondAttribute="bottom" constant="8" id="1ib-vb-J5B"/>
+                                            <constraint firstItem="Bsy-G2-RFl" firstAttribute="top" secondItem="lQa-4J-xbs" secondAttribute="bottom" constant="28" id="5Xc-yI-Yv6"/>
+                                            <constraint firstAttribute="bottom" secondItem="7Pp-ww-eD9" secondAttribute="bottom" constant="378" id="Del-oe-TBe"/>
+                                            <constraint firstItem="raK-jq-ijm" firstAttribute="top" secondItem="DTt-H5-Qnk" secondAttribute="bottom" id="EW9-Zt-u3K"/>
+                                            <constraint firstAttribute="bottom" secondItem="Kzh-X1-vf2" secondAttribute="bottom" constant="184" id="Eri-TF-4jO"/>
+                                            <constraint firstItem="Kzh-X1-vf2" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" constant="8" id="FNb-7k-h0X"/>
+                                            <constraint firstAttribute="bottom" secondItem="TOq-rX-myO" secondAttribute="bottom" constant="891" id="FRb-Gb-Vvw"/>
+                                            <constraint firstItem="lQa-4J-xbs" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" id="HoW-kd-5EO"/>
+                                            <constraint firstAttribute="bottom" secondItem="lQa-4J-xbs" secondAttribute="bottom" constant="891" id="KVC-So-bUJ"/>
+                                            <constraint firstItem="Y3f-eB-5YP" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" id="KhA-Xy-avH"/>
+                                            <constraint firstAttribute="trailing" secondItem="Kzh-X1-vf2" secondAttribute="trailing" constant="107" id="Qso-Sq-lWr"/>
+                                            <constraint firstItem="prR-gd-FTl" firstAttribute="leading" secondItem="Y3f-eB-5YP" secondAttribute="leading" id="RFD-B3-K5Y"/>
                                             <constraint firstAttribute="height" constant="1000" id="RYA-aW-nah"/>
+                                            <constraint firstItem="TOq-rX-myO" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" constant="36" id="SSX-FK-RQt"/>
+                                            <constraint firstAttribute="bottom" secondItem="Bsy-G2-RFl" secondAttribute="bottom" constant="844" id="Seg-lb-JUv"/>
+                                            <constraint firstItem="wDL-gE-BNc" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" constant="118" id="SzJ-HI-Tzx"/>
+                                            <constraint firstItem="DTt-H5-Qnk" firstAttribute="top" secondItem="Bsy-G2-RFl" secondAttribute="bottom" constant="8" id="UDa-U9-Q4r"/>
+                                            <constraint firstAttribute="bottom" secondItem="i1E-75-lIh" secondAttribute="bottom" constant="350" id="Xnc-xf-8Az"/>
+                                            <constraint firstItem="7Pp-ww-eD9" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" constant="8" id="YUT-eH-Ldf"/>
+                                            <constraint firstAttribute="bottom" secondItem="DTt-H5-Qnk" secondAttribute="bottom" constant="453" id="YpT-rH-ONn"/>
+                                            <constraint firstItem="prR-gd-FTl" firstAttribute="trailing" secondItem="Y3f-eB-5YP" secondAttribute="trailing" id="Ysh-1L-1z8"/>
+                                            <constraint firstAttribute="trailing" secondItem="lQa-4J-xbs" secondAttribute="trailing" id="abV-P3-XVU"/>
+                                            <constraint firstItem="raK-jq-ijm" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" constant="118" id="bKK-vj-2a5"/>
+                                            <constraint firstItem="i1E-75-lIh" firstAttribute="top" secondItem="7Pp-ww-eD9" secondAttribute="bottom" constant="8" id="bRP-mY-hhE"/>
+                                            <constraint firstItem="Kzh-X1-vf2" firstAttribute="top" secondItem="x3v-0v-LrV" secondAttribute="bottom" constant="24" id="cnw-Un-LhX"/>
+                                            <constraint firstAttribute="bottom" secondItem="prR-gd-FTl" secondAttribute="bottom" constant="72" id="eAv-2v-gSq"/>
+                                            <constraint firstItem="x3v-0v-LrV" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" constant="118" id="eOY-ar-0BO"/>
+                                            <constraint firstItem="x3v-0v-LrV" firstAttribute="top" secondItem="Y3f-eB-5YP" secondAttribute="bottom" constant="2" id="ey5-N4-bXf"/>
+                                            <constraint firstAttribute="bottom" secondItem="wDL-gE-BNc" secondAttribute="bottom" constant="37" id="f1b-V0-T5O"/>
+                                            <constraint firstItem="Bsy-G2-RFl" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" constant="8" id="f8K-qx-Mzv"/>
+                                            <constraint firstAttribute="bottom" secondItem="Y3f-eB-5YP" secondAttribute="bottom" constant="257" id="fcY-uM-cee"/>
+                                            <constraint firstAttribute="trailing" secondItem="i1E-75-lIh" secondAttribute="trailing" constant="107" id="hmO-hg-cw7"/>
+                                            <constraint firstAttribute="trailing" secondItem="7Pp-ww-eD9" secondAttribute="trailing" constant="102" id="jdC-ow-305"/>
+                                            <constraint firstAttribute="trailing" secondItem="DTt-H5-Qnk" secondAttribute="trailing" id="lNs-NG-KN6"/>
+                                            <constraint firstAttribute="trailing" secondItem="wDL-gE-BNc" secondAttribute="trailing" constant="117" id="lZU-jX-ite"/>
+                                            <constraint firstAttribute="trailing" secondItem="Y3f-eB-5YP" secondAttribute="trailing" id="lZg-s4-R29"/>
+                                            <constraint firstAttribute="bottom" secondItem="raK-jq-ijm" secondAttribute="bottom" constant="426" id="mTC-mx-eyf"/>
+                                            <constraint firstItem="lQa-4J-xbs" firstAttribute="top" secondItem="eOY-4t-Rtq" secondAttribute="top" id="nZR-D8-1MK"/>
+                                            <constraint firstAttribute="bottom" secondItem="x3v-0v-LrV" secondAttribute="bottom" constant="228" id="nnr-vR-LdM"/>
+                                            <constraint firstAttribute="trailing" secondItem="raK-jq-ijm" secondAttribute="trailing" constant="117" id="os3-D0-sS9"/>
+                                            <constraint firstAttribute="trailing" secondItem="Bsy-G2-RFl" secondAttribute="trailing" constant="102" id="psa-3n-R2k"/>
+                                            <constraint firstAttribute="trailing" secondItem="x3v-0v-LrV" secondAttribute="trailing" constant="117" id="pyC-g3-hZC"/>
+                                            <constraint firstItem="prR-gd-FTl" firstAttribute="top" secondItem="Kzh-X1-vf2" secondAttribute="bottom" constant="8" id="rry-XV-ggJ"/>
+                                            <constraint firstItem="TOq-rX-myO" firstAttribute="top" secondItem="eOY-4t-Rtq" secondAttribute="top" constant="82" id="rv8-I9-Rsg"/>
+                                            <constraint firstItem="i1E-75-lIh" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" constant="8" id="szX-Sn-0J7"/>
+                                            <constraint firstItem="7Pp-ww-eD9" firstAttribute="top" secondItem="raK-jq-ijm" secondAttribute="bottom" constant="21" id="udt-Dw-vx1"/>
+                                            <constraint firstItem="wDL-gE-BNc" firstAttribute="top" secondItem="prR-gd-FTl" secondAttribute="bottom" constant="8" id="yJG-kW-gdZ"/>
+                                            <constraint firstItem="DTt-H5-Qnk" firstAttribute="leading" secondItem="eOY-4t-Rtq" secondAttribute="leading" id="yc6-tB-U9B"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -2292,7 +2479,7 @@ The results for admission in September are normally available by July of the sam
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A92-lj-i3c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3523" y="266"/>
+            <point key="canvasLocation" x="3521.25" y="265.14084507042253"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5xS-Qn-J5f">
@@ -2647,16 +2834,18 @@ The results for admission in September are normally available by July of the sam
         <image name="WhyHKU.jpg" width="1920" height="1080"/>
         <image name="adRequire.png" width="1546" height="482"/>
         <image name="appProce.png" width="1590" height="518"/>
+        <image name="compFee.png" width="1492" height="496"/>
         <image name="director.jpg" width="2086" height="508"/>
         <image name="faculty.jpg" width="1392" height="472"/>
         <image name="home_about.jpg" width="1118" height="454"/>
         <image name="mfpd.JPG" width="1600" height="800"/>
         <image name="timeTable.png" width="1492" height="296"/>
+        <image name="wordsSG.png" width="1702" height="452"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="T4h-f5-8JC"/>
-        <segue reference="qhh-SU-8z4"/>
-        <segue reference="E8V-ma-GIa"/>
+        <segue reference="ChG-AW-MlC"/>
+        <segue reference="p5a-QR-rB5"/>
         <segue reference="VUa-8E-tF1"/>
         <segue reference="8Ux-ZS-l5L"/>
         <segue reference="0sH-B8-uNF"/>
