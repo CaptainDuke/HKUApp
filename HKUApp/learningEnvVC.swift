@@ -22,11 +22,24 @@ class learningEnvVC: BaseViewController {
         super.viewDidLoad()
         addSlideMenuButton()
         // Do any additional setup after loading the view.
+        
+//        let itemSizeWidth = UIScreen.main.bounds.width/3 - 3
+//        let itemSizeHeight = progOfficeCollecView.bounds.height/3 - 3
+//
+//        let layout = UICollectionViewFlowLayout()
+//        layout.scrollDirection = .horizontal
+//        //layout.scrollDirection = UICollectionViewScrollDirectionHorizontal
+//        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+//        layout.itemSize = CGSize(width: itemSizeWidth, height: itemSizeHeight )
+//
+//        layout.minimumInteritemSpacing = 3
+//        layout.minimumLineSpacing = 3
+//        progOfficeCollecView.collectionViewLayout = layout
+//
     }
     
 
-
-
+    
 }
 
 extension learningEnvVC:UICollectionViewDelegate,UICollectionViewDataSource{
@@ -46,11 +59,39 @@ extension learningEnvVC:UICollectionViewDelegate,UICollectionViewDataSource{
 //            return 3
     }
     
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
+//    {
+//        let width = collectionView.bounds.width/2
+//        let height = width
+//        
+//        switch collectionView.tag {
+//        case 0:
+//            //phone
+//            //height = self.progOfficeCollecView.frame.height
+//            return CGSize(width: 1000, height: height)
+//        case 1:
+//            //color
+//            //height = self.ITsMoodCollectView.frame.height
+//            return CGSize(width: height-24, height: height-24)
+//        case 2:
+//            //direction
+//           // height = self.UServiceCollectView.frame.height
+//            return CGSize(width: (width-16)/3, height: height)
+//        default:
+//            
+//            return CGSize(width: width/5, height: height-8)
+//        }
+//        
+//        
+//    }
+
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         switch collectionView.tag {
         case 0:
             let cell = progOfficeCollecView.dequeueReusableCell(withReuseIdentifier: "ProgOffice", for: indexPath) as? facultyCell
+       
             cell?.facultyPhoto.image = UIImage(named: facultyList[indexPath.row]+".jpg")
             cell?.facultyEmail.text = facultyList[indexPath.row]
             return cell!

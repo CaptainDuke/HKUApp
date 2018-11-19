@@ -930,7 +930,7 @@ Programme Director</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Z7E-6y-yoS">
-                                <rect key="frame" x="16" y="149" width="133" height="113"/>
+                                <rect key="frame" x="16" y="105" width="133" height="157"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
                                     <string key="title">  Admission
@@ -942,7 +942,7 @@ Requirement</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="98P-IU-WGC">
-                                <rect key="frame" x="171" y="149" width="133" height="113"/>
+                                <rect key="frame" x="171" y="105" width="133" height="157"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" backgroundImage="Nav_lv2-Admission.jpg">
                                     <string key="title">Application
@@ -996,7 +996,7 @@ Graduates</string>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Admission" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gpx-n4-6h6">
-                                <rect key="frame" x="111" y="103" width="99" height="23"/>
+                                <rect key="frame" x="111" y="59" width="99" height="67"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -2294,7 +2294,7 @@ http://www.hkumsccs.com</mutableString>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="B1U-8t-4TB">
                                                 <rect key="frame" x="8" y="139" width="304" height="128"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="udv-S9-8qI">
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="udv-S9-8qI">
                                                     <size key="itemSize" width="116" height="99"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -2302,19 +2302,17 @@ http://www.hkumsccs.com</mutableString>
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProgOffice" id="iff-Yw-FcR" customClass="facultyCell" customModule="HKUApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="116" height="99"/>
+                                                        <rect key="frame" x="0.0" y="10" width="168" height="108"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                            <rect key="frame" x="0.0" y="0.0" width="116" height="99"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="168" height="108"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N5t-lv-BBD">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="116" height="73"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N5t-lv-BBD">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="168" height="78"/>
                                                                 </imageView>
-                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e5f-OG-vui">
-                                                                    <rect key="frame" x="0.0" y="70" width="116" height="29"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e5f-OG-vui">
+                                                                    <rect key="frame" x="0.0" y="79" width="168" height="29"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2322,6 +2320,17 @@ http://www.hkumsccs.com</mutableString>
                                                                 </textView>
                                                             </subviews>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="e5f-OG-vui" secondAttribute="bottom" id="93I-0g-4aP"/>
+                                                            <constraint firstItem="e5f-OG-vui" firstAttribute="leading" secondItem="iff-Yw-FcR" secondAttribute="leading" id="JMv-gJ-sOt"/>
+                                                            <constraint firstItem="N5t-lv-BBD" firstAttribute="top" secondItem="iff-Yw-FcR" secondAttribute="top" id="aNk-ld-Jyx"/>
+                                                            <constraint firstAttribute="trailing" secondItem="e5f-OG-vui" secondAttribute="trailing" id="gTJ-t2-K6a"/>
+                                                            <constraint firstItem="e5f-OG-vui" firstAttribute="top" secondItem="N5t-lv-BBD" secondAttribute="bottom" constant="1" id="gph-xq-LYb"/>
+                                                            <constraint firstAttribute="trailing" secondItem="N5t-lv-BBD" secondAttribute="trailing" id="i3J-fG-daV"/>
+                                                            <constraint firstItem="N5t-lv-BBD" firstAttribute="leading" secondItem="iff-Yw-FcR" secondAttribute="leading" id="lBC-EV-Onc"/>
+                                                            <constraint firstAttribute="bottom" secondItem="N5t-lv-BBD" secondAttribute="bottom" constant="30" id="y70-14-9qi"/>
+                                                        </constraints>
+                                                        <size key="customSize" width="168" height="108"/>
                                                         <connections>
                                                             <outlet property="facultyEmail" destination="e5f-OG-vui" id="rup-X9-kta"/>
                                                             <outlet property="facultyPhoto" destination="N5t-lv-BBD" id="C8V-zl-WV9"/>
@@ -2336,34 +2345,43 @@ http://www.hkumsccs.com</mutableString>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Yb9-ox-XMH">
                                                 <rect key="frame" x="8" y="298" width="304" height="128"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cjp-KG-8DY">
-                                                    <size key="itemSize" width="117" height="108"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cjp-KG-8DY">
+                                                    <size key="itemSize" width="159" height="104"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ITMoodles" id="3pJ-7p-kXJ" customClass="facultyCell" customModule="HKUApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="117" height="108"/>
+                                                        <rect key="frame" x="0.0" y="10" width="168" height="108"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                            <rect key="frame" x="0.0" y="0.0" width="117" height="108"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="168" height="108"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WyI-GT-miL">
-                                                                    <rect key="frame" x="0.0" y="-5" width="117" height="86"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                </imageView>
-                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hhh-76-zCe">
-                                                                    <rect key="frame" x="0.0" y="81" width="117" height="27"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hhh-76-zCe">
+                                                                    <rect key="frame" x="0.0" y="79" width="168" height="29"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                 </textView>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WyI-GT-miL">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="168" height="78"/>
+                                                                </imageView>
                                                             </subviews>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="WyI-GT-miL" secondAttribute="bottom" constant="30" id="0Wr-Jw-60e"/>
+                                                            <constraint firstAttribute="trailing" secondItem="WyI-GT-miL" secondAttribute="trailing" id="2Xh-eZ-zRR"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Hhh-76-zCe" secondAttribute="trailing" id="9aN-Te-ZSa"/>
+                                                            <constraint firstItem="Hhh-76-zCe" firstAttribute="top" secondItem="WyI-GT-miL" secondAttribute="bottom" constant="1" id="TUk-7w-pwa"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Hhh-76-zCe" secondAttribute="bottom" id="XLc-pd-C6Y"/>
+                                                            <constraint firstItem="Hhh-76-zCe" firstAttribute="leading" secondItem="3pJ-7p-kXJ" secondAttribute="leading" id="ZEJ-Ts-9aF"/>
+                                                            <constraint firstItem="WyI-GT-miL" firstAttribute="leading" secondItem="3pJ-7p-kXJ" secondAttribute="leading" id="f8H-Jf-3Fa"/>
+                                                            <constraint firstItem="WyI-GT-miL" firstAttribute="top" secondItem="3pJ-7p-kXJ" secondAttribute="top" id="hoJ-ay-0LE"/>
+                                                        </constraints>
+                                                        <size key="customSize" width="168" height="108"/>
                                                         <connections>
                                                             <outlet property="facultyEmail" destination="Hhh-76-zCe" id="J6l-AK-tRL"/>
                                                             <outlet property="facultyPhoto" destination="WyI-GT-miL" id="h1w-80-mtS"/>
@@ -2378,7 +2396,7 @@ http://www.hkumsccs.com</mutableString>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="guP-vj-sFz">
                                                 <rect key="frame" x="8" y="775" width="304" height="132"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="E27-wl-wqc">
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="E27-wl-wqc">
                                                     <size key="itemSize" width="168" height="108"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -2386,19 +2404,17 @@ http://www.hkumsccs.com</mutableString>
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UServices" id="Tq9-YP-B4k" customClass="facultyCell" customModule="HKUApp" customModuleProvider="target">
-                                                        <rect key="frame" x="68" y="0.0" width="168" height="108"/>
+                                                        <rect key="frame" x="0.0" y="12" width="168" height="108"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                             <rect key="frame" x="0.0" y="0.0" width="168" height="108"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tG2-ss-6ar">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tG2-ss-6ar">
                                                                     <rect key="frame" x="0.0" y="0.0" width="168" height="78"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 </imageView>
-                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8YM-uC-acx">
-                                                                    <rect key="frame" x="0.0" y="78" width="168" height="30"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8YM-uC-acx">
+                                                                    <rect key="frame" x="0.0" y="79" width="168" height="29"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -2406,6 +2422,16 @@ http://www.hkumsccs.com</mutableString>
                                                                 </textView>
                                                             </subviews>
                                                         </view>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="8YM-uC-acx" secondAttribute="trailing" id="0j0-rb-ODB"/>
+                                                            <constraint firstAttribute="bottom" secondItem="8YM-uC-acx" secondAttribute="bottom" id="2Ms-dd-HF2"/>
+                                                            <constraint firstAttribute="trailing" secondItem="tG2-ss-6ar" secondAttribute="trailing" id="BbV-Un-Vi7"/>
+                                                            <constraint firstItem="8YM-uC-acx" firstAttribute="leading" secondItem="Tq9-YP-B4k" secondAttribute="leading" id="aTM-M2-RgT"/>
+                                                            <constraint firstItem="8YM-uC-acx" firstAttribute="top" secondItem="tG2-ss-6ar" secondAttribute="bottom" constant="1" id="afA-zz-Vhc"/>
+                                                            <constraint firstAttribute="bottom" secondItem="tG2-ss-6ar" secondAttribute="bottom" constant="30" id="dXg-Dm-brF"/>
+                                                            <constraint firstItem="tG2-ss-6ar" firstAttribute="leading" secondItem="Tq9-YP-B4k" secondAttribute="leading" id="eCh-3b-RgJ"/>
+                                                            <constraint firstItem="tG2-ss-6ar" firstAttribute="top" secondItem="Tq9-YP-B4k" secondAttribute="top" id="ltr-yv-B0t"/>
+                                                        </constraints>
                                                         <connections>
                                                             <outlet property="facultyEmail" destination="8YM-uC-acx" id="8rW-Hb-4gu"/>
                                                             <outlet property="facultyPhoto" destination="tG2-ss-6ar" id="cox-gi-TME"/>
@@ -2494,7 +2520,7 @@ http://www.hkumsccs.com</mutableString>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cld-QF-2zk">
-                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDd-ac-4yg">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2666,7 +2692,7 @@ The results for admission in September are normally available by July of the sam
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86x-rT-eT9">
-                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vk9-Pb-Tte">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -2709,7 +2735,7 @@ The results for admission in September are normally available by July of the sam
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YvV-DL-uSU">
-                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U5a-k1-jQN">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1080"/>
@@ -2871,7 +2897,7 @@ The results for admission in September are normally available by July of the sam
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WT-cy-8do">
-                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eOY-4t-Rtq">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -3088,7 +3114,7 @@ Students who select to study a course from the MSc(ECom&amp;IComp) and MSc(Eng) 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XOc-Xi-cSm">
-                                <rect key="frame" x="0.0" y="64" width="320" height="1036"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="1080"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5XG-09-DSU">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
@@ -3574,8 +3600,8 @@ Please email msccs@cs.hku.hk if you find any above links broken or if you have a
         <segue reference="3tA-xL-0mQ"/>
         <segue reference="Ic6-KD-mq3"/>
         <segue reference="T4h-f5-8JC"/>
-        <segue reference="c7O-am-rfc"/>
-        <segue reference="aQf-hW-t3W"/>
+        <segue reference="Di3-wo-rwe"/>
+        <segue reference="HiF-q9-DvQ"/>
         <segue reference="VUa-8E-tF1"/>
         <segue reference="8eJ-3L-IEo"/>
         <segue reference="pC3-sa-WQz"/>
