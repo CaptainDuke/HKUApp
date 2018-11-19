@@ -16,6 +16,14 @@ class learningEnvVC: BaseViewController {
     
     @IBOutlet weak var UServiceCollectView: UICollectionView!
     
+    let OfficeJpgList = ["ProgrammeOffice-1","P207","HKUMScCS_Intranet"]
+    let ItsJpgList = ["HKU-ITS","ChiWah","Panopto-eg"]
+    let UServiceJpgList = ["MainLib","car-park","HKU_IHP"]
+    
+    let OfficeNameList = ["MSc Programme Office","Student Lounge", "The MSc(CompSc) Intranet"]
+    let ItsNameList = ["ITS Website","Chi Wah Learning Commons","Panopto Recorder"]
+    let USNameList = ["Main Library","Car Park","Sports Center"]
+    
     
     
     override func viewDidLoad() {
@@ -23,18 +31,18 @@ class learningEnvVC: BaseViewController {
         addSlideMenuButton()
         // Do any additional setup after loading the view.
         
-//        let itemSizeWidth = UIScreen.main.bounds.width/3 - 3
-//        let itemSizeHeight = progOfficeCollecView.bounds.height/3 - 3
-//
-//        let layout = UICollectionViewFlowLayout()
-//        layout.scrollDirection = .horizontal
-//        //layout.scrollDirection = UICollectionViewScrollDirectionHorizontal
-//        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-//        layout.itemSize = CGSize(width: itemSizeWidth, height: itemSizeHeight )
-//
+        let itemSizeWidth = 168
+        let itemSizeHeight = 108
+
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        //layout.scrollDirection = UICollectionViewScrollDirectionHorizontal
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        layout.itemSize = CGSize(width: itemSizeWidth, height: itemSizeHeight )
+
 //        layout.minimumInteritemSpacing = 3
 //        layout.minimumLineSpacing = 3
-//        progOfficeCollecView.collectionViewLayout = layout
+        progOfficeCollecView.collectionViewLayout = layout
 //
     }
     
@@ -47,13 +55,13 @@ extension learningEnvVC:UICollectionViewDelegate,UICollectionViewDataSource{
         
             switch collectionView.tag {
             case 0:
-                return 1
+                return 3
             case 1:
-                return 2
+                return 3
             case 2:
                 return 3
             default:
-                return 4
+                return 3
             }
         
 //            return 3
@@ -92,27 +100,27 @@ extension learningEnvVC:UICollectionViewDelegate,UICollectionViewDataSource{
         case 0:
             let cell = progOfficeCollecView.dequeueReusableCell(withReuseIdentifier: "ProgOffice", for: indexPath) as? facultyCell
        
-            cell?.facultyPhoto.image = UIImage(named: facultyList[indexPath.row]+".jpg")
-            cell?.facultyEmail.text = facultyList[indexPath.row]
+            cell?.facultyPhoto.image = UIImage(named: OfficeJpgList[indexPath.row]+".jpg")
+            cell?.facultyEmail.text = OfficeNameList[indexPath.row]
             return cell!
 
         case 1:
             let cell1 = ITsMoodCollectView.dequeueReusableCell(withReuseIdentifier: "ITMoodles", for: indexPath) as? facultyCell
-            cell1?.facultyPhoto.image = UIImage(named: facultyList[indexPath.row]+".jpg")
-            cell1?.facultyEmail.text = facultyList[indexPath.row]
+            cell1?.facultyPhoto.image = UIImage(named: ItsJpgList[indexPath.row]+".jpg")
+            cell1?.facultyEmail.text = ItsNameList[indexPath.row]
             return cell1!
 
         case 2:
             let cell2 = UServiceCollectView.dequeueReusableCell(withReuseIdentifier: "UServices", for: indexPath) as? facultyCell
-            cell2?.facultyPhoto.image = UIImage(named: facultyList[indexPath.row]+".jpg")
-            cell2?.facultyEmail.text = facultyList[indexPath.row]
+            cell2?.facultyPhoto.image = UIImage(named: UServiceJpgList[indexPath.row]+".jpg")
+            cell2?.facultyEmail.text = USNameList[indexPath.row]
             return cell2!
 
 
         default:
             let cell3 = progOfficeCollecView.dequeueReusableCell(withReuseIdentifier: "ProgOffice", for: indexPath) as? facultyCell
-            cell3?.facultyPhoto.image = UIImage(named: facultyList[indexPath.row]+".jpg")
-            cell3?.facultyEmail.text = facultyList[indexPath.row]
+            cell3?.facultyPhoto.image = UIImage(named: UServiceJpgList[indexPath.row]+".jpg")
+            cell3?.facultyEmail.text = UServiceJpgList[indexPath.row]
             return cell3!
         }
     }
