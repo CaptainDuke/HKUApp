@@ -8,6 +8,8 @@ The language in this project is Swift 4, and We use initial components of iOS, i
 ![image](https://github.com/CaptainDuke/HKUApp/raw/master/shortcut/home.png)
 ![image](https://github.com/CaptainDuke/HKUApp/raw/master/shortcut/teacher.png)
 ![image](https://github.com/CaptainDuke/HKUApp/raw/master/shortcut/stream.png)
+![image](https://github.com/CaptainDuke/HKUApp/raw/master/shortcut/apply.png)
+![image](https://github.com/CaptainDuke/HKUApp/raw/master/shortcut/blur.png)
 ![image](https://github.com/CaptainDuke/HKUApp/raw/master/shortcut/map.png)
 
 The contributors are Wang Yaodong[https://github.com/CaptainDuke] and Mai Jiaquan[https://github.com/maijiaquan], please feel free to contact us if you have any questions via email or github pages. 
